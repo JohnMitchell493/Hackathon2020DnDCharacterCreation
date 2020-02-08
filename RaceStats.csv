@@ -1,0 +1,15 @@
+﻿X,Str,Dex,Con,Int,Wis,Chr,any,any
+Dragonborn,2,,,,,1,,
+Dwarf:Mountain,2,,2,,,,,
+Dwarf:Hill,,,2,,1,,,
+Elf:High,,2,,1,,,,
+Elf:Wood,,2,,,,,,
+Elf:Drow,,2,,,1,1,,
+Gnome:Forest,,1,,2,,,,
+Gnome:Rock,,,1,2,,,,
+Half Elf,,,,,,2,1,1
+Halfling:Lightfoot,,2,,,,1,,
+Halfling:Stout,,2,1,,,,,
+Half Orc,2,,1,,,,,
+Human,1,1,1,1,1,1,,
+Tiefling,,,,1,,2,,
