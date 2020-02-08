@@ -424,7 +424,7 @@ public:
 				sClass=(rand()) % 7;
 				switch (sClass){
 					case 0: 
-						SubClassName="Knowledge"
+						SubClassName="Knowledge"//prof is doubled
 						ranSkill1=(rand()) % 4;
 						while(true){
 							if(ranSkill1==0 && arca==false){
@@ -476,6 +476,20 @@ public:
 						break;
 					case 3:
 						SubClassName="Nature"
+						ranSkill1=(rand()) % 3;
+						while(true){
+							if(ranSkill1==0 && anim==false){
+								anim=true;
+								break;
+							}else if(ranSkill1==1 && natu==false){
+								natu=true;
+								break;
+							}else if(ranSkill1==12 && surv==false){
+								surv=true;
+							break;
+							}
+							ranSkill1=(rand()) % 3;
+						}
 						//heavy armor
 						break;
 					case 4:
@@ -491,11 +505,111 @@ public:
 						//Martial and Heavy armor
 						break;
 				}
+				ranSkill1=(rand()) % 5;
+				while(true){
+					if(ranSkill1==0 && hist==false){
+						hist=true;
+						break;
+					}else if(ranSkill1==1 && insi==false){
+						insi=true;
+						break;
+					}else if(ranSkill1==2 && medi==false){
+						medi=true;
+						break;
+					}else if(ranSkill1==3 && pers==false){
+						pers=true;
+						break;
+					}else if(ranSkill1==4 && reli==false){
+						reli=true;
+						break;
+					}
+					ranSkill1=(rand()) % 5;
+				}
+				while(true){
+					if(ranSkill1==0 && hist==false){
+						hist=true;
+						break;
+					}else if(ranSkill1==1 && insi==false){
+						insi=true;
+						break;
+					}else if(ranSkill1==2 && medi==false){
+						medi=true;
+						break;
+					}else if(ranSkill1==3 && pers==false){
+						pers=true;
+						break;
+					}else if(ranSkill1==4 && reli==false){
+						reli=true;
+						break;
+					}
+					ranSkill1=(rand()) % 5;
+				}
 				fillBias(&BiasArr);
 				break;
 			case 3: // Druid
 				BiasArr[0] = 4;
 				BiasArr[1] = 2;
+				
+				ranSkill1=(rand()) % 8;
+				while(true){
+					if(ranSkill1==0 && anim==false){
+						anim=true;
+						break;
+					}
+					else if(ranSkill1==1 && arca==false){
+						arca=true;
+						break;
+					}else if(ranSkill1==2 && insi==false){
+						insi=true;
+						break;
+					}else if(ranSkill1==3 && medi==false){
+						medi=true;
+						break;
+					}else if(ranSkill1==4 && natu==false){
+						natu=true;
+						break;
+					}else if(ranSkill1==5 && perc==false){
+						perc=true;
+						break;
+					}else if(ranSkill1==6 && reli==false){
+						reli=true;
+						break;
+					}else if(ranSkill1==7 && surv==false){
+						surv=true;
+						break;
+					}
+					ranSkill1=(rand()) % 8;
+				}
+				while(true){
+					if(ranSkill1==0 && anim==false){
+						anim=true;
+						break;
+					}
+					else if(ranSkill1==1 && arca==false){
+						arca=true;
+						break;
+					}else if(ranSkill1==2 && insi==false){
+						insi=true;
+						break;
+					}else if(ranSkill1==3 && medi==false){
+						medi=true;
+						break;
+					}else if(ranSkill1==4 && natu==false){
+						natu=true;
+						break;
+					}else if(ranSkill1==5 && perc==false){
+						perc=true;
+						break;
+					}else if(ranSkill1==6 && reli==false){
+						reli=true;
+						break;
+					}else if(ranSkill1==7 && surv==false){
+						surv=true;
+						break;
+					}
+					ranSkill1=(rand()) % 8;
+				}
+				
 				fillBias(&BiasArr);
 				break;
 			case 4: // Fighter
@@ -510,21 +624,274 @@ public:
 						exit(-1);
 				}
 				BiasArr[1] = 2
+				
+				ranSkill1=(rand()) % 8;
+				while(true){
+					if(ranSkill1==0 && acro==false){
+						acro=true;
+						break;
+					}
+					else if(ranSkill1==1 && anim==false){
+						anim=true;
+						break;
+					}else if(ranSkill1==2 && athl==false){
+						athl=true;
+						break;
+					}else if(ranSkill1==3 && hist==false){
+						hist=true;
+						break;
+					}else if(ranSkill1==4 && insi==false){
+						insi=true;
+						break;
+					}else if(ranSkill1==5 && inti==false){
+						inti=true;
+						break;
+					}else if(ranSkill1==6 && perc==false){
+						perc=true;
+						break;
+					}else if(ranSkill1==7 && surv==false){
+						surv=true;
+						break;
+					}
+					ranSkill1=(rand()) % 8;
+				}
+				while(true){
+					if(ranSkill1==0 && acro==false){
+						acro=true;
+						break;
+					}
+					else if(ranSkill1==1 && anim==false){
+						anim=true;
+						break;
+					}else if(ranSkill1==2 && athl==false){
+						athl=true;
+						break;
+					}else if(ranSkill1==3 && hist==false){
+						hist=true;
+						break;
+					}else if(ranSkill1==4 && insi==false){
+						insi=true;
+						break;
+					}else if(ranSkill1==5 && inti==false){
+						inti=true;
+						break;
+					}else if(ranSkill1==6 && perc==false){
+						perc=true;
+						break;
+					}else if(ranSkill1==7 && surv==false){
+						surv=true;
+						break;
+					}
+					ranSkill1=(rand()) % 8;
+				}
+				
+				
 				fillBias(&BiasArr);
 				break;
 			case 5: // Monk
 				BiasArr[0] = 1;
 				BiasArr[1] = 4;
+				
+				ranSkill1=(rand()) % 6;
+				while(true){
+					if(ranSkill1==0 && acro==false){
+						acro=true;
+						break;
+					}else if(ranSkill1==1 && athl==false){
+						athl=true;
+						break;
+					}else if(ranSkill1==2 && hist==false){
+						hist=true;
+						break;
+					}else if(ranSkill1==3 && insi==false){
+						insi=true;
+						break;
+					}else if(ranSkill1==4 && reli==false){
+						reli=true;
+						break;
+					}else if(ranSkill1==5 && stea==false){
+						stea=true;
+						break;
+					}
+					ranSkill1=(rand()) % 5;
+				}
+				while(true){
+					if(ranSkill1==0 && acro==false){
+						acro=true;
+						break;
+					}else if(ranSkill1==1 && athl==false){
+						athl=true;
+						break;
+					}else if(ranSkill1==2 && hist==false){
+						hist=true;
+						break;
+					}else if(ranSkill1==3 && insi==false){
+						insi=true;
+						break;
+					}else if(ranSkill1==4 && reli==false){
+						reli=true;
+						break;
+					}else if(ranSkill1==5 && stea==false){
+						stea=true;
+						break;
+					}
+					ranSkill1=(rand()) % 5;
+				}
 				fillBias(&BiasArr);
 				break;
 			case 6: // Paladin
 				BiasArr[0] = 0;
 				BiasArr[1] = 5;
 				fillBias(&BiasArr);
+				
+				ranSkill1=(rand()) % 6;
+				while(true){
+					if(ranSkill1==0 && athl==false){
+						athl=true;
+						break;
+					}else if(ranSkill1==1 && insi==false){
+						insi=true;
+						break;
+					}else if(ranSkill1==2 && inti==false){
+						inti=true;
+						break;
+					}else if(ranSkill1==3 && medi==false){
+						medi=true;
+						break;
+					}else if(ranSkill1==4 && pers==false){
+						pers=true;
+						break;
+					}else if(ranSkill1==5 && reli==false){
+						reli=true;
+						break;
+					}
+					ranSkill1=(rand()) % 6;
+				}
+				while(true){
+					if(ranSkill1==0 && athl==false){
+						athl=true;
+						break;
+					}else if(ranSkill1==1 && insi==false){
+						insi=true;
+						break;
+					}else if(ranSkill1==2 && inti==false){
+						inti=true;
+						break;
+					}else if(ranSkill1==3 && medi==false){
+						medi=true;
+						break;
+					}else if(ranSkill1==4 && pers==false){
+						pers=true;
+						break;
+					}else if(ranSkill1==5 && reli==false){
+						reli=true;
+						break;
+					}
+					ranSkill1=(rand()) % 6;
+				}
 				break;
 			case 7: // Ranger
 				BiasArr[0] = 1;
 				BiasArr[1] = 4;
+				
+				ranSkill1=(rand()) % 9;
+				while(true){
+					if(ranSkill1==0 && anim==false){
+						anim=true;
+						break;
+					}
+					else if(ranSkill1==1 && athl==false){
+						athl=true;
+						break;
+					}else if(ranSkill1==2 && dece==false){
+						dece=true;
+						break;
+					}else if(ranSkill1==3 && insi==false){
+						insi=true;
+						break;
+					}else if(ranSkill1==4 && inve==false){
+						inve=true;
+						break;
+					}else if(ranSkill1==5 && natu==false){
+						natu=true;
+						break;
+					}else if(ranSkill1==6 && perc==false){
+						perc=true;
+						break;
+					}else if(ranSkill1==7 && stea==false){
+						stea=true;
+						break;
+					}else if(ranSkill1==8 && surv==false){
+						surv=true;
+						break;
+					}
+					ranSkill1=(rand()) % 9;
+				}
+				while(true){
+					if(ranSkill1==0 && anim==false){
+						anim=true;
+						break;
+					}
+					else if(ranSkill1==1 && athl==false){
+						athl=true;
+						break;
+					}else if(ranSkill1==2 && dece==false){
+						dece=true;
+						break;
+					}else if(ranSkill1==3 && insi==false){
+						insi=true;
+						break;
+					}else if(ranSkill1==4 && inve==false){
+						inve=true;
+						break;
+					}else if(ranSkill1==5 && natu==false){
+						natu=true;
+						break;
+					}else if(ranSkill1==6 && perc==false){
+						perc=true;
+						break;
+					}else if(ranSkill1==7 && stea==false){
+						stea=true;
+						break;
+					}else if(ranSkill1==8 && surv==false){
+						surv=true;
+						break;
+					}
+					ranSkill1=(rand()) % 9;
+				}
+				while(true){
+					if(ranSkill1==0 && anim==false){
+						anim=true;
+						break;
+					}
+					else if(ranSkill1==1 && athl==false){
+						athl=true;
+						break;
+					}else if(ranSkill1==2 && dece==false){
+						dece=true;
+						break;
+					}else if(ranSkill1==3 && insi==false){
+						insi=true;
+						break;
+					}else if(ranSkill1==4 && inve==false){
+						inve=true;
+						break;
+					}else if(ranSkill1==5 && natu==false){
+						natu=true;
+						break;
+					}else if(ranSkill1==6 && perc==false){
+						perc=true;
+						break;
+					}else if(ranSkill1==7 && stea==false){
+						stea=true;
+						break;
+					}else if(ranSkill1==8 && surv==false){
+						surv=true;
+						break;
+					}
+					ranSkill1=(rand()) % 9;
+				}
+				
 				fillBias(&BiasArr);
 				break;
 			case 8: // Rogue
@@ -541,16 +908,208 @@ public:
 						break;
 
 				}
+				
+				ranSkill1=(rand()) % 18;
+				while(true){
+					if(ranSkill1==0 && acro==false){
+						acro=true;
+						break;
+					}
+					else if(ranSkill1==1 && anim==false){
+						anim=true;
+						break;
+					}
+					else if(ranSkill1==2 && arca==false){
+						arca=true;
+						break;
+					}
+					else if(ranSkill1==3 && athl==false){
+						athl=true;
+						break;
+					}else if(ranSkill1==4 && dece==false){
+						dece=true;
+						break;
+					}else if(ranSkill1==5 && hist==false){
+						hist=true;
+						break;
+					}else if(ranSkill1==6 && insi==false){
+						insi=true;
+						break;
+					}else if(ranSkill1==7 && inti==false){
+						inti=true;
+						break;
+					}else if(ranSkill1==8 && inve==false){
+						inve=true;
+						break;
+					}else if(ranSkill1==9 && medi==false){
+						medi=true;
+						break;
+					}else if(ranSkill1==10 && natu==false){
+						natu=true;
+						break;
+					}else if(ranSkill1==11 && perc==false){
+						perc=true;
+						break;
+					}else if(ranSkill1==12 && perf==false){
+						perf=true;
+						break;
+					}else if(ranSkill1==13 && pers==false){
+						pers=true;
+						break;
+					}else if(ranSkill1==14 && reli==false){
+						reli=true;
+						break;
+					}else if(ranSkill1==15 && slei==false){
+						slei=true;
+						break;
+					}else if(ranSkill1==16 && stea==false){
+						stea=true;
+						break;
+					}else if(ranSkill1==17 && surv==false){
+						surv=true;
+						break;
+					}
+					ranSkill1=(rand()) % 18;
+				}
+				
 				fillBias(&BiasArr);
 				break;
 			case 9: // Sorcerer
 				BiasArr[0] = 5;
 				BiasArr[1] = 2;
-				FillBias(&BiasArr);
+				
+				ranSkill1=(rand()) % 18;
+				while(true){
+					if(ranSkill1==0 && acro==false){
+						acro=true;
+						break;
+					}
+					else if(ranSkill1==1 && anim==false){
+						anim=true;
+						break;
+					}
+					else if(ranSkill1==2 && arca==false){
+						arca=true;
+						break;
+					}
+					else if(ranSkill1==3 && athl==false){
+						athl=true;
+						break;
+					}else if(ranSkill1==4 && dece==false){
+						dece=true;
+						break;
+					}else if(ranSkill1==5 && hist==false){
+						hist=true;
+						break;
+					}else if(ranSkill1==6 && insi==false){
+						insi=true;
+						break;
+					}else if(ranSkill1==7 && inti==false){
+						inti=true;
+						break;
+					}else if(ranSkill1==8 && inve==false){
+						inve=true;
+						break;
+					}else if(ranSkill1==9 && medi==false){
+						medi=true;
+						break;
+					}else if(ranSkill1==10 && natu==false){
+						natu=true;
+						break;
+					}else if(ranSkill1==11 && perc==false){
+						perc=true;
+						break;
+					}else if(ranSkill1==12 && perf==false){
+						perf=true;
+						break;
+					}else if(ranSkill1==13 && pers==false){
+						pers=true;
+						break;
+					}else if(ranSkill1==14 && reli==false){
+						reli=true;
+						break;
+					}else if(ranSkill1==15 && slei==false){
+						slei=true;
+						break;
+					}else if(ranSkill1==16 && stea==false){
+						stea=true;
+						break;
+					}else if(ranSkill1==17 && surv==false){
+						surv=true;
+						break;
+					}
+					ranSkill1=(rand()) % 18;
+				}
+				
+				fillBias(&BiasArr);
 				break;
 			case 10: // Warlock
 				BiasArr[0] = 5;
 				BiasArr[1] = 2;
+				
+				ranSkill1=(rand()) % 18;
+				while(true){
+					if(ranSkill1==0 && acro==false){
+						acro=true;
+						break;
+					}
+					else if(ranSkill1==1 && anim==false){
+						anim=true;
+						break;
+					}
+					else if(ranSkill1==2 && arca==false){
+						arca=true;
+						break;
+					}
+					else if(ranSkill1==3 && athl==false){
+						athl=true;
+						break;
+					}else if(ranSkill1==4 && dece==false){
+						dece=true;
+						break;
+					}else if(ranSkill1==5 && hist==false){
+						hist=true;
+						break;
+					}else if(ranSkill1==6 && insi==false){
+						insi=true;
+						break;
+					}else if(ranSkill1==7 && inti==false){
+						inti=true;
+						break;
+					}else if(ranSkill1==8 && inve==false){
+						inve=true;
+						break;
+					}else if(ranSkill1==9 && medi==false){
+						medi=true;
+						break;
+					}else if(ranSkill1==10 && natu==false){
+						natu=true;
+						break;
+					}else if(ranSkill1==11 && perc==false){
+						perc=true;
+						break;
+					}else if(ranSkill1==12 && perf==false){
+						perf=true;
+						break;
+					}else if(ranSkill1==13 && pers==false){
+						pers=true;
+						break;
+					}else if(ranSkill1==14 && reli==false){
+						reli=true;
+						break;
+					}else if(ranSkill1==15 && slei==false){
+						slei=true;
+						break;
+					}else if(ranSkill1==16 && stea==false){
+						stea=true;
+						break;
+					}else if(ranSkill1==17 && surv==false){
+						surv=true;
+						break;
+					}
+					ranSkill1=(rand()) % 18;
+				}
+				
 				fillBias(&BiasArr);
 				break;
 			case 11: // Wizard
@@ -566,6 +1125,70 @@ public:
 						exit(-1);
 						break;
 				}
+				
+				ranSkill1=(rand()) % 18;
+				while(true){
+					if(ranSkill1==0 && acro==false){
+						acro=true;
+						break;
+					}
+					else if(ranSkill1==1 && anim==false){
+						anim=true;
+						break;
+					}
+					else if(ranSkill1==2 && arca==false){
+						arca=true;
+						break;
+					}
+					else if(ranSkill1==3 && athl==false){
+						athl=true;
+						break;
+					}else if(ranSkill1==4 && dece==false){
+						dece=true;
+						break;
+					}else if(ranSkill1==5 && hist==false){
+						hist=true;
+						break;
+					}else if(ranSkill1==6 && insi==false){
+						insi=true;
+						break;
+					}else if(ranSkill1==7 && inti==false){
+						inti=true;
+						break;
+					}else if(ranSkill1==8 && inve==false){
+						inve=true;
+						break;
+					}else if(ranSkill1==9 && medi==false){
+						medi=true;
+						break;
+					}else if(ranSkill1==10 && natu==false){
+						natu=true;
+						break;
+					}else if(ranSkill1==11 && perc==false){
+						perc=true;
+						break;
+					}else if(ranSkill1==12 && perf==false){
+						perf=true;
+						break;
+					}else if(ranSkill1==13 && pers==false){
+						pers=true;
+						break;
+					}else if(ranSkill1==14 && reli==false){
+						reli=true;
+						break;
+					}else if(ranSkill1==15 && slei==false){
+						slei=true;
+						break;
+					}else if(ranSkill1==16 && stea==false){
+						stea=true;
+						break;
+					}else if(ranSkill1==17 && surv==false){
+						surv=true;
+						break;
+					}
+					ranSkill1=(rand()) % 18;
+				}
+				
 				fillBias(&BiasArr);
 				break;
 			default:
