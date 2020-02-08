@@ -7,6 +7,7 @@
 class Character {
 private:
 	std::string RaceName;
+	std::string SubRaceName;
 	std::string ClassName;
 	std::string SubClassName;
 	std::string BGName;
@@ -36,19 +37,55 @@ public:
 	}
 
 	void genRace() {
-		int test = (rand()) % 9;
-		switch (test) {
+		int first = (rand()) % 9;
+		switch (first) {
 		case 0:
 			setRaceName("Dragonborn");
+			stats[0] += 2;
+			stats[5] += 1;
 			break;
 		case 1:
 			setRaceName("Dwarf");
+			int second = (rand()) % 2;
+			switch (second) {
+			case 0:
+				setSubRaceName("Mountain Dwarf");
+				stats[0] += 2;
+				stats[2] += 2;
+				break;
+			case 1:
+				setSubRaceName("Hill Dwarf");
+				stats[2] += 2;
+				stats[4] += 1;
+				break;
+			}
 			break;
 		case 2:
 			setRaceName("Elf");
+			stats[1] += 2;
+			int second = (rand()) % 3;
+			switch (second) {
+			case 0:
+				setSubRaceName("High Elf");
+				stats[3] += 1;
+				break;
+			case 1:
+				setSubRaceName("Wood Elf");
+				stats[4] += 1;
+				break;
+			case 2:
+				setSubRaceName("Dark Elf");
+				stats[5] += 1;
+				break;
+			}
 			break;
 		case 3:
 			setRaceName("Gnome");
+			stats[3] += 2;
+			int second = (rand()) % 2;
+			switch (second) {
+
+			}
 			break;
 		case 4:
 			setRaceName("Half-Elf");
@@ -58,18 +95,31 @@ public:
 			break;
 		case 6:
 			setRaceName("Half-Orc");
+			stats[0] += 2;
+			stats[2] += 1;
 			break;
 		case 7:
 			setRaceName("Human");
+			stats[0] += 1;
+			stats[1] += 1;
+			stats[2] += 1;
+			stats[3] += 1;
+			stats[4] += 1;
+			stats[5] += 1;
 			break;
 		case 8:
 			setRaceName("Tiefling");
+			stats[3] += 1;
+			stats[5] += 2;
 			break;
 
 		}
 	}
 	std::string getRaceName() {
 		return this.RaceName;
+	}
+	std::string getSubRaceName() {
+		return this.SubRaceName;
 	}
 	std::string getClassName() {
 		return this.ClassName;
@@ -82,6 +132,9 @@ public:
 	}
 	void setRaceName(std::string s) {
 		this.RaceName = s;
+	}
+	void setSubRaceName(std::string s) {
+		this.SubRaceName = s;
 	}
 	void setClassName(std::string s) {
 		this.ClassName = s;
