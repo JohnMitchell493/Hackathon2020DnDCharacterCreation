@@ -150,17 +150,17 @@ public:
 		int choice = (rand()) % 12;
 		int sub = (rand()) % 2;
 		switch (choice) {
-			case 0:
+			case 0: // Barbarian
 				BiasArr[0] = 0;
 				BiasArr[1] = 2;
 				FillBias(&BiasArr);
 				break;
-			case 1:
+			case 1: // Bard
 				BiasArr[0] = 5;
 				BiasArr[1] = 1;
 				FillBias(&BiasArr);
 				break;
-			case 2:
+			case 2: // Cleric
 				BiasArr[0] = 4
 				switch (sub) {
 					case 0: 
@@ -175,12 +175,12 @@ public:
 					}
 				FillBias(&BiasArr);
 				break;
-			case 3:
+			case 3: // Druid
 				BiasArr[0] = 4;
 				BiasArr[1] = 2;
 				FillBias(&BiasArr);
 				break;
-			case 4:
+			case 4: // Fighter
 				switch (sub) {
 					case 0: 
 						BiasArr[0] = 0;
@@ -194,22 +194,22 @@ public:
 				BiasArr[1] = 2
 				FillBias(&BiasArr);
 				break;
-			case 5:
+			case 5: // Monk
 				BiasArr[0] = 1;
 				BiasArr[1] = 4;
 				FillBias(&BiasArr);
 				break;
-			case 6:
+			case 6: // Paladin
 				BiasArr[0] = 0;
 				BiasArr[1] = 5;
 				FillBias(&BiasArr);
 				break;
-			case 7:
+			case 7: // Ranger
 				BiasArr[0] = 1;
 				BiasArr[1] = 4;
 				FillBias(&BiasArr);
 				break;
-			case 8:
+			case 8: // Rogue
 				BiasArr[0] = 1
 				switch (sub) {
 					case 0: 
@@ -224,13 +224,13 @@ public:
 					}
 				FillBias(&BiasArr);
 				break;
-			case 9:
-			case 10:
+			case 9: // Sorcerer
+			case 10: // Warlock
 				BiasArr[0] = 5;
 				BiasArr[1] = 2;
 				FillBias(&BiasArr);
 				break;
-			case 11:
+			case 11: // Wizard
 				BiasArr[0] = 3
 				switch (sub) {
 					case 0: 
