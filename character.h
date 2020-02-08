@@ -84,14 +84,41 @@ public:
 			stats[3] += 2;
 			int second = (rand()) % 2;
 			switch (second) {
-
+			case 0:
+				setSubRaceName("Forest Gnome");
+				stats[1] += 1;
+				break;
+			case 1:
+				setSubRaceName("Rock Gnome");
+				stats[2] += 1;
+				break;
 			}
 			break;
 		case 4:
 			setRaceName("Half-Elf");
+			stats[5] += 2;
+			int choose1 = (rand()) % 5;
+			stats[choose1] += 1;
+			int choose2 = (rand()) % 5;
+			if (choose2 == choose1) {
+				choose2 = (choose2 + 1) % 5;
+			}
+			stats[choose2] += 1;
 			break;
 		case 5:
 			setRaceName("Halfling");
+			stats[1] += 1;
+			int second = (rand()) % 2;
+			switch (second) {
+			case 0:
+				setSubRaceName("Lightfoot Halfling");
+				stats[5] += 1;
+				break;
+			case 1:
+				setSubRaceName("Stout Halfling");
+				stats[2] += 1;
+				break;
+			}
 			break;
 		case 6:
 			setRaceName("Half-Orc");
@@ -112,7 +139,6 @@ public:
 			stats[3] += 1;
 			stats[5] += 2;
 			break;
-
 		}
 	}
 	std::string getRaceName() {
