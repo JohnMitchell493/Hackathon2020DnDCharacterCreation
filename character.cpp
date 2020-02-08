@@ -1,7 +1,8 @@
-// Step 1: Background
+// Step 1: Race
 
 
-// Step 2: Race
+// Step 2: Background
+
 
 
 // Step 3: Class

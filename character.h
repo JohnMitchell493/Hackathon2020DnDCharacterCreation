@@ -147,6 +147,7 @@ public:
 	}
 
 	void genClass {
+		int ranSkill1;
 		int choice = (rand()) % 12;
 		int sub = (rand()) % 2;
 		switch (choice) {
@@ -172,7 +173,77 @@ public:
 					default:
 						exit(-1);
 						break;
-					}
+				}
+				int sClass=(rand()) % 7;
+				switch (sClass){
+					case 0: 
+						SubClassName="Knowledge"
+						ranSkill1=(rand()) % 4;
+						while(true){
+							if(ranSkill1==0 && arca==false){
+								arca=true;
+								break;
+							}
+							else if(ranSkill1==1 && hist==false){
+								hist=true;
+								break;
+							}
+							else if(ranSkill1==2 && natu==false){
+								natu=true;
+								break;
+							}
+							else if(ranSkill1==3 && reli==false){
+								reli=true;
+								break;
+							}
+							ranSkill1=(rand()) % 4;
+						}
+						ranSkill1=(rand()) % 4;
+						while(true){
+							if(ranSkill1==0 && arca==false){
+								arca=true;
+								break;
+							}
+							else if(ranSkill1==1 && hist==false){
+								hist=true;
+								break;
+							}
+							else if(ranSkill1==2 && natu==false){
+								natu=true;
+								break;
+							}
+							else if(ranSkill1==3 && reli==false){
+								reli=true;
+								break;
+							}
+							ranSkill1=(rand()) % 4;
+						)
+						break;
+					case 1:
+						SubClassName="Life"
+						//heavy armor
+						break;
+					case 2:
+						SubClassName="Light"
+						//light cantrip
+						break;
+					case 3:
+						SubClassName="Nature"
+						//heavy armor
+						break;
+					case 4:
+						SubClassName="Tempest"
+						//Martial and heavy armor
+						break;
+					case 5:
+						SubClassName="Trickery"
+						
+						break;
+					case 6:
+						SubClassName="War"
+						//Martial and Heavy armor
+						break;
+				}
 				FillBias(&BiasArr);
 				break;
 			case 3: // Druid
@@ -190,7 +261,7 @@ public:
 						break;
 					default:
 						exit(-1);
-					}
+				}
 				BiasArr[1] = 2
 				FillBias(&BiasArr);
 				break;
@@ -221,10 +292,14 @@ public:
 					default:
 						exit(-1);
 						break;
-					}
+				}
 				FillBias(&BiasArr);
 				break;
 			case 9: // Sorcerer
+				BiasArr[0] = 5;
+				BiasArr[1] = 2;
+				FillBias(&BiasArr);
+				break;
 			case 10: // Warlock
 				BiasArr[0] = 5;
 				BiasArr[1] = 2;
@@ -242,7 +317,7 @@ public:
 					default:
 						exit(-1);
 						break;
-					}
+				}
 				FillBias(&BiasArr);
 				break;
 			default:
