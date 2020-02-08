@@ -30,9 +30,7 @@ private:
 	bool stea=false;
 	bool surv=false;
 public:
-	Character(){
-		
-	}
+	Character();
 	std::string getRaceName() {
 		return this.RaceName;
 	}
