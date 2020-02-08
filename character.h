@@ -155,6 +155,7 @@ public:
 		int ranSkill1;
 		int choice = (rand()) % 12;
 		int sub = (rand()) % 2;
+		int sClass;
 		switch (choice) {
 			case 0: // Barbarian
 				BiasArr[0] = 0;
@@ -179,7 +180,7 @@ public:
 						exit(-1);
 						break;
 				}
-				int sClass=(rand()) % 7;
+				sClass=(rand()) % 7;
 				switch (sClass){
 					case 0: 
 						SubClassName="Knowledge"
