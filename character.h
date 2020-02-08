@@ -13,6 +13,7 @@ private:
 	std::string BGName;
 	int stats[6] = [0, 0, 0, 0, 0, 0];
 	int mods[6] = [0, 0, 0, 0, 0, 0];
+	int BiasArr[6] = [0, 0, 0, 0, 0, 0];
 	bool acro=false;
 	bool anim=false;
 	bool arca=false;
