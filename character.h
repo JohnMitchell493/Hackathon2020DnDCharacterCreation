@@ -1,5 +1,6 @@
 #include <string>
 #include <iostream>
+#include <cstdlib>
 #ifndef CHARACTER_H
 #define CHARACTER_H
 
@@ -33,6 +34,40 @@ public:
 	Character(){
 		
 	}
+
+	void genRace() {
+		switch ((rand()) % 9) {
+		case 0:
+			setRaceName("Dragonborn");
+
+		case 1:
+			setRaceName("Dwarf");
+
+		case 2:
+			setRaceName("Elf");
+
+		case 3:
+			setRaceName("Gnome");
+
+		case 4:
+			setRaceName("Half-Elf");
+
+		case 5:
+			setRaceName("Halfling");
+
+		case 6:
+			setRaceName("Half-Orc");
+
+		case 7:
+			setRaceName("Human");
+
+		case 8:
+			setRaceName("Tiefling");
+
+
+		}
+	}
+
 	std::string getRaceName() {
 		return this.RaceName;
 	}
