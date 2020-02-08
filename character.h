@@ -64,6 +64,7 @@ public:
 		case 2:
 			setRaceName("Elf");
 			stats[1] += 2;
+			perc = true;
 			int second = (rand()) % 3;
 			switch (second) {
 			case 0:
@@ -105,6 +106,7 @@ public:
 				choose2 = (choose2 + 1) % 5;
 			}
 			stats[choose2] += 1;
+			// half elf skill proficiencies happen after classes
 			break;
 		case 5:
 			setRaceName("Halfling");
@@ -125,6 +127,7 @@ public:
 			setRaceName("Half-Orc");
 			stats[0] += 2;
 			stats[2] += 1;
+			inti = true;
 			break;
 		case 7:
 			setRaceName("Human");
@@ -146,6 +149,8 @@ public:
 		}
 	}
 
+	void fillBias(&int[])
+
 	void genClass {
 		int choice = (rand()) % 12;
 		int sub = (rand()) % 2;
@@ -153,12 +158,12 @@ public:
 			case 0: // Barbarian
 				BiasArr[0] = 0;
 				BiasArr[1] = 2;
-				FillBias(&BiasArr);
+				fillBias(&BiasArr);
 				break;
 			case 1: // Bard
 				BiasArr[0] = 5;
 				BiasArr[1] = 1;
-				FillBias(&BiasArr);
+				fillBias(&BiasArr);
 				break;
 			case 2: // Cleric
 				BiasArr[0] = 4
@@ -173,12 +178,12 @@ public:
 						exit(-1);
 						break;
 					}
-				FillBias(&BiasArr);
+				fillBias(&BiasArr);
 				break;
 			case 3: // Druid
 				BiasArr[0] = 4;
 				BiasArr[1] = 2;
-				FillBias(&BiasArr);
+				fillBias(&BiasArr);
 				break;
 			case 4: // Fighter
 				switch (sub) {
@@ -192,22 +197,22 @@ public:
 						exit(-1);
 					}
 				BiasArr[1] = 2
-				FillBias(&BiasArr);
+				fillBias(&BiasArr);
 				break;
 			case 5: // Monk
 				BiasArr[0] = 1;
 				BiasArr[1] = 4;
-				FillBias(&BiasArr);
+				fillBias(&BiasArr);
 				break;
 			case 6: // Paladin
 				BiasArr[0] = 0;
 				BiasArr[1] = 5;
-				FillBias(&BiasArr);
+				fillBias(&BiasArr);
 				break;
 			case 7: // Ranger
 				BiasArr[0] = 1;
 				BiasArr[1] = 4;
-				FillBias(&BiasArr);
+				fillBias(&BiasArr);
 				break;
 			case 8: // Rogue
 				BiasArr[0] = 1
@@ -222,13 +227,13 @@ public:
 						exit(-1);
 						break;
 					}
-				FillBias(&BiasArr);
+				fillBias(&BiasArr);
 				break;
 			case 9: // Sorcerer
 			case 10: // Warlock
 				BiasArr[0] = 5;
 				BiasArr[1] = 2;
-				FillBias(&BiasArr);
+				fillBias(&BiasArr);
 				break;
 			case 11: // Wizard
 				BiasArr[0] = 3
@@ -243,7 +248,7 @@ public:
 						exit(-1);
 						break;
 					}
-				FillBias(&BiasArr);
+				fillBias(&BiasArr);
 				break;
 			default:
 				exit (-1);
