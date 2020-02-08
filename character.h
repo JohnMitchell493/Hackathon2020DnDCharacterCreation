@@ -7,8 +7,10 @@ class Character {
 private:
 	std::string RaceName;
 	std::string ClassName;
+	std::string SubClassName;
 	std::string BGName;
 	int stats[6] = [0, 0, 0, 0, 0, 0];
+	int mods[6] = [0, 0, 0, 0, 0, 0];
 	bool acro=false;
 	bool anim=false;
 	bool arca=false;
@@ -34,6 +36,9 @@ public:
 	std::string getClassName() {
 		return this.ClassName;
 	}
+	std::string getSubClassName() {
+		return this.SubClassName;
+	}
 	std::string getBGName() {
 		return this.BGName;
 	}
@@ -43,11 +48,16 @@ public:
 	void setClassName(std::string s) {
 		this.ClassName = s;
 	}
+	void setSubClassName(std::string s) {
+		this.SubClassName = s;
+	}
 	void setBGName(std::string s) {
 		this.BGName = s;
 	}
 	void printCharacter() {
-		std::cout << "Race: " << RaceName << "\nClass: " << ClassName << "\nBackground: " << BGName << "\n" << std::endl;
+		std::cout << "Race: " << RaceName << "\nClass: " << ClassName 
+			<< "\nSubclass: " << SubClassName << "\nBackground: " << BGName 
+			<< "\n" << std::endl;
 	}
 };
 
