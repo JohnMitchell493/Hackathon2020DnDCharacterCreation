@@ -160,11 +160,252 @@ public:
 			case 0: // Barbarian
 				BiasArr[0] = 0;
 				BiasArr[1] = 2;
+				
+				ranSkill1=(rand()) % 6;
+				while(true){
+					if(ranSkill1==0 && anim==false){
+						anim=true;
+						break;
+					}
+					else if(ranSkill1==1 && athl==false){
+						athl=true;
+						break;
+					}
+					else if(ranSkill1==2 && inti==false){
+						inti=true;
+						break;
+					}
+					else if(ranSkill1==3 && natu==false){
+						natu=true;
+						break;
+					}else if(ranSkill1==4 && perc==false){
+						perc=true;
+						break;
+					}else if(ranSkill1==5 && surv==false){
+						surv=true;
+						break;
+					}
+					ranSkill1=(rand()) % 6;
+				}
+				ranSkill1=(rand()) % 6;
+				while(true){
+					if(ranSkill1==0 && anim==false){
+						anim=true;
+						break;
+					}
+					else if(ranSkill1==1 && athl==false){
+						athl=true;
+						break;
+					}
+					else if(ranSkill1==2 && inti==false){
+						inti=true;
+						break;
+					}
+					else if(ranSkill1==3 && natu==false){
+						natu=true;
+						break;
+					}else if(ranSkill1==4 && perc==false){
+						perc=true;
+						break;
+					}else if(ranSkill1==5 && surv==false){
+						surv=true;
+						break;
+					}
+					ranSkill1=(rand()) % 6;
+				}
+				
 				fillBias(&BiasArr);
 				break;
 			case 1: // Bard
 				BiasArr[0] = 5;
 				BiasArr[1] = 1;
+				
+				ranSkill1=(rand()) % 18;
+				while(true){
+					if(ranSkill1==0 && acro==false){
+						acro=true;
+						break;
+					}
+					else if(ranSkill1==1 && anim==false){
+						anim=true;
+						break;
+					}
+					else if(ranSkill1==2 && arca==false){
+						arca=true;
+						break;
+					}
+					else if(ranSkill1==3 && athl==false){
+						athl=true;
+						break;
+					}else if(ranSkill1==4 && dece==false){
+						dece=true;
+						break;
+					}else if(ranSkill1==5 && hist==false){
+						hist=true;
+						break;
+					}else if(ranSkill1==6 && insi==false){
+						insi=true;
+						break;
+					}else if(ranSkill1==7 && inti==false){
+						inti=true;
+						break;
+					}else if(ranSkill1==8 && inve==false){
+						inve=true;
+						break;
+					}else if(ranSkill1==9 && medi==false){
+						medi=true;
+						break;
+					}else if(ranSkill1==10 && natu==false){
+						natu=true;
+						break;
+					}else if(ranSkill1==11 && perc==false){
+						perc=true;
+						break;
+					}else if(ranSkill1==12 && perf==false){
+						perf=true;
+						break;
+					}else if(ranSkill1==13 && pers==false){
+						pers=true;
+						break;
+					}else if(ranSkill1==14 && reli==false){
+						reli=true;
+						break;
+					}else if(ranSkill1==15 && slei==false){
+						slei=true;
+						break;
+					}else if(ranSkill1==16 && stea==false){
+						stea=true;
+						break;
+					}else if(ranSkill1==17 && surv==false){
+						surv=true;
+						break;
+					}
+					ranSkill1=(rand()) % 18;
+				}
+				ranSkill1=(rand()) % 18;
+				while(true){
+					if(ranSkill1==0 && acro==false){
+						acro=true;
+						break;
+					}
+					else if(ranSkill1==1 && anim==false){
+						anim=true;
+						break;
+					}
+					else if(ranSkill1==2 && arca==false){
+						arca=true;
+						break;
+					}
+					else if(ranSkill1==3 && athl==false){
+						athl=true;
+						break;
+					}else if(ranSkill1==4 && dece==false){
+						dece=true;
+						break;
+					}else if(ranSkill1==5 && hist==false){
+						hist=true;
+						break;
+					}else if(ranSkill1==6 && insi==false){
+						insi=true;
+						break;
+					}else if(ranSkill1==7 && inti==false){
+						inti=true;
+						break;
+					}else if(ranSkill1==8 && inve==false){
+						inve=true;
+						break;
+					}else if(ranSkill1==9 && medi==false){
+						medi=true;
+						break;
+					}else if(ranSkill1==10 && natu==false){
+						natu=true;
+						break;
+					}else if(ranSkill1==11 && perc==false){
+						perc=true;
+						break;
+					}else if(ranSkill1==12 && perf==false){
+						perf=true;
+						break;
+					}else if(ranSkill1==13 && pers==false){
+						pers=true;
+						break;
+					}else if(ranSkill1==14 && reli==false){
+						reli=true;
+						break;
+					}else if(ranSkill1==15 && slei==false){
+						slei=true;
+						break;
+					}else if(ranSkill1==16 && stea==false){
+						stea=true;
+						break;
+					}else if(ranSkill1==17 && surv==false){
+						surv=true;
+						break;
+					}
+					ranSkill1=(rand()) % 18;
+				}
+				ranSkill1=(rand()) % 18;
+				while(true){
+					if(ranSkill1==0 && acro==false){
+						acro=true;
+						break;
+					}
+					else if(ranSkill1==1 && anim==false){
+						anim=true;
+						break;
+					}
+					else if(ranSkill1==2 && arca==false){
+						arca=true;
+						break;
+					}
+					else if(ranSkill1==3 && athl==false){
+						athl=true;
+						break;
+					}else if(ranSkill1==4 && dece==false){
+						dece=true;
+						break;
+					}else if(ranSkill1==5 && hist==false){
+						hist=true;
+						break;
+					}else if(ranSkill1==6 && insi==false){
+						insi=true;
+						break;
+					}else if(ranSkill1==7 && inti==false){
+						inti=true;
+						break;
+					}else if(ranSkill1==8 && inve==false){
+						inve=true;
+						break;
+					}else if(ranSkill1==9 && medi==false){
+						medi=true;
+						break;
+					}else if(ranSkill1==10 && natu==false){
+						natu=true;
+						break;
+					}else if(ranSkill1==11 && perc==false){
+						perc=true;
+						break;
+					}else if(ranSkill1==12 && perf==false){
+						perf=true;
+						break;
+					}else if(ranSkill1==13 && pers==false){
+						pers=true;
+						break;
+					}else if(ranSkill1==14 && reli==false){
+						reli=true;
+						break;
+					}else if(ranSkill1==15 && slei==false){
+						slei=true;
+						break;
+					}else if(ranSkill1==16 && stea==false){
+						stea=true;
+						break;
+					}else if(ranSkill1==17 && surv==false){
+						surv=true;
+						break;
+					}
+					ranSkill1=(rand()) % 18;
+				}
 				fillBias(&BiasArr);
 				break;
 			case 2: // Cleric
