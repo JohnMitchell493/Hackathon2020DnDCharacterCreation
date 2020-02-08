@@ -13,7 +13,7 @@ private:
 	std::string BGName;
 	int stats[6] = [0, 0, 0, 0, 0, 0];
 	int mods[6] = [0, 0, 0, 0, 0, 0];
-	int BiasArr[6] = [0, 0, 0, 0, 0, 0];
+	int BiasArr[6] = [-1, -1, -1, -1, -1, -1];
 	bool acro=false;
 	bool anim=false;
 	bool arca=false;
@@ -140,8 +140,115 @@ public:
 			stats[3] += 1;
 			stats[5] += 2;
 			break;
+		default:
+			exit(-1);
+			break;
 		}
 	}
+
+	void genClass {
+		int choice = (rand()) % 12;
+		int sub = (rand()) % 2;
+		switch (choice) {
+			case 0:
+				BiasArr[0] = 0;
+				BiasArr[1] = 2;
+				FillBias(&BiasArr);
+				break;
+			case 1:
+				BiasArr[0] = 5;
+				BiasArr[1] = 1;
+				FillBias(&BiasArr);
+				break;
+			case 2:
+				BiasArr[0] = 4
+				switch (sub) {
+					case 0: 
+						BiasArr[1] = 0;
+						break;
+					case 1:
+						BiasArr[1] = 2;
+						break;
+					default:
+						exit(-1);
+						break;
+					}
+				FillBias(&BiasArr);
+				break;
+			case 3:
+				BiasArr[0] = 4;
+				BiasArr[1] = 2;
+				FillBias(&BiasArr);
+				break;
+			case 4:
+				switch (sub) {
+					case 0: 
+						BiasArr[0] = 0;
+						break;
+					case 1:
+						BiasArr[0] = 1;
+						break;
+					default:
+						exit(-1);
+					}
+				BiasArr[1] = 2
+				FillBias(&BiasArr);
+				break;
+			case 5:
+				BiasArr[0] = 1;
+				BiasArr[1] = 4;
+				FillBias(&BiasArr);
+				break;
+			case 6:
+				BiasArr[0] = 0;
+				BiasArr[1] = 5;
+				FillBias(&BiasArr);
+				break;
+			case 7:
+				BiasArr[0] = 1;
+				BiasArr[1] = 4;
+				FillBias(&BiasArr);
+				break;
+			case 8:
+				BiasArr[0] = 1
+				switch (sub) {
+					case 0: 
+						BiasArr[1] = 3;
+						break;
+					case 1:
+						BiasArr[1] = 5;
+						break;
+					default:
+						exit(-1);
+						break;
+					}
+				FillBias(&BiasArr);
+				break;
+			case 9:
+			case 10:
+				BiasArr[0] = 5;
+				BiasArr[1] = 2;
+				FillBias(&BiasArr);
+				break;
+			case 11:
+				BiasArr[0] = 3
+				switch (sub) {
+					case 0: 
+						BiasArr[1] = 1;
+						break;
+					case 1:
+						BiasArr[1] = 2;
+						break;
+					default:
+						exit(-1);
+						break;
+					}
+				FillBias(&BiasArr);
+				break;
+			default:
+				exit (-1);
+				break;
+			}
 	std::string getRaceName() {
 		return this.RaceName;
 	}
