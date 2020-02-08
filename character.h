@@ -67,7 +67,6 @@ public:
 
 		}
 	}
-
 	std::string getRaceName() {
 		return this.RaceName;
 	}
