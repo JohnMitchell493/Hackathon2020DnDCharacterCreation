@@ -9,6 +9,24 @@ private:
 	std::string ClassName;
 	std::string BGName;
 	int stats[6] = [0, 0, 0, 0, 0, 0];
+	bool acro=false;
+	bool anim=false;
+	bool arca=false;
+	bool athl=false;
+	bool dece=false;
+	bool hist=false;
+	bool insi=false;
+	bool inti=false;
+	bool inve=false;
+	bool medi=false;
+	bool natu=false;
+	bool perc=false;
+	bool perf=false;
+	bool pers=false;
+	bool reli=false;
+	bool slei=false;
+	bool stea=false;
+	bool surv=false;
 public:
 	std::string getRaceName() {
 		return this.RaceName;
