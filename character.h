@@ -36,34 +36,35 @@ public:
 	}
 
 	void genRace() {
-		switch ((rand()) % 9) {
+		int test = (rand()) % 9;
+		switch (test) {
 		case 0:
 			setRaceName("Dragonborn");
-
+			break;
 		case 1:
 			setRaceName("Dwarf");
-
+			break;
 		case 2:
 			setRaceName("Elf");
-
+			break;
 		case 3:
 			setRaceName("Gnome");
-
+			break;
 		case 4:
 			setRaceName("Half-Elf");
-
+			break;
 		case 5:
 			setRaceName("Halfling");
-
+			break;
 		case 6:
 			setRaceName("Half-Orc");
-
+			break;
 		case 7:
 			setRaceName("Human");
-
+			break;
 		case 8:
 			setRaceName("Tiefling");
-
+			break;
 
 		}
 	}
