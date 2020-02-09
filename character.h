@@ -14,6 +14,11 @@ private:
 	std::string ClassName;
 	std::string SubClassName;
 	std::string BGName;
+	std::string Ideal;
+	std::string Bond;
+	std::string Trait;
+	std::string Flaw;
+	std::string Special="NONE";
 	int gold = 0;
 	int stats[6] = {0, 0, 0, 0, 0, 0};
 	int mods[6] = {0, 0, 0, 0, 0, 0};
