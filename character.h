@@ -35,7 +35,10 @@ private:
 	bool surv = false;
 public:
 	Character() {
-
+		genRace();
+		genBG();
+		genClass();
+		genGold();
 	}
 
 	void genRace() {
@@ -149,7 +152,95 @@ public:
 			break;
 		}
 	}
-	void genClass{
+
+	void genBG() {
+		int first = (rand()) % 13;
+		switch (first) {
+		case 0:
+			setBGName("Acolyte");
+			insi = true;
+			reli = true;
+			break;
+		case 1:
+			setBGName("Charlatan");
+			dece = true;
+			slei = true;
+			break;
+		case 2:
+			int second = (rand()) % 2;
+			switch (second) {
+			case 0:
+				setBGName("Spy");
+				break;
+			case 1:
+				setBGName("Criminal");
+				break;
+			}
+			dece = true;
+			stea = true;
+			break;
+		case 3:
+			setBGName("Entertainer");
+			acro = true;
+			perf = true;
+			break;
+		case 4:
+			setBGName("Folk Hero");
+			anim = true;
+			surv = true;
+			break;
+		case 5:
+			int second = (rand()) % 2;
+			switch (second) {
+			case 0:
+				setBGName("Guild Artisan");
+				break;
+			case 1:
+				setBGName("Guild Merchant");
+				break;
+			}
+			insi = true;
+			pers = true;
+			break;
+		case 6:
+			setBGName("Hermit");
+			medi = true;
+			reli = true;
+			break;
+		case 7:
+			setBGName("Outlander");
+			athl = true;
+			surv = true;
+			break;
+		case 8:
+			setBGName("Sage");
+			arca = true;
+			hist = true;
+			break;
+		case 9:
+			setBGName("Sailor");
+			athl = true;
+			perc = true;
+			break;
+		case 10:
+			setBGName("Soldier");
+			athl = true;
+			inti = true;
+			break;
+		case 11:
+			setBGName("Urchin");
+			slei = true;
+			stea = true;
+			break;
+		case 12:
+			setBGName("Noble");
+			insi = true;
+			reli = true;
+			break;
+		}
+	}
+
+	void genClass() {
 		int ranSkill1;
 		int choice = (rand()) % 12;
 		int sub = (rand()) % 2;
@@ -1621,9 +1712,6 @@ public:
 					exit(-1);
 					break;
 				}
-				
-				
-			
 			ranSkill1 = (rand()) % 6;//Wizlord 2
 			while (true) {
 				if (ranSkill1 == 0 && arca == false) {
@@ -1683,6 +1771,160 @@ public:
 		default:
 			exit(-1);
 			break;
+		}
+		if (this.RaceName == "Half-Elf") {
+			ranSkill1 = (rand()) % 18;
+			while (true) {
+				if (ranSkill1 == 0 && acro == false) {
+					acro = true;
+					break;
+				}
+				else if (ranSkill1 == 1 && anim == false) {
+					anim = true;
+					break;
+				}
+				else if (ranSkill1 == 2 && arca == false) {
+					arca = true;
+					break;
+				}
+				else if (ranSkill1 == 3 && athl == false) {
+					athl = true;
+					break;
+				}
+				else if (ranSkill1 == 4 && dece == false) {
+					dece = true;
+					break;
+				}
+				else if (ranSkill1 == 5 && hist == false) {
+					hist = true;
+					break;
+				}
+				else if (ranSkill1 == 6 && insi == false) {
+					insi = true;
+					break;
+				}
+				else if (ranSkill1 == 7 && inti == false) {
+					inti = true;
+					break;
+				}
+				else if (ranSkill1 == 8 && inve == false) {
+					inve = true;
+					break;
+				}
+				else if (ranSkill1 == 9 && medi == false) {
+					medi = true;
+					break;
+				}
+				else if (ranSkill1 == 10 && natu == false) {
+					natu = true;
+					break;
+				}
+				else if (ranSkill1 == 11 && perc == false) {
+					perc = true;
+					break;
+				}
+				else if (ranSkill1 == 12 && perf == false) {
+					perf = true;
+					break;
+				}
+				else if (ranSkill1 == 13 && pers == false) {
+					pers = true;
+					break;
+				}
+				else if (ranSkill1 == 14 && reli == false) {
+					reli = true;
+					break;
+				}
+				else if (ranSkill1 == 15 && slei == false) {
+					slei = true;
+					break;
+				}
+				else if (ranSkill1 == 16 && stea == false) {
+					stea = true;
+					break;
+				}
+				else if (ranSkill1 == 17 && surv == false) {
+					surv = true;
+					break;
+				}
+				ranSkill1 = (rand()) % 18;
+			}
+			ranSkill1 = (rand()) % 18;
+			while (true) {
+				if (ranSkill1 == 0 && acro == false) {
+					acro = true;
+					break;
+				}
+				else if (ranSkill1 == 1 && anim == false) {
+					anim = true;
+					break;
+				}
+				else if (ranSkill1 == 2 && arca == false) {
+					arca = true;
+					break;
+				}
+				else if (ranSkill1 == 3 && athl == false) {
+					athl = true;
+					break;
+				}
+				else if (ranSkill1 == 4 && dece == false) {
+					dece = true;
+					break;
+				}
+				else if (ranSkill1 == 5 && hist == false) {
+					hist = true;
+					break;
+				}
+				else if (ranSkill1 == 6 && insi == false) {
+					insi = true;
+					break;
+				}
+				else if (ranSkill1 == 7 && inti == false) {
+					inti = true;
+					break;
+				}
+				else if (ranSkill1 == 8 && inve == false) {
+					inve = true;
+					break;
+				}
+				else if (ranSkill1 == 9 && medi == false) {
+					medi = true;
+					break;
+				}
+				else if (ranSkill1 == 10 && natu == false) {
+					natu = true;
+					break;
+				}
+				else if (ranSkill1 == 11 && perc == false) {
+					perc = true;
+					break;
+				}
+				else if (ranSkill1 == 12 && perf == false) {
+					perf = true;
+					break;
+				}
+				else if (ranSkill1 == 13 && pers == false) {
+					pers = true;
+					break;
+				}
+				else if (ranSkill1 == 14 && reli == false) {
+					reli = true;
+					break;
+				}
+				else if (ranSkill1 == 15 && slei == false) {
+					slei = true;
+					break;
+				}
+				else if (ranSkill1 == 16 && stea == false) {
+					stea = true;
+					break;
+				}
+				else if (ranSkill1 == 17 && surv == false) {
+					surv = true;
+					break;
+				}
+				ranSkill1 = (rand()) % 18;
+			}
 		}
 	}
 	void genGold() {
