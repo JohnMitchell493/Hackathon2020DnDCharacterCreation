@@ -578,7 +578,7 @@ public:
 			}
 			break;
 		case 2: // Cleric
-			BiasArr[0] = 4
+			BiasArr[0] = 4;
 				switch (sub) {
 				case 0:
 					BiasArr[1] = 0;
