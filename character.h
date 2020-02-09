@@ -11,7 +11,7 @@ private:
 	std::string ClassName;
 	std::string SubClassName;
 	std::string BGName;
-	/**int stats[6] = [0, 0, 0, 0, 0, 0];
+	int stats[6] = [0, 0, 0, 0, 0, 0];
 	int mods[6] = [0, 0, 0, 0, 0, 0];
 	int BiasArr[6] = [-1, -1, -1, -1, -1, -1];
 	bool acro = false;
@@ -31,7 +31,7 @@ private:
 	bool reli = false;
 	bool slei = false;
 	bool stea = false;
-	bool surv = false;*/
+	bool surv = false;
 public:
 	Character() {
 
@@ -289,9 +289,8 @@ public:
 					break;
 				}
 				else if (ranSkill1 == 17 && surv == false) {
-]
-surv = true;
-break;
+					surv = true;
+					break;
 				}
 				ranSkill1 = (rand()) % 18;
 			}
