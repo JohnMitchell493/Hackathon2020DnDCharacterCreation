@@ -2024,8 +2024,7 @@ public:
 			gold = (((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1)) * 10;
 		if (this->ClassName == "Wizard")
 			gold = (((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1)) * 10;
-		else
-			gold = 0;
+		
 	}
 	std::string getRaceName() {
 		return this->RaceName;
