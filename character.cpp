@@ -25,3 +25,6 @@ for (int i = 0; i < 6; i++) {
 
 	}
 }
+
+"Major personality trait: " << Trait << "\nIdeal by which the character lives: " << Ideal << "\nBonds to which they hold themselves: " 
+<< Bond << "\nGreatest flaw: " << Flaw 
