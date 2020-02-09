@@ -2024,8 +2024,7 @@ public:
 			gold = (((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1)) * 10;
 		if (this->ClassName == "Wizard")
 			gold = (((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1)) * 10;
-		else
-			gold = 0;
+		
 	}
 	std::string getRaceName() {
 		return this->RaceName;
@@ -2063,7 +2062,7 @@ public:
 	void printCharacter() {
 		std::cout << "Race: " << RaceName << "\nSub-Race: " << SubRaceName << "\nClass: " << ClassName
 			<< "\nSubclass: " << SubClassName << "\nBackground: " << BGName << "\nGold:" << gold <<
-			<< "\nSTR:" <<stats[0] << "\nDEX:" <<stats[1] << "\nCON:" <<stats[2] << "\nINT:" <<stats[3] << "\nWIS:" <<stats[4] << "\nCHA:" <<stats[5]<< std::endl;
+			 "\nSTR:" <<stats[0] << "\nDEX:" <<stats[1] << "\nCON:" <<stats[2] << "\nINT:" <<stats[3] << "\nWIS:" <<stats[4] << "\nCHA:" <<stats[5]<< std::endl;
 		
 		std::cout << "Skill Proficiencies:" << std::endl;;
 		if (acro) {
