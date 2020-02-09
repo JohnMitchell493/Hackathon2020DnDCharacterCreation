@@ -138,7 +138,7 @@ public:
 			break;
 		case 5:
 			setRaceName("Halfling");
-			stats[1] += 1;
+			stats[1] += 2;
 			second = (rand()) % 2;
 			switch (second) {
 			case 0:
