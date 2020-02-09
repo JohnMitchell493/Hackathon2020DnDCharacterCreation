@@ -155,7 +155,7 @@ public:
 		int sClass;
 		switch (choice) {
 		case 0: // Barbarian
-			/*BiasArr[0] = 0;
+			BiasArr[0] = 0;
 			BiasArr[1] = 2;
 			ranSkill1 = (rand()) % 6;
 			while (true) {
@@ -197,7 +197,7 @@ public:
 				}
 				else if (ranSkill1 == 2 && inti == false) {
 					inti = true;
-						break;
+					break;
 				}
 				else if (ranSkill1 == 3 && natu == false) {
 					natu = true;
@@ -213,12 +213,12 @@ public:
 				}
 				ranSkill1 = (rand()) % 6;
 			}
-				fillBias(&BiasArr);*/
+			fillBias(&BiasArr);
 			break;
 		case 1: // Bard
 			BiasArr[0] = 5;
 			BiasArr[1] = 1;
-				ranSkill1 = (rand()) % 18;
+			ranSkill1 = (rand()) % 18;
 			while (true) {
 				if (ranSkill1 == 0 && acro == false) {
 					acro = true;
@@ -288,9 +288,10 @@ public:
 					stea = true;
 					break;
 				}
-				else if (ranSkill1 == 17 && surv == false) {]
-					surv = true;
-					break;
+				else if (ranSkill1 == 17 && surv == false) {
+]
+surv = true;
+break;
 				}
 				ranSkill1 = (rand()) % 18;
 			}
@@ -313,7 +314,7 @@ public:
 					break;
 				}
 				else if (ranSkill1 == 4 && dece == false) {
-						dece = true;
+					dece = true;
 					break;
 				}
 				else if (ranSkill1 == 5 && hist == false) {
@@ -450,40 +451,40 @@ public:
 			break;
 		case 2: // Cleric
 			BiasArr[0] = 4
-			switch (sub) {
-			case 0:
-				BiasArr[1] = 0;
-				break;
-			case 1:
-				BiasArr[1] = 2;
-				break;
-			default:
-				exit(-1);
-				break;
-			}
+				switch (sub) {
+				case 0:
+					BiasArr[1] = 0;
+					break;
+				case 1:
+					BiasArr[1] = 2;
+					break;
+				default:
+					exit(-1);
+					break;
+				}
 			sClass = (rand()) % 7;
 			switch (sClass) {
 			case 0:
 				SubClassName = "Knowledge"//prof is doubled
-				ranSkill1 = (rand()) % 4;
+					ranSkill1 = (rand()) % 4;
 				while (true) {
 					if (ranSkill1 == 0 && arca == false) {
-					arca = true;
-					break;
-				}
-				else if (ranSkill1 == 1 && hist == false) {
-					hist = true;
-					break;
-				}
-				else if (ranSkill1 == 2 && natu == false) {
-					natu = true;
-					break;
-				}
-				else if (ranSkill1 == 3 && reli == false) {
-					reli = true;
-					break;
-				}
-				ranSkill1 = (rand()) % 4;
+						arca = true;
+						break;
+					}
+					else if (ranSkill1 == 1 && hist == false) {
+						hist = true;
+						break;
+					}
+					else if (ranSkill1 == 2 && natu == false) {
+						natu = true;
+						break;
+					}
+					else if (ranSkill1 == 3 && reli == false) {
+						reli = true;
+						break;
+					}
+					ranSkill1 = (rand()) % 4;
 				}
 				ranSkill1 = (rand()) % 4;
 				while (true) {
@@ -508,15 +509,15 @@ public:
 				}
 			case 1:
 				SubClassName = "Life"
-				//heavy armor
-				break;
+					//heavy armor
+					break;
 			case 2:
 				SubClassName = "Light"
-				//light cantrip
-				break;
+					//light cantrip
+					break;
 			case 3:
 				SubClassName = "Nature"
-				ranSkill1 = (rand()) % 3;
+					ranSkill1 = (rand()) % 3;
 				while (true) {
 					if (ranSkill1 == 0 && anim == false) {
 						anim = true;
@@ -536,15 +537,15 @@ public:
 				break;
 			case 4:
 				SubClassName = "Tempest"
-				//Martial and heavy armor
-				break;
+					//Martial and heavy armor
+					break;
 			case 5:
 				SubClassName = "Trickery"
-				break;
+					break;
 			case 6:
 				SubClassName = "War"
-				//Martial and Heavy armor
-				break;
+					//Martial and Heavy armor
+					break;
 			}
 			ranSkill1 = (rand()) % 5;
 			while (true) {
@@ -686,7 +687,7 @@ public:
 			}
 			BiasArr[1] = 2
 
-			ranSkill1 = (rand()) % 8;
+				ranSkill1 = (rand()) % 8;
 			while (true) {
 				if (ranSkill1 == 0 && acro == false) {
 					acro = true;
@@ -711,7 +712,7 @@ public:
 				else if (ranSkill1 == 5 && inti == false) {
 					inti = true;
 					break;
-				}	
+				}
 				else if (ranSkill1 == 6 && perc == false) {
 					perc = true;
 					break;
@@ -721,7 +722,7 @@ public:
 					break;
 				}
 				ranSkill1 = (rand()) % 8;
-			}	
+			}
 			while (true) {
 				if (ranSkill1 == 0 && acro == false) {
 					acro = true;
@@ -734,7 +735,7 @@ public:
 				else if (ranSkill1 == 2 && athl == false) {
 					athl = true;
 					break;
-				}	
+				}
 				else if (ranSkill1 == 3 && hist == false) {
 					hist = true;
 					break;
@@ -746,7 +747,7 @@ public:
 				else if (ranSkill1 == 5 && inti == false) {
 					inti = true;
 					break;
-				}	
+				}
 				else if (ranSkill1 == 6 && perc == false) {
 					perc = true;
 					break;
@@ -767,7 +768,7 @@ public:
 				if (ranSkill1 == 0 && acro == false) {
 					acro = true;
 					break;
-			}
+				}
 				else if (ranSkill1 == 1 && athl == false) {
 					athl = true;
 					break;
@@ -1005,43 +1006,85 @@ public:
 
 			fillBias(&BiasArr);
 			break;
-
-}
-std::string getRaceName() {
-	return this.RaceName;
-}
-std::string getSubRaceName() {
-	return this.SubRaceName;
-}
-std::string getClassName() {
-	return this.ClassName;
-}
-std::string getSubClassName() {
-	return this.SubClassName;
-}
-std::string getBGName() {
-	return this.BGName;
-}
-void setRaceName(std::string s) {
-	this.RaceName = s;
-}
-void setSubRaceName(std::string s) {
-	this.SubRaceName = s;
-}
-void setClassName(std::string s) {
-	this.ClassName = s;
-}
-void setSubClassName(std::string s) {
-	this.SubClassName = s;
-}
-void setBGName(std::string s) {
-	this.BGName = s;
-}
-void printCharacter() {
-	std::cout << "Race: " << RaceName << "\nClass: " << ClassName
-		<< "\nSubclass: " << SubClassName << "\nBackground: " << BGName
-		<< "\n" << std::endl;
-}
+		case 8: // Rogue
+			BiasArr[0] = 1
+				switch (sub) {
+				case 0:
+					BiasArr[1] = 3;
+					break;
+				case 1:
+					BiasArr[1] = 5;
+					break;
+				default:
+					exit(-1);
+					break;
+				}
+			break;
+		case 9: // Sorcerer
+			BiasArr[0] = 5;
+			BiasArr[1] = 2;
+			fillBias(&BiasArr);
+			break;
+		case 10: // Warlock
+			BiasArr[0] = 5;
+			BiasArr[1] = 2;
+			fillBias(&BiasArr);
+			break;
+		case 11: // Wizard
+			BiasArr[0] = 3
+				switch (sub) {
+				case 0:
+					BiasArr[1] = 1;
+					break;
+				case 1:
+					BiasArr[1] = 2;
+					break;
+				default:
+					exit(-1);
+					break;
+				}
+			fillBias(&BiasArr);
+			break;
+		default:
+			exit(-1);
+			break;
+		}
+	}
+	std::string getRaceName() {
+		return this.RaceName;
+	}
+	std::string getSubRaceName() {
+		return this.SubRaceName;
+	}
+	std::string getClassName() {
+		return this.ClassName;
+	}
+	std::string getSubClassName() {
+		return this.SubClassName;
+	}
+	std::string getBGName() {
+		return this.BGName;
+	}
+	void setRaceName(std::string s) {
+		this.RaceName = s;
+	}
+	void setSubRaceName(std::string s) {
+		this.SubRaceName = s;
+	}
+	void setClassName(std::string s) {
+		this.ClassName = s;
+	}
+	void setSubClassName(std::string s) {
+		this.SubClassName = s;
+	}
+	void setBGName(std::string s) {
+		this.BGName = s;
+	}
+	void printCharacter() {
+		std::cout << "Race: " << RaceName << "\nClass: " << ClassName
+			<< "\nSubclass: " << SubClassName << "\nBackground: " << BGName
+			<< "\n" << std::endl;
+	}
 };
 
 #endif
