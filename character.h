@@ -1,6 +1,7 @@
 #include <string>
 #include <iostream>
 #include <cstdlib>
+#include <vector>
 #ifndef CHARACTER_H
 #define CHARACTER_H
 
