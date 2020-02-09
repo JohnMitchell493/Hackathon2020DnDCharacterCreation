@@ -3,5 +3,5 @@
 
 int main() {
 	Character jim = Character();
-	jim.print();
+	jim.printCharacter();
 }
