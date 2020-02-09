@@ -1777,7 +1777,7 @@ public:
 			exit(-1);
 			break;
 		}
-		if (this.RaceName == "Half-Elf") {
+		if (this->RaceName == "Half-Elf") {
 			ranSkill1 = (rand()) % 18;
 			while (true) {
 				if (ranSkill1 == 0 && acro == false) {
@@ -1962,37 +1962,37 @@ public:
 			gold = 0;
 	}
 	std::string getRaceName() {
-		return this.RaceName;
+		return this->RaceName;
 	}
 	std::string getSubRaceName() {
-		return this.SubRaceName;
+		return this->SubRaceName;
 	}
 	std::string getClassName() {
-		return this.ClassName;
+		return this->ClassName;
 	}
 	std::string getSubClassName() {
-		return this.SubClassName;
+		return this->SubClassName;
 	}
 	std::string getBGName() {
-		return this.BGName;
+		return this->BGName;
 	}
 	int getGold() {
-		return this.gold;
+		return this->gold;
 	}
 	void setRaceName(std::string s) {
-		this.RaceName = s;
+		this->RaceName = s;
 	}
 	void setSubRaceName(std::string s) {
-		this.SubRaceName = s;
+		this->SubRaceName = s;
 	}
 	void setClassName(std::string s) {
-		this.ClassName = s;
+		this->ClassName = s;
 	}
 	void setSubClassName(std::string s) {
-		this.SubClassName = s;
+		this->SubClassName = s;
 	}
 	void setBGName(std::string s) {
-		this.BGName = s;
+		this->BGName = s;
 	}
 	void printCharacter() {
 		std::cout << "Race: " << RaceName << "\nClass: " << ClassName
