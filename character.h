@@ -2177,19 +2177,19 @@ public:
 		if(SubRaceName!="NONE"){
 			std::cout<< "Sub-Race: " << SubRaceName << std::endl;
 		}
-		std::cout<<"Class: " << ClassName<<std::endl;
+		std::cout<<"\nClass: " << ClassName<<std::endl;
 		if(SubClassName!="NONE"){
 			std::cout<< "Subclass: " << SubClassName << std::endl;
 		}
-		std::cout << "Background: " << BGName << "\nGold:" << gold <<
-			"\nSTR:" << stats[0] << " , Bonus: " << mods[0] << "\nDEX:" << stats[1] << " , Bonus: " << mods[1] << "\nCON:" << stats[2]
+		std::cout << "\nBackground: " << BGName << "\n\nGold:" << gold <<
+			"\n\nSTR:" << stats[0] << " , Bonus: " << mods[0] << "\nDEX:" << stats[1] << " , Bonus: " << mods[1] << "\nCON:" << stats[2]
 			<< " , Bonus: " << mods[2] << "\nINT:" << stats[3] << " , Bonus: " << mods[3] << "\nWIS:" << stats[4] << " , Bonus: "
-			<< mods[4] << "\nCHA:" << stats[5] << " , Bonus: " << mods[5] << "\nHit Points: " << HitPoints << std::endl;
+			<< mods[4] << "\nCHA:" << stats[5] << " , Bonus: " << mods[5] << "\n\nHit Points: " << HitPoints << std::endl;
 		
 		
-		std::cout << "Initiative: " << mods[1]<< std::endl;
+		std::cout << "\nInitiative: " << mods[1]<< std::endl;
 		
-		std::cout << "Saving Throws:" << std::endl;
+		std::cout << "\nSaving Throws:" << std::endl;
 		if (strS) {
 			std::cout << "Strength"  << std::endl;
 		}
@@ -2210,7 +2210,7 @@ public:
 		}
 		
 		
-		std::cout << "Skill Proficiencies:" << std::endl;;
+		std::cout << "\nSkill Proficiencies:" << std::endl;;
 		if (acro) {
 			std::cout << "Acrobatics"  << std::endl;
 		}
