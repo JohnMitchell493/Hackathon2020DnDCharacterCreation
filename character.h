@@ -6,6 +6,7 @@
 #include <cstdlib>
 #include <vector>
 #include <algorithm>
+#include <ctime>
 
 class Character {
 private:
@@ -43,6 +44,7 @@ private:
 	bool surv = false;
 public:
 	Character() {
+		srand(time(0));
 		genRace();
 		genBG();
 		genClass();
@@ -50,6 +52,7 @@ public:
 	}
 
 	void genRace() {
+		srand(time(0));
 		int first = rand() % 9;
 		int second;
 		switch (first) {
@@ -253,7 +256,9 @@ public:
 	void genClass() {
 		int ranSkill1;
 		int StdArray[6] = {15, 14, 13, 12, 10, 8};
+		srand(time(0));
 		int choice = (rand()) % 12;
+		srand(time(0));
 		int sub = (rand()) % 2;
 		int sClass;
 		std::vector<int> values;
@@ -261,6 +266,7 @@ public:
 		case 0: // Barbarian
 			BiasArr[0] = 0;
 			BiasArr[1] = 2;
+			srand(time(0));
 			ranSkill1 = (rand()) % 6;
 			while (true) {
 				if (ranSkill1 == 0 && anim == false) {
@@ -287,8 +293,10 @@ public:
 					surv = true;
 					break;
 				}
+				srand(time(0));
 				ranSkill1 = (rand()) % 6;
 			}
+			srand(time(0));
 			ranSkill1 = (rand()) % 6;
 			while (true) {
 				if (ranSkill1 == 0 && anim == false) {
@@ -315,6 +323,7 @@ public:
 					surv = true;
 					break;
 				}
+				srand(time(0));
 				ranSkill1 = (rand()) % 6;
 			}
 			
@@ -337,6 +346,7 @@ public:
 		case 1: // Bard
 			BiasArr[0] = 5;
 			BiasArr[1] = 1;
+			srand(time(0));
 			ranSkill1 = (rand()) % 18;
 			while (true) {
 				if (ranSkill1 == 0 && acro == false) {
@@ -411,8 +421,10 @@ public:
 					surv = true;
 					break;
 				}
+				srand(time(0));
 				ranSkill1 = (rand()) % 18;
 			}
+			srand(time(0));
 			ranSkill1 = (rand()) % 18;
 			while (true) {
 				if (ranSkill1 == 0 && acro == false) {
@@ -487,8 +499,10 @@ public:
 					surv = true;
 					break;
 				}
+				srand(time(0));
 				ranSkill1 = (rand()) % 18;
 			}
+			srand(time(0));
 			ranSkill1 = (rand()) % 18;
 			while (true) {
 				if (ranSkill1 == 0 && acro == false) {
@@ -563,6 +577,7 @@ public:
 					surv = true;
 					break;
 				}
+				srand(time(0));
 				ranSkill1 = (rand()) % 18;
 			}
 			
@@ -625,10 +640,12 @@ public:
 					exit(-1);
 					break;
 				}
+				srand(time(0));
 			sClass = (rand()) % 7;
 			switch (sClass) {
 			case 0:
 				SubClassName = "Knowledge";//prof is doubled
+				srand(time(0));
 					ranSkill1 = (rand()) % 4;
 				while (true) {
 					if (ranSkill1 == 0 && arca == false) {
@@ -647,8 +664,10 @@ public:
 						reli = true;
 						break;
 					}
+					srand(time(0));
 					ranSkill1 = (rand()) % 4;
 				}
+				srand(time(0));
 				ranSkill1 = (rand()) % 4;
 				while (true) {
 					if (ranSkill1 == 0 && arca == false) {
@@ -667,6 +686,7 @@ public:
 						reli = true;
 						break;
 					}
+					srand(time(0));
 					ranSkill1 = (rand()) % 4;
 					break;
 				}
@@ -695,6 +715,7 @@ public:
 						surv = true;
 						break;
 					}
+					srand(time(0));
 					ranSkill1 = (rand()) % 3;
 				}
 				//heavy armor
@@ -733,6 +754,7 @@ public:
 					reli = true;
 					break;
 				}
+				srand(time(0));
 				ranSkill1 = (rand()) % 5;
 			}
 			while (true) {
@@ -756,13 +778,14 @@ public:
 					reli = true;
 					break;
 				}
+				srand(time(0));
 				ranSkill1 = (rand()) % 5;
 			}
 			break;
 		case 3: // Druid
 			BiasArr[0] = 4;
 			BiasArr[1] = 2;
-
+			srand(time(0));
 			ranSkill1 = (rand()) % 8;
 			while (true) {
 				if (ranSkill1 == 0 && anim == false) {
@@ -797,6 +820,7 @@ public:
 					surv = true;
 					break;
 				}
+				srand(time(0));
 				ranSkill1 = (rand()) % 8;
 			}
 			while (true) {
@@ -832,6 +856,7 @@ public:
 					surv = true;
 					break;
 				}
+				srand(time(0));
 				ranSkill1 = (rand()) % 8;
 			}
 			values.push_back(0);
@@ -892,7 +917,7 @@ public:
 			default:
 				exit(-1);
 			}
-
+				srand(time(0));
 				ranSkill1 = (rand()) % 8;
 			while (true) {
 				if (ranSkill1 == 0 && acro == false) {
@@ -927,6 +952,7 @@ public:
 					surv = true;
 					break;
 				}
+				srand(time(0));
 				ranSkill1 = (rand()) % 8;
 			}
 			while (true) {
@@ -962,6 +988,7 @@ public:
 					surv = true;
 					break;
 				}
+				srand(time(0));
 				ranSkill1 = (rand()) % 8;
 			}
 			break;
@@ -983,6 +1010,7 @@ public:
 					stats[i] = StdArray[BiasArr[i]];
 				}
 			}
+			srand(time(0));
 			ranSkill1 = (rand()) % 6;
 			while (true) {
 				if (ranSkill1 == 0 && acro == false) {
@@ -1009,6 +1037,7 @@ public:
 					stea = true;
 					break;
 				}
+				srand(time(0));
 				ranSkill1 = (rand()) % 5;
 			}
 			while (true) {
@@ -1036,6 +1065,7 @@ public:
 					stea = true;
 					break;
 				}
+				srand(time(0));
 				ranSkill1 = (rand()) % 5;
 			}
 			break;
@@ -1058,7 +1088,7 @@ public:
 					stats[i] = StdArray[BiasArr[i]];
 				}
 			}
-
+			srand(time(0));
 			ranSkill1 = (rand()) % 6;
 			while (true) {
 				if (ranSkill1 == 0 && athl == false) {
@@ -1085,6 +1115,7 @@ public:
 					reli = true;
 					break;
 				}
+				srand(time(0));
 				ranSkill1 = (rand()) % 6;
 			}
 			while (true) {
@@ -1112,6 +1143,7 @@ public:
 					reli = true;
 					break;
 				}
+				srand(time(0));
 				ranSkill1 = (rand()) % 6;
 			}
 			break;
@@ -1134,6 +1166,7 @@ public:
 					stats[i] = StdArray[BiasArr[i]];
 				}
 			}
+			srand(time(0));
 			ranSkill1 = (rand()) % 9;
 			while (true) {
 				if (ranSkill1 == 0 && anim == false) {
@@ -1172,6 +1205,7 @@ public:
 					surv = true;
 					break;
 				}
+				srand(time(0));
 				ranSkill1 = (rand()) % 9;
 			}
 			while (true) {
@@ -1211,6 +1245,7 @@ public:
 					surv = true;
 					break;
 				}
+				srand(time(0));
 				ranSkill1 = (rand()) % 9;
 			}
 			while (true) {
@@ -1250,6 +1285,7 @@ public:
 					surv = true;
 					break;
 				}
+				srand(time(0));
 				ranSkill1 = (rand()) % 9;
 			}
 			break;
@@ -1298,7 +1334,7 @@ public:
 					exit(-1);
 					break;
 				}
-				
+				srand(time(0));
 			ranSkill1 = (rand()) % 11;//rogue 4
 			while (true) {
 				if (ranSkill1 == 0 && acro == false) {
@@ -1345,6 +1381,7 @@ public:
 					stea = true;
 					break;
 				}
+				srand(time(0));
 				ranSkill1 = (rand()) % 11;
 			}
 			while (true) {
@@ -1392,6 +1429,7 @@ public:
 					stea = true;
 					break;
 				}
+				srand(time(0));
 				ranSkill1 = (rand()) % 11;
 			}
 			while (true) {
@@ -1439,6 +1477,7 @@ public:
 					stea = true;
 					break;
 				}
+				srand(time(0));
 				ranSkill1 = (rand()) % 11;
 			}
 			while (true) {
@@ -1486,6 +1525,7 @@ public:
 					stea = true;
 					break;
 				}
+				srand(time(0));
 				ranSkill1 = (rand()) % 11;
 			}
 			break;
@@ -1508,6 +1548,7 @@ public:
 					stats[i] = StdArray[BiasArr[i]];
 				}
 			}
+			srand(time(0));
 			sClass = (rand()) % 2;
 			switch (sClass) {
 			case 0:
@@ -1518,6 +1559,7 @@ public:
 					
 				break;
 			}
+			srand(time(0));
 			ranSkill1 = (rand()) % 6;//sorc 2
 			while (true) {
 				if (ranSkill1 == 0 && arca == false) {
@@ -1571,6 +1613,7 @@ public:
 					reli = true;
 					break;
 				}
+				srand(time(0));
 				ranSkill1 = (rand()) % 6;
 			}
 			break;
@@ -1593,6 +1636,7 @@ public:
 					stats[i] = StdArray[BiasArr[i]];
 				}
 			}
+			srand(time(0));
 			sClass = (rand()) % 3;
 			switch (sClass) {
 			case 0:
@@ -1608,7 +1652,7 @@ public:
 					
 				break;
 			}
-			
+			srand(time(0));
 			ranSkill1 = (rand()) % 7;//Warl 2
 			while (true) {
 				if (ranSkill1 == 0 && arca == false) {
@@ -1639,6 +1683,7 @@ public:
 					reli = true;
 					break;
 				}
+				srand(time(0));
 				ranSkill1 = (rand()) % 7;
 			}
 			while (true) {
@@ -1670,6 +1715,7 @@ public:
 					reli = true;
 					break;
 				}
+				srand(time(0));
 				ranSkill1 = (rand()) % 7;
 			}
 			break;
@@ -1717,6 +1763,7 @@ public:
 					exit(-1);
 					break;
 				}
+			srand(time(0));
 			ranSkill1 = (rand()) % 6;//Wizlord 2
 			while (true) {
 				if (ranSkill1 == 0 && arca == false) {
@@ -1743,6 +1790,7 @@ public:
 					reli = true;
 					break;
 				}
+				srand(time(0));
 				ranSkill1 = (rand()) % 6;
 			}	
 			while (true) {
@@ -1770,6 +1818,7 @@ public:
 					reli = true;
 					break;
 				}
+				srand(time(0));
 				ranSkill1 = (rand()) % 6;
 			}
 			break;
@@ -1778,6 +1827,7 @@ public:
 			break;
 		}
 		if (this->RaceName == "Half-Elf") {
+			srand(time(0));
 			ranSkill1 = (rand()) % 18;
 			while (true) {
 				if (ranSkill1 == 0 && acro == false) {
@@ -1852,8 +1902,10 @@ public:
 					surv = true;
 					break;
 				}
+				srand(time(0));
 				ranSkill1 = (rand()) % 18;
 			}
+			srand(time(0));
 			ranSkill1 = (rand()) % 18;
 			while (true) {
 				if (ranSkill1 == 0 && acro == false) {
@@ -1933,6 +1985,7 @@ public:
 		}
 	}
 	void genGold() {
+		srand(time(0));
 		if (this->ClassName == "Barbarian")
 			gold = (((rand()) % 4 + 1) + ((rand()) % 4 + 1)) * 10;
 		if (this->ClassName == "Bard")
