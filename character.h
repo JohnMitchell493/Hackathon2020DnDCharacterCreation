@@ -317,7 +317,7 @@ public:
 			values.push_back(4);
 			values.push_back(5);
 			values.push_back(-1);
-			std::random_shuffle(values.begin, values.end);
+			std::random_shuffle(values.begin(), values.end());
 			for (int i = 0; i < 5; i++) {
 				BiasArr[i + 2] = values[i];
 			}
@@ -565,7 +565,7 @@ public:
 			values.push_back(3);
 			values.push_back(4);
 			values.push_back(-1);
-			std::random_shuffle(values.begin, values.end);
+			std::random_shuffle(values.begin(), values.end());
 			for (int i = 0; i < 5; i++) {
 				BiasArr[i + 2] = values[i];
 			}
@@ -586,7 +586,7 @@ public:
 					values.push_back(3);
 					values.push_back(5);
 					values.push_back(-1);
-					std::random_shuffle(values.begin, values.end);
+					std::random_shuffle(values.begin(), values.end());
 					for (int i = 0; i < 5; i++) {
 						BiasArr[i + 2] = values[i];
 					}
@@ -604,7 +604,7 @@ public:
 					values.push_back(3);
 					values.push_back(5);
 					values.push_back(-1);
-					std::random_shuffle(values.begin, values.end);
+					std::random_shuffle(values.begin(), values.end());
 					for (int i = 0; i < 5; i++) {
 						BiasArr[i + 2] = values[i];
 					}
@@ -833,7 +833,7 @@ public:
 			values.push_back(3);
 			values.push_back(5);
 			values.push_back(-1);
-			std::random_shuffle(values.begin, values.end);
+			std::random_shuffle(values.begin(), values.end());
 			for (int i = 0; i < 5; i++) {
 				BiasArr[i + 2] = values[i];
 			}
@@ -854,7 +854,7 @@ public:
 				values.push_back(4);
 				values.push_back(5);
 				values.push_back(-1);
-				std::random_shuffle(values.begin, values.end);
+				std::random_shuffle(values.begin(), values.end());
 				for (int i = 0; i < 5; i++) {
 					BiasArr[i + 2] = values[i];
 				}
@@ -872,7 +872,7 @@ public:
 				values.push_back(4);
 				values.push_back(5);
 				values.push_back(-1);
-				std::random_shuffle(values.begin, values.end);
+				std::random_shuffle(values.begin(), values.end());
 				for (int i = 0; i < 5; i++) {
 					BiasArr[i + 2] = values[i];
 				}
@@ -967,7 +967,7 @@ public:
 			values.push_back(3);
 			values.push_back(5);
 			values.push_back(-1);
-			std::random_shuffle(values.begin, values.end);
+			std::random_shuffle(values.begin(), values.end());
 			for (int i = 0; i < 5; i++) {
 				BiasArr[i + 2] = values[i];
 			}
@@ -1042,7 +1042,7 @@ public:
 			values.push_back(3);
 			values.push_back(4);
 			values.push_back(-1);
-			std::random_shuffle(values.begin, values.end);
+			std::random_shuffle(values.begin(), values.end());
 			for (int i = 0; i < 5; i++) {
 				BiasArr[i + 2] = values[i];
 			}
@@ -1118,7 +1118,7 @@ public:
 			values.push_back(3);
 			values.push_back(5);
 			values.push_back(-1);
-			std::random_shuffle(values.begin, values.end);
+			std::random_shuffle(values.begin(), values.end());
 			for (int i = 0; i < 5; i++) {
 				BiasArr[i + 2] = values[i];
 			}
@@ -1258,7 +1258,7 @@ public:
 					values.push_back(4);
 					values.push_back(5);
 					values.push_back(-1);
-					std::random_shuffle(values.begin, values.end);
+					std::random_shuffle(values.begin(), values.end());
 					for (int i = 0; i < 5; i++) {
 						BiasArr[i + 2] = values[i];
 					}
@@ -1277,7 +1277,7 @@ public:
 					values.push_back(3);
 					values.push_back(4);
 					values.push_back(-1);
-					std::random_shuffle(values.begin, values.end);
+					std::random_shuffle(values.begin(), values.end());
 					for (int i = 0; i < 5; i++) {
 						BiasArr[i + 2] = values[i];
 					}
@@ -1492,7 +1492,7 @@ public:
 			values.push_back(3);
 			values.push_back(4);
 			values.push_back(-1);
-			std::random_shuffle(values.begin, values.end);
+			std::random_shuffle(values.begin(), values.end());
 			for (int i = 0; i < 5; i++) {
 				BiasArr[i + 2] = values[i];
 			}
@@ -1577,7 +1577,7 @@ public:
 			values.push_back(3);
 			values.push_back(4);
 			values.push_back(-1);
-			std::random_shuffle(values.begin, values.end);
+			std::random_shuffle(values.begin(), values.end());
 			for (int i = 0; i < 5; i++) {
 				BiasArr[i + 2] = values[i];
 			}
@@ -1677,7 +1677,7 @@ public:
 					values.push_back(4);
 					values.push_back(5);
 					values.push_back(-1);
-					std::random_shuffle(values.begin, values.end);
+					std::random_shuffle(values.begin(), values.end());
 					for (int i = 0; i < 5; i++) {
 						BiasArr[i + 2] = values[i];
 					}
@@ -1696,7 +1696,7 @@ public:
 					values.push_back(4);
 					values.push_back(5);
 					values.push_back(-1);
-					std::random_shuffle(values.begin, values.end);
+					std::random_shuffle(values.begin(), values.end());
 					for (int i = 0; i < 5; i++) {
 						BiasArr[i + 2] = values[i];
 					}
