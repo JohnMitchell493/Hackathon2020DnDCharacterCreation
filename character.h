@@ -49,6 +49,7 @@ public:
 		genBG();
 		genClass();
 		genGold();
+		genMod();
 	}
 
 	void genRace() {
@@ -2023,8 +2024,17 @@ public:
 		if (this->ClassName == "Warlock")
 			gold = (((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1)) * 10;
 		if (this->ClassName == "Wizard")
-			gold = (((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1)) * 10;
-		
+			gold = (((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1)) * 10;	
+	}
+	void genMod() {
+		for (int i = 0; i < 6; i++) {
+			if (stats[i] <= 9) {
+				mods[i] = (stats[i]+11)//2;
+			}
+			else {
+				mods[i] = (stats[i]+10)//2;
+			}
+		}
 	}
 	std::string getRaceName() {
 		return this->RaceName;
@@ -2069,7 +2079,9 @@ public:
 			std::cout<< "Subclass: " << SubClassName << std::endl;
 		}
 		std::cout<<"Background: " << BGName << "\nGold:" << gold <<
-			 "\nSTR:" <<stats[0] << "\nDEX:" <<stats[1] << "\nCON:" <<stats[2] << "\nINT:" <<stats[3] << "\nWIS:" <<stats[4] << "\nCHA:" <<stats[5]<< std::endl;
+			 "\nSTR:" <<stats[0] << " , Bonus: " << mods[0] << "\nDEX:" <<stats[1] " , Bonus: " << mods[1] << "\nCON:" <<stats[2] 
+			<< " , Bonus: " << mods[2] << "\nINT:" <<stats[3] << " , Bonus: " << mods[3] << "\nWIS:" <<stats[4] << " , Bonus: " 
+			<< mods[4] << "\nCHA:" <<stats[5]<< " , Bonus: " << mods[5] << std::endl;
 		
 		std::cout << "Skill Proficiencies:" << std::endl;;
 		if (acro) {
