@@ -259,8 +259,8 @@ public:
 			break;
 		case 12:
 			setBGName("Noble");
-			insi = true;
-			reli = true;
+			hist = true;
+			pers = true;
 			break;
 		}
 	}
