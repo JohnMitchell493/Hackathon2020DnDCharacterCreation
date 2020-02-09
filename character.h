@@ -58,6 +58,7 @@ public:
 		genClass();
 		genGold();
 		genMod();
+		genHP();
 	}
 
 	void genRace() {
@@ -2186,7 +2187,9 @@ public:
 			<< mods[4] << "\nCHA:" << stats[5] << " , Bonus: " << mods[5] << "\nHit Points: " << HitPoints << std::endl;
 		
 		
-		std::cout << "Saving Throws:" << std::endl;;
+		std::cout << "Initiative: " << mods[1]<< std::endl;
+		
+		std::cout << "Saving Throws:" << std::endl;
 		if (strS) {
 			std::cout << "Strength"  << std::endl;
 		}
