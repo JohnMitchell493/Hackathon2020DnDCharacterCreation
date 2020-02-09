@@ -2029,10 +2029,10 @@ public:
 	void genMod() {
 		for (int i = 0; i < 6; i++) {
 			if (stats[i] <= 9) {
-				mods[i] = (stats[i]+11)//2;
+				mods[i] = (stats[i]+11)/2;
 			}
 			else {
-				mods[i] = (stats[i]+10)//2;
+				mods[i] = (stats[i]+10)/2;
 			}
 		}
 	}
