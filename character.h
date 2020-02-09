@@ -1933,7 +1933,6 @@ public:
 		}
 	}
 	void genGold() {
-		int gold = 0;
 		if (this->ClassName == "Barbarian")
 			gold = (((rand()) % 4 + 1) + ((rand()) % 4 + 1)) * 10;
 		if (this->ClassName == "Bard")
