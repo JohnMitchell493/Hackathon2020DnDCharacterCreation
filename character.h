@@ -1019,15 +1019,326 @@ public:
 					exit(-1);
 					break;
 				}
+				
+			ranSkill1 = (rand()) % 11;//rogue 4
+			while (true) {
+				if (ranSkill1 == 0 && acro == false) {
+					acro = true;
+					break;
+				}
+				else if (ranSkill1 == 1 && athl == false) {
+					athl = true;
+					break;
+				}
+				else if (ranSkill1 == 2 && dece == false) {
+					dece = true;
+					break;
+				}
+				else if (ranSkill1 == 3 && insi == false) {
+					insi = true;
+					break;
+				}
+				else if (ranSkill1 == 4 && inti == false) {
+					inti = true;
+					break;
+				}
+				else if (ranSkill1 == 5 && inve == false) {
+					inve = true;
+					break;
+				}
+				else if (ranSkill1 == 6 && perc == false) {
+					perc = true;
+					break;
+				}
+				else if (ranSkill1 == 7 && perf == false) {
+					perf = true;
+					break;
+				}
+				else if (ranSkill1 == 8 && pers == false) {
+					pers = true;
+					break;
+				}
+				else if (ranSkill1 == 9 && slei == false) {
+					slei = true;
+					break;
+				}
+				else if (ranSkill1 == 10 && stea == false) {
+					stea = true;
+					break;
+				}
+				ranSkill1 = (rand()) % 11;
+			}
+			while (true) {
+				if (ranSkill1 == 0 && acro == false) {
+					acro = true;
+					break;
+				}
+				else if (ranSkill1 == 1 && athl == false) {
+					athl = true;
+					break;
+				}
+				else if (ranSkill1 == 2 && dece == false) {
+					dece = true;
+					break;
+				}
+				else if (ranSkill1 == 3 && insi == false) {
+					insi = true;
+					break;
+				}
+				else if (ranSkill1 == 4 && inti == false) {
+					inti = true;
+					break;
+				}
+				else if (ranSkill1 == 5 && inve == false) {
+					inve = true;
+					break;
+				}
+				else if (ranSkill1 == 6 && perc == false) {
+					perc = true;
+					break;
+				}
+				else if (ranSkill1 == 7 && perf == false) {
+					perf = true;
+					break;
+				}
+				else if (ranSkill1 == 8 && pers == false) {
+					pers = true;
+					break;
+				}
+				else if (ranSkill1 == 9 && slei == false) {
+					slei = true;
+					break;
+				}
+				else if (ranSkill1 == 10 && stea == false) {
+					stea = true;
+					break;
+				}
+				ranSkill1 = (rand()) % 11;
+			}
+			while (true) {
+				if (ranSkill1 == 0 && acro == false) {
+					acro = true;
+					break;
+				}
+				else if (ranSkill1 == 1 && athl == false) {
+					athl = true;
+					break;
+				}
+				else if (ranSkill1 == 2 && dece == false) {
+					dece = true;
+					break;
+				}
+				else if (ranSkill1 == 3 && insi == false) {
+					insi = true;
+					break;
+				}
+				else if (ranSkill1 == 4 && inti == false) {
+					inti = true;
+					break;
+				}
+				else if (ranSkill1 == 5 && inve == false) {
+					inve = true;
+					break;
+				}
+				else if (ranSkill1 == 6 && perc == false) {
+					perc = true;
+					break;
+				}
+				else if (ranSkill1 == 7 && perf == false) {
+					perf = true;
+					break;
+				}
+				else if (ranSkill1 == 8 && pers == false) {
+					pers = true;
+					break;
+				}
+				else if (ranSkill1 == 9 && slei == false) {
+					slei = true;
+					break;
+				}
+				else if (ranSkill1 == 10 && stea == false) {
+					stea = true;
+					break;
+				}
+				ranSkill1 = (rand()) % 11;
+			}
+			while (true) {
+				if (ranSkill1 == 0 && acro == false) {
+					acro = true;
+					break;
+				}
+				else if (ranSkill1 == 1 && athl == false) {
+					athl = true;
+					break;
+				}
+				else if (ranSkill1 == 2 && dece == false) {
+					dece = true;
+					break;
+				}
+				else if (ranSkill1 == 3 && insi == false) {
+					insi = true;
+					break;
+				}
+				else if (ranSkill1 == 4 && inti == false) {
+					inti = true;
+					break;
+				}
+				else if (ranSkill1 == 5 && inve == false) {
+					inve = true;
+					break;
+				}
+				else if (ranSkill1 == 6 && perc == false) {
+					perc = true;
+					break;
+				}
+				else if (ranSkill1 == 7 && perf == false) {
+					perf = true;
+					break;
+				}
+				else if (ranSkill1 == 8 && pers == false) {
+					pers = true;
+					break;
+				}
+				else if (ranSkill1 == 9 && slei == false) {
+					slei = true;
+					break;
+				}
+				else if (ranSkill1 == 10 && stea == false) {
+					stea = true;
+					break;
+				}
+				ranSkill1 = (rand()) % 11;
+			}
 			break;
 		case 9: // Sorcerer
 			BiasArr[0] = 5;
 			BiasArr[1] = 2;
+			
+			ranSkill1 = (rand()) % 6;//sorc 2
+			while (true) {
+				if (ranSkill1 == 0 && arca == false) {
+					arca = true;
+					break;
+				}
+				else if (ranSkill1 == 1 && dece == false) {
+					dece = true;
+					break;
+				}
+				else if (ranSkill1 == 2 && insi == false) {
+					insi = true;
+					break;
+				}
+				else if (ranSkill1 == 3 && inti == false) {
+					inti = true;
+					break;
+				}
+				else if (ranSkill1 == 4 && pers == false) {
+					pers = true;
+					break;
+				}
+				else if (ranSkill1 == 5 && reli == false) {
+					reli = true;
+					break;
+				}
+				ranSkill1 = (rand()) % 6;
+			}
+			while (true) {
+				if (ranSkill1 == 0 && arca == false) {
+					arca = true;
+					break;
+				}
+				else if (ranSkill1 == 1 && dece == false) {
+					dece = true;
+					break;
+				}
+				else if (ranSkill1 == 2 && insi == false) {
+					insi = true;
+					break;
+				}
+				else if (ranSkill1 == 3 && inti == false) {
+					inti = true;
+					break;
+				}
+				else if (ranSkill1 == 4 && pers == false) {
+					pers = true;
+					break;
+				}
+				else if (ranSkill1 == 5 && reli == false) {
+					reli = true;
+					break;
+				}
+				ranSkill1 = (rand()) % 6;
+			}
 			fillBias(&BiasArr);
 			break;
 		case 10: // Warlock
 			BiasArr[0] = 5;
 			BiasArr[1] = 2;
+			
+			ranSkill1 = (rand()) % 7;//Warl 2
+			while (true) {
+				if (ranSkill1 == 0 && arca == false) {
+					arca = true;
+					break;
+				}
+				else if (ranSkill1 == 1 && dece == false) {
+					dece = true;
+					break;
+				}
+				else if (ranSkill1 == 2 && hist == false) {
+					hist = true;
+					break;
+				}
+				else if (ranSkill1 == 3 && inti == false) {
+					inti = true;
+					break;
+				}
+				else if (ranSkill1 == 4 && inve == false) {
+					inve = true;
+					break;
+				}
+				else if (ranSkill1 == 5 && natu == false) {
+					natu = true;
+					break;
+				}
+				else if (ranSkill1 == 6 && reli == false) {
+					reli = true;
+					break;
+				}
+				ranSkill1 = (rand()) % 7;
+			}
+			while (true) {
+				if (ranSkill1 == 0 && arca == false) {
+					arca = true;
+					break;
+				}
+				else if (ranSkill1 == 1 && dece == false) {
+					dece = true;
+					break;
+				}
+				else if (ranSkill1 == 2 && hist == false) {
+					hist = true;
+					break;
+				}
+				else if (ranSkill1 == 3 && inti == false) {
+					inti = true;
+					break;
+				}
+				else if (ranSkill1 == 4 && inve == false) {
+					inve = true;
+					break;
+				}
+				else if (ranSkill1 == 5 && natu == false) {
+					natu = true;
+					break;
+				}
+				else if (ranSkill1 == 6 && reli == false) {
+					reli = true;
+					break;
+				}
+				ranSkill1 = (rand()) % 7;
+			}
+			
 			fillBias(&BiasArr);
 			break;
 		case 11: // Wizard
@@ -1043,6 +1354,62 @@ public:
 					exit(-1);
 					break;
 				}
+				
+			ranSkill1 = (rand()) % 6;//Wizlord 2
+			while (true) {
+				if (ranSkill1 == 0 && arca == false) {
+					arca = true;
+					break;
+				}
+				else if (ranSkill1 == 1 && hist == false) {
+					hist = true;
+					break;
+				}
+				else if (ranSkill1 == 2 && insi == false) {
+					insi = true;
+					break;
+				}
+				else if (ranSkill1 == 3 && inve == false) {
+					inve = true;
+					break;
+				}
+				else if (ranSkill1 == 4 && medi == false) {
+					medi = true;
+					break;
+				}
+				else if (ranSkill1 == 5 && reli == false) {
+					reli = true;
+					break;
+				}
+				ranSkill1 = (rand()) % 6;
+			}	
+			while (true) {
+				if (ranSkill1 == 0 && arca == false) {
+					arca = true;
+					break;
+				}
+				else if (ranSkill1 == 1 && hist == false) {
+					hist = true;
+					break;
+				}
+				else if (ranSkill1 == 2 && insi == false) {
+					insi = true;
+					break;
+				}
+				else if (ranSkill1 == 3 && inve == false) {
+					inve = true;
+					break;
+				}
+				else if (ranSkill1 == 4 && medi == false) {
+					medi = true;
+					break;
+				}
+				else if (ranSkill1 == 5 && reli == false) {
+					reli = true;
+					break;
+				}
+				ranSkill1 = (rand()) % 6;
+			}
 			fillBias(&BiasArr);
 			break;
 		default:
