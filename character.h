@@ -597,7 +597,8 @@ public:
 			
 			for (int i = 0; i < 6; i++) {
 				if (stats[i] != -1) {
-					stats[BiasArr[i]] += StdArray[i];
+					stats[i] += StdArray[BiasArr[i]];
+				}
 			}
 			break;
 		case 2: // Cleric
@@ -618,7 +619,7 @@ public:
 					
 					for (int i = 0; i < 6; i++) {
 						if (stats[i] != -1) {
-							stats[BiasArr[i]] += StdArray[i];
+							stats[i] += StdArray[BiasArr[i]];
 						}
 					}
 					break;
@@ -636,7 +637,7 @@ public:
 					
 					for (int i = 0; i < 6; i++) {
 						if (stats[i] != -1) {
-							stats[BiasArr[i]] += StdArray[i];
+							stats[i] += StdArray[BiasArr[i]];
 						}
 					}
 					break;
@@ -876,7 +877,7 @@ public:
 			
 			for (int i = 0; i < 6; i++) {
 				if (stats[i] != -1) {
-					stats[BiasArr[i]] += StdArray[i];
+					stats[i] += StdArray[BiasArr[i]];
 				}
 			}
 			break;
@@ -898,7 +899,7 @@ public:
 				
 				for (int i = 0; i < 6; i++) {
 					if (stats[i] != -1) {
-						stats[BiasArr[i]] += StdArray[i];
+						stats[i] += StdArray[BiasArr[i]];
 					}
 				}
 				break;
@@ -916,7 +917,7 @@ public:
 				
 				for (int i = 0; i < 6; i++) {
 					if (stats[i] != -1) {
-						stats[BiasArr[i]] += StdArray[i];
+						stats[i] += StdArray[BiasArr[i]];
 					}
 				}
 				break;
@@ -1014,7 +1015,7 @@ public:
 			
 			for (int i = 0; i < 6; i++) {
 				if (stats[i] != -1) {
-					stats[BiasArr[i]] += StdArray[i];
+					stats[i] += StdArray[BiasArr[i]];
 				}
 			}
 			srand(time(0));
@@ -1093,7 +1094,7 @@ public:
 			
 			for (int i = 0; i < 6; i++) {
 				if (stats[i] != -1) {
-					stats[BiasArr[i]] += StdArray[i];
+					stats[i] += StdArray[BiasArr[i]];
 				}
 			}
 			srand(time(0));
@@ -1172,7 +1173,7 @@ public:
 			
 			for (int i = 0; i < 6; i++) {
 				if (stats[i] != -1) {
-					stats[BiasArr[i]] += StdArray[i];
+					stats[i] += StdArray[BiasArr[i]];
 				}
 			}
 			srand(time(0));
@@ -1317,7 +1318,7 @@ public:
 					
 					for (int i = 0; i < 6; i++) {
 						if (stats[i] != -1) {
-							stats[BiasArr[i]] += StdArray[i];
+							stats[i] += StdArray[BiasArr[i]];
 						}
 					}
 					break;
@@ -1336,7 +1337,7 @@ public:
 					
 					for (int i = 0; i < 6; i++) {
 						if (stats[i] != -1) {
-							stats[BiasArr[i]] += StdArray[i];
+							stats[i] = StdArray[BiasArr[i]];
 						}
 					}
 					break;
@@ -1556,7 +1557,7 @@ public:
 			
 			for (int i = 0; i < 6; i++) {
 				if (stats[i] != -1) {
-					stats[BiasArr[i]] += StdArray[i];
+					stats[i] += StdArray[BiasArr[i]];
 				}
 			}
 			srand(time(0));
@@ -1645,7 +1646,7 @@ public:
 			
 			for (int i = 0; i < 6; i++) {
 				if (stats[i] != -1) {
-					stats[BiasArr[i]] += StdArray[i];
+					stats[i] += StdArray[BiasArr[i]];
 				}
 			}
 			srand(time(0));
@@ -1749,7 +1750,7 @@ public:
 					
 					for (int i = 0; i < 6; i++) {
 						if (stats[i] != -1) {
-							stats[BiasArr[i]] += StdArray[i];
+							stats[i] += StdArray[BiasArr[i]];
 						}
 					}
 					break;
@@ -1768,7 +1769,7 @@ public:
 					
 					for (int i = 0; i < 6; i++) {
 						if (stats[i] != -1) {
-							stats[BiasArr[i]] += StdArray[i];
+							stats[i] = StdArray[BiasArr[i]];
 						}
 					}
 					break;
