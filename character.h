@@ -2128,10 +2128,10 @@ public:
 			HitPoints += 6;
 		}
 		if (ClassName == "Wizard") {
-			HitPoints += 8;
+			HitPoints += 6;
 		}
 		if (ClassName == "Warlock") {
-			HitPoints += 6;
+			HitPoints += 8;
 		}
 		HitPoints += mods[2];
 		if (SubRaceName == "Hill Dwarf") {
