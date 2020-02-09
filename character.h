@@ -205,7 +205,18 @@ public:
 			stea = true;
 			break;
 		case 3:
-			setBGName("Entertainer");
+		
+			second = (rand()) % 2;
+			switch (second) {
+			case 0:
+				setBGName("Entertainer");
+				break;
+			case 1:
+				setBGName("Gladiator");
+				break;
+			}
+		
+			
 			acro = true;
 			perf = true;
 			break;
@@ -243,7 +254,16 @@ public:
 			hist = true;
 			break;
 		case 9:
-			setBGName("Sailor");
+			second = (rand()) % 2;
+			switch (second) {
+			case 0:
+				setBGName("Sailor");
+				break;
+			case 1:
+				setBGName("Pirate");
+				break;
+			}
+			
 			athl = true;
 			perc = true;
 			break;
@@ -258,7 +278,17 @@ public:
 			stea = true;
 			break;
 		case 12:
-			setBGName("Noble");
+			
+			second = (rand()) % 2;
+			switch (second) {
+			case 0:
+				setBGName("Noble");
+				break;
+			case 1:
+				setBGName("Knight");
+				break;
+			}
+			
 			hist = true;
 			pers = true;
 			break;
