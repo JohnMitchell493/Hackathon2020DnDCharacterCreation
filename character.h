@@ -2062,9 +2062,64 @@ public:
 	}
 	void printCharacter() {
 		std::cout << "Race: " << RaceName << "\nSub-Race: " << SubRaceName << "\nClass: " << ClassName
-			<< "\nSubclass: " << SubClassName << "\nBackground: " << BGName
-			<< "\nSTR:" <<stats[0] << "\nDEX:" <<stats[1] << "\nCON:" <<stats[2] << "\nINT:" <<stats[3] << "\nWIS:" <<stats[4] << "\nCHA:" <<stats[5]<< 
-			 "\n15:" <<BiasArr[0] << "\n14:" <<BiasArr[1] << "\n13:" <<BiasArr[2] << "\n12:" <<BiasArr[3] << "\n10:" <<BiasArr[4] << "\n8:" <<BiasArr[5]<< std::endl;
+			<< "\nSubclass: " << SubClassName << "\nBackground: " << BGName << "\nGold:" << gold <<
+			<< "\nSTR:" <<stats[0] << "\nDEX:" <<stats[1] << "\nCON:" <<stats[2] << "\nINT:" <<stats[3] << "\nWIS:" <<stats[4] << "\nCHA:" <<stats[5]<< std::endl;
+		
+		std::cout << "Skill Proficiencies:" << std::endl;;
+		if (acro) {
+			std::cout << "Acrobatics"  << std::endl;
+		}
+		if (anim) {
+			std::cout << "Animal Handling"  << std::endl;
+		}
+		if (arca) {
+			std::cout << "Arcana"  << std::endl;
+		}
+		if (athl) {
+					
+		}
+		if (dece) {
+					
+		}
+		if (hist) {
+					
+		}
+		if (insi) {
+					
+		}
+		if (inti) {
+					
+		}
+		if (inve) {
+					
+		}
+		if (medi) {
+					
+		}
+		if (natu) {
+					
+		}
+		if (perc) {
+					
+		}
+		if (perf) {
+					
+		}
+		if (pers) {
+					
+		}
+		if (reli) {
+					
+		}
+		if (slei) {
+					
+		}
+		if (stea) {
+					
+		}
+		if (surv) {
+					
+		}
 	}
 };
 
