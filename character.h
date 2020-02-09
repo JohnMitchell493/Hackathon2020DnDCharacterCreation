@@ -55,6 +55,8 @@ public:
 		srand(time(0));
 		int first = rand() % 9;
 		int second;
+		int choose1;
+		int choose2;
 		switch (first) {
 		case 0:
 			setRaceName("Dragonborn");
@@ -115,9 +117,9 @@ public:
 		case 4:
 			setRaceName("Half-Elf");
 			stats[5] += 2;
-			int choose1 = (rand()) % 5;
+			choose1 = (rand()) % 5;
 			stats[choose1] += 1;
-			int choose2 = (rand()) % 5;
+			choose2 = (rand()) % 5;
 			if (choose2 == choose1) {
 				choose2 = (choose2 + 1) % 5;
 			}
