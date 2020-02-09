@@ -42,6 +42,13 @@ private:
 	bool slei = false;
 	bool stea = false;
 	bool surv = false;
+	
+	bool strS=false;
+	bool dexS=false;
+	bool conS=false;
+	bool intS=false;
+	bool wisS=false;
+	bool chaS=false;
 public:
 	Character() {
 		srand(time(0));
@@ -270,6 +277,13 @@ public:
 			ClassName="Barbarian";
 			BiasArr[0] = 0;
 			BiasArr[1] = 2;
+			
+			
+			strS=true;
+			
+			conS=true;
+			
+			
 			srand(time(0));
 			ranSkill1 = (rand()) % 6;
 			while (true) {
@@ -351,6 +365,12 @@ public:
 			ClassName="Bard";
 			BiasArr[0] = 5;
 			BiasArr[1] = 1;
+			
+			
+			dexS=true;
+			
+			chaS=true;
+			
 			srand(time(0));
 			ranSkill1 = (rand()) % 18;
 			while (true) {
@@ -604,6 +624,10 @@ public:
 			break;
 		case 2: // Cleric
 			ClassName="Cleric";
+			
+			wisS=true;
+			chaS=true;
+			
 			BiasArr[0] = 4;
 				switch (sub) {
 				case 0:
@@ -792,6 +816,10 @@ public:
 			ClassName="Druid";
 			BiasArr[0] = 4;
 			BiasArr[1] = 2;
+			
+			intS=true;
+			wisS=true;
+			
 			srand(time(0));
 			ranSkill1 = (rand()) % 8;
 			while (true) {
@@ -884,6 +912,12 @@ public:
 			break;
 		case 4: // Fighter
 			ClassName="Fighter";
+			
+			strS=true;
+			
+			conS=true;
+			
+			
 			BiasArr[1] = 2;
 			switch (sub) {
 			case 0:
@@ -1004,6 +1038,10 @@ public:
 			ClassName="Monk";
 			BiasArr[0] = 1;
 			BiasArr[1] = 4;
+			
+			strS=true;
+			dexS=true;
+			
 			values.push_back(0);
 			values.push_back(2);
 			values.push_back(3);
@@ -1083,6 +1121,9 @@ public:
 			BiasArr[0] = 0;
 			BiasArr[1] = 5;
 			
+			wisS=true;
+			chaS=true;
+			
 			values.push_back(1);
 			values.push_back(2);
 			values.push_back(3);
@@ -1161,6 +1202,9 @@ public:
 			ClassName="Ranger";
 			BiasArr[0] = 1;
 			BiasArr[1] = 4;
+			
+			strS=true;
+			dexS=true;
 			
 			values.push_back(0);
 			values.push_back(2);
@@ -1302,6 +1346,10 @@ public:
 			break;
 		case 8: // Rogue
 			ClassName="Rogue";
+			
+			dexS=true;
+			intS=true;
+			
 			BiasArr[0] = 1;
 				switch (sub) {
 				case 0:
@@ -1545,6 +1593,9 @@ public:
 			ClassName="Sorcerer";
 			BiasArr[0] = 5;
 			BiasArr[1] = 2;
+
+			conS=true;
+			chaS=true;
 			
 			values.push_back(0);
 			values.push_back(1);
@@ -1634,6 +1685,9 @@ public:
 			ClassName="Warlock";
 			BiasArr[0] = 5;
 			BiasArr[1] = 2;
+			
+			wisS=true;
+			chaS=true;
 			
 			values.push_back(0);
 			values.push_back(1);
@@ -1735,6 +1789,10 @@ public:
 			break;
 		case 11: // Wizard
 			ClassName="Wizard";
+			
+			intS=true;
+			wisS=true;
+			
 			BiasArr[0] = 3;
 				switch (sub) {
 				case 0:
@@ -2082,6 +2140,28 @@ public:
 			 "\nSTR:" <<stats[0] << " , Bonus: " << mods[0] << "\nDEX:" <<stats[1] << " , Bonus: " << mods[1] << "\nCON:" <<stats[2] 
 			<< " , Bonus: " << mods[2] << "\nINT:" <<stats[3] << " , Bonus: " << mods[3] << "\nWIS:" <<stats[4] << " , Bonus: " 
 			<< mods[4] << "\nCHA:" <<stats[5]<< " , Bonus: " << mods[5] << std::endl;
+		
+		
+		std::cout << "Saving Throws:" << std::endl;;
+		if (strS) {
+			std::cout << "Strength"  << std::endl;
+		}
+		if (dexS) {
+			std::cout << "Dexterity"  << std::endl;
+		}
+		if (conS) {
+			std::cout << "Constitution"  << std::endl;
+		}
+		if (intS) {
+			std::cout << "Intelligence"  << std::endl;
+		}
+		if (wisS) {
+			std::cout << "Wisdom"  << std::endl;
+		}
+		if (chaS) {
+			std::cout << "Charisma"  << std::endl;
+		}
+		
 		
 		std::cout << "Skill Proficiencies:" << std::endl;;
 		if (acro) {
