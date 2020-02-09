@@ -214,7 +214,22 @@ public:
 				}
 				ranSkill1 = (rand()) % 6;
 			}
-			fillBias(&BiasArr);
+			std::vector<int> values;
+			values.push_back(1);
+			values.push_back(3);
+			value.push_back(4);
+			value.push_back(5);
+			value.push_back(-1);
+			value.random_shuffle(value.begin, value.end);
+			for (int i = 0; i < 5; i++) {
+				BiasArr[i + 2] = value[i];
+			}
+			int StdArray[6] = [15, 14, 13, 12, 10, 8];
+			for (int i = 0; i < 6; i++) {
+				if (stats[i] != -1) {
+					stats[i] = StdArray[BiasArr[i]];
+				}
+			}
 			break;
 		case 1: // Bard
 			BiasArr[0] = 5;
@@ -447,16 +462,63 @@ public:
 				}
 				ranSkill1 = (rand()) % 18;
 			}
-			fillBias(&BiasArr);
+			std::vector<int> values;
+			values.push_back(0);
+			values.push_back(2);
+			value.push_back(3);
+			value.push_back(4);
+			value.push_back(-1);
+			value.random_shuffle(value.begin, value.end);
+			for (int i = 0; i < 5; i++) {
+				BiasArr[i + 2] = value[i];
+			}
+			int StdArray[6] = [15, 14, 13, 12, 10, 8];
+			for (int i = 0; i < 6; i++) {
+				if (stats[i] != -1) {
+					stats[i] = StdArray[BiasArr[i]];
+				}
+			}
 			break;
 		case 2: // Cleric
 			BiasArr[0] = 4
 				switch (sub) {
 				case 0:
 					BiasArr[1] = 0;
+					std::vector<int> values;
+					values.push_back(1);
+					values.push_back(2);
+					value.push_back(3);
+					value.push_back(5);
+					value.push_back(-1);
+					value.random_shuffle(value.begin, value.end);
+					for (int i = 0; i < 5; i++) {
+						BiasArr[i + 2] = value[i];
+					}
+					int StdArray[6] = [15, 14, 13, 12, 10, 8];
+					for (int i = 0; i < 6; i++) {
+						if (stats[i] != -1) {
+							stats[i] = StdArray[BiasArr[i]];
+						}
+					}
 					break;
 				case 1:
 					BiasArr[1] = 2;
+					std::vector<int> values;
+					values.push_back(0);
+					values.push_back(1);
+					value.push_back(3);
+					value.push_back(5);
+					value.push_back(-1);
+					value.random_shuffle(value.begin, value.end);
+					for (int i = 0; i < 5; i++) {
+						BiasArr[i + 2] = value[i];
+					}
+					int StdArray[6] = [15, 14, 13, 12, 10, 8];
+					for (int i = 0; i < 6; i++) {
+						if (stats[i] != -1) {
+							stats[i] = StdArray[BiasArr[i]];
+						}
+					}
 					break;
 				default:
 					exit(-1);
@@ -595,7 +657,6 @@ public:
 				}
 				ranSkill1 = (rand()) % 5;
 			}
-			fillBias(&BiasArr);
 			break;
 		case 3: // Druid
 			BiasArr[0] = 4;
@@ -672,21 +733,67 @@ public:
 				}
 				ranSkill1 = (rand()) % 8;
 			}
-
-			fillBias(&BiasArr);
+			std::vector<int> values;
+			values.push_back(0);
+			values.push_back(1);
+			value.push_back(3);
+			value.push_back(5);
+			value.push_back(-1);
+			value.random_shuffle(value.begin, value.end);
+			for (int i = 0; i < 5; i++) {
+				BiasArr[i + 2] = value[i];
+			}
+			int StdArray[6] = [15, 14, 13, 12, 10, 8];
+			for (int i = 0; i < 6; i++) {
+				if (stats[i] != -1) {
+					stats[i] = StdArray[BiasArr[i]];
+				}
+			}
 			break;
 		case 4: // Fighter
+			BiasArr[1] = 2
 			switch (sub) {
 			case 0:
 				BiasArr[0] = 0;
+				std::vector<int> values;
+				values.push_back(1);
+				values.push_back(3);
+				value.push_back(4);
+				value.push_back(5);
+				value.push_back(-1);
+				value.random_shuffle(value.begin, value.end);
+				for (int i = 0; i < 5; i++) {
+					BiasArr[i + 2] = value[i];
+				}
+				int StdArray[6] = [15, 14, 13, 12, 10, 8];
+				for (int i = 0; i < 6; i++) {
+					if (stats[i] != -1) {
+						stats[i] = StdArray[BiasArr[i]];
+					}
+				}
 				break;
 			case 1:
 				BiasArr[0] = 1;
+				std::vector<int> values;
+				values.push_back(2);
+				values.push_back(3);
+				value.push_back(4);
+				value.push_back(5);
+				value.push_back(-1);
+				value.random_shuffle(value.begin, value.end);
+				for (int i = 0; i < 5; i++) {
+					BiasArr[i + 2] = value[i];
+				}
+				int StdArray[6] = [15, 14, 13, 12, 10, 8];
+				for (int i = 0; i < 6; i++) {
+					if (stats[i] != -1) {
+						stats[i] = StdArray[BiasArr[i]];
+					}
+				}
 				break;
 			default:
 				exit(-1);
 			}
-			BiasArr[1] = 2
 
 				ranSkill1 = (rand()) % 8;
 			while (true) {
@@ -759,11 +866,26 @@ public:
 				}
 				ranSkill1 = (rand()) % 8;
 			}
-			fillBias(&BiasArr);
 			break;
 		case 5: // Monk
 			BiasArr[0] = 1;
 			BiasArr[1] = 4;
+			std::vector<int> values;
+			values.push_back(0);
+			values.push_back(2);
+			value.push_back(3);
+			value.push_back(5);
+			value.push_back(-1);
+			value.random_shuffle(value.begin, value.end);
+			for (int i = 0; i < 5; i++) {
+				BiasArr[i + 2] = value[i];
+			}
+			int StdArray[6] = [15, 14, 13, 12, 10, 8];
+			for (int i = 0; i < 6; i++) {
+				if (stats[i] != -1) {
+					stats[i] = StdArray[BiasArr[i]];
+				}
+			}
 			ranSkill1 = (rand()) % 6;
 			while (true) {
 				if (ranSkill1 == 0 && acro == false) {
@@ -819,12 +941,26 @@ public:
 				}
 				ranSkill1 = (rand()) % 5;
 			}
-			fillBias(&BiasArr);
 			break;
 		case 6: // Paladin
 			BiasArr[0] = 0;
 			BiasArr[1] = 5;
-			fillBias(&BiasArr);
+			std::vector<int> values;
+			values.push_back(1);
+			values.push_back(2);
+			value.push_back(3);
+			value.push_back(4);
+			value.push_back(-1);
+			value.random_shuffle(value.begin, value.end);
+			for (int i = 0; i < 5; i++) {
+				BiasArr[i + 2] = value[i];
+			}
+			int StdArray[6] = [15, 14, 13, 12, 10, 8];
+			for (int i = 0; i < 6; i++) {
+				if (stats[i] != -1) {
+					stats[i] = StdArray[BiasArr[i]];
+				}
+			}
 
 			ranSkill1 = (rand()) % 6;
 			while (true) {
@@ -885,7 +1021,22 @@ public:
 		case 7: // Ranger
 			BiasArr[0] = 1;
 			BiasArr[1] = 4;
-
+			std::vector<int> values;
+			values.push_back(0);
+			values.push_back(2);
+			value.push_back(3);
+			value.push_back(5);
+			value.push_back(-1);
+			value.random_shuffle(value.begin, value.end);
+			for (int i = 0; i < 5; i++) {
+				BiasArr[i + 2] = value[i];
+			}
+			int StdArray[6] = [15, 14, 13, 12, 10, 8];
+			for (int i = 0; i < 6; i++) {
+				if (stats[i] != -1) {
+					stats[i] = StdArray[BiasArr[i]];
+				}
+			}
 			ranSkill1 = (rand()) % 9;
 			while (true) {
 				if (ranSkill1 == 0 && anim == false) {
@@ -1004,17 +1155,47 @@ public:
 				}
 				ranSkill1 = (rand()) % 9;
 			}
-
-			fillBias(&BiasArr);
 			break;
 		case 8: // Rogue
 			BiasArr[0] = 1
 				switch (sub) {
 				case 0:
 					BiasArr[1] = 3;
+					std::vector<int> values;
+					values.push_back(0);
+					values.push_back(2);
+					value.push_back(4);
+					value.push_back(5);
+					value.push_back(-1);
+					value.random_shuffle(value.begin, value.end);
+					for (int i = 0; i < 5; i++) {
+						BiasArr[i + 2] = value[i];
+					}
+					int StdArray[6] = [15, 14, 13, 12, 10, 8];
+					for (int i = 0; i < 6; i++) {
+						if (stats[i] != -1) {
+							stats[i] = StdArray[BiasArr[i]];
+						}
+					}
 					break;
 				case 1:
 					BiasArr[1] = 5;
+					std::vector<int> values;
+					values.push_back(0);
+					values.push_back(2);
+					value.push_back(3);
+					value.push_back(4);
+					value.push_back(-1);
+					value.random_shuffle(value.begin, value.end);
+					for (int i = 0; i < 5; i++) {
+						BiasArr[i + 2] = value[i];
+					}
+					int StdArray[6] = [15, 14, 13, 12, 10, 8];
+					for (int i = 0; i < 6; i++) {
+						if (stats[i] != -1) {
+							stats[i] = StdArray[BiasArr[i]];
+						}
+					}
 					break;
 				default:
 					exit(-1);
@@ -1214,6 +1395,22 @@ public:
 		case 9: // Sorcerer
 			BiasArr[0] = 5;
 			BiasArr[1] = 2;
+			std::vector<int> values;
+			values.push_back(0);
+			values.push_back(1);
+			value.push_back(3);
+			value.push_back(4);
+			value.push_back(-1);
+			value.random_shuffle(value.begin, value.end);
+			for (int i = 0; i < 5; i++) {
+				BiasArr[i + 2] = value[i];
+			}
+			int StdArray[6] = [15, 14, 13, 12, 10, 8];
+			for (int i = 0; i < 6; i++) {
+				if (stats[i] != -1) {
+					stats[i] = StdArray[BiasArr[i]];
+				}
+			}
 			sClass = (rand()) % 2;
 			switch (sClass) {
 			case 0:
@@ -1279,12 +1476,26 @@ public:
 				}
 				ranSkill1 = (rand()) % 6;
 			}
-			fillBias(&BiasArr);
 			break;
 		case 10: // Warlock
 			BiasArr[0] = 5;
 			BiasArr[1] = 2;
-			
+			std::vector<int> values;
+			values.push_back(0);
+			values.push_back(1);
+			value.push_back(3);
+			value.push_back(4);
+			value.push_back(-1);
+			value.random_shuffle(value.begin, value.end);
+			for (int i = 0; i < 5; i++) {
+				BiasArr[i + 2] = value[i];
+			}
+			int StdArray[6] = [15, 14, 13, 12, 10, 8];
+			for (int i = 0; i < 6; i++) {
+				if (stats[i] != -1) {
+					stats[i] = StdArray[BiasArr[i]];
+				}
+			}
 			sClass = (rand()) % 3;
 			switch (sClass) {
 			case 0:
@@ -1364,17 +1575,47 @@ public:
 				}
 				ranSkill1 = (rand()) % 7;
 			}
-			
-			fillBias(&BiasArr);
 			break;
 		case 11: // Wizard
 			BiasArr[0] = 3
 				switch (sub) {
 				case 0:
 					BiasArr[1] = 1;
+					std::vector<int> values;
+					values.push_back(0);
+					values.push_back(2);
+					value.push_back(4);
+					value.push_back(5);
+					value.push_back(-1);
+					value.random_shuffle(value.begin, value.end);
+					for (int i = 0; i < 5; i++) {
+						BiasArr[i + 2] = value[i];
+					}
+					int StdArray[6] = [15, 14, 13, 12, 10, 8];
+					for (int i = 0; i < 6; i++) {
+						if (stats[i] != -1) {
+							stats[i] = StdArray[BiasArr[i]];
+						}
+					}
 					break;
 				case 1:
 					BiasArr[1] = 2;
+					std::vector<int> values;
+					values.push_back(0);
+					values.push_back(1);
+					value.push_back(4);
+					value.push_back(5);
+					value.push_back(-1);
+					value.random_shuffle(value.begin, value.end);
+					for (int i = 0; i < 5; i++) {
+						BiasArr[i + 2] = value[i];
+					}
+					int StdArray[6] = [15, 14, 13, 12, 10, 8];
+					for (int i = 0; i < 6; i++) {
+						if (stats[i] != -1) {
+							stats[i] = StdArray[BiasArr[i]];
+						}
+					}
 					break;
 				default:
 					exit(-1);
@@ -1438,7 +1679,6 @@ public:
 				}
 				ranSkill1 = (rand()) % 6;
 			}
-			fillBias(&BiasArr);
 			break;
 		default:
 			exit(-1);
