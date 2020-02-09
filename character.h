@@ -1254,7 +1254,7 @@ public:
 			}
 			break;
 		case 8: // Rogue
-			BiasArr[0] = 1
+			BiasArr[0] = 1;
 				switch (sub) {
 				case 0:
 					BiasArr[1] = 3;
