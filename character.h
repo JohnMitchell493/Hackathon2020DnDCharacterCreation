@@ -1050,31 +1050,31 @@ public:
 			break;
 		}
 	}
-	void genGold(Class) {
+	void genGold() {
 		int gold = 0;
-		if (Class.compare("Barbarian") == 0)
+		if (this.ClassName == "Barbarian")
 			gold = (((rand()) % 4 + 1) + ((rand()) % 4 + 1)) * 10;
-		if (Class.compare("Bard") == 0)
+		if (this.ClassName == "Bard")
 			gold = (((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1)) * 10;
-		if (Class.compare("Cleric") == 0)
+		if (this.ClassName == "Cleric")
 			gold = (((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1)) * 10;
-		if (Class.compare("Druid") == 0)
+		if (this.ClassName == "Druid")
 			gold = (((rand()) % 4 + 1) + ((rand()) % 4 + 1)) * 10;
-		if (Class.compare("Fighter") == 0)
+		if (this.ClassName == "Fighter")
 			gold = (((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1)) * 10;
-		if (Class.compare("Monk") == 0)
+		if (this.ClassName == "Monk")
 			gold = ((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4) + 1;
-		if (Class.compare("Paladin") == 0)
+		if (this.ClassName == "Paladin")
 			gold = (((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1)) * 10;
-		if (Class.compare("Ranger) == 0)
+		if (this.ClassName == "Ranger")
 			gold = (((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1)) * 10;
-		if (Class.compare("Rogue") == 0)
+		if (this.ClassName == "Rogue")
 			gold = (((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1)) * 10;
-		if (Class.compare("Sorcerer") == 0)
+		if (this.ClassName == "Sorcerer")
 			gold = (((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1)) * 10;
-		if (Class.compare("Warlock") == 0)
+		if (this.ClassName == "Warlock")
 			gold = (((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1)) * 10;
-		if (Class.compare("Wizard") == 0)
+		if (this.ClassName == "Wizard")
 			gold = (((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1)) * 10;
 		else
 			gold = 0;
