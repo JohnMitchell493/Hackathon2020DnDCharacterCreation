@@ -1,0 +1,829 @@
+Acolyte
+	Special: None
+	
+	Traits
+	1	They idolize a particular hero of their faith, and constantly
+		refer to that person’s deeds and example.
+	2	They can find common ground between the fiercest
+		enemies, emphathizing with them and always working
+		towards peace.
+	3	They see omens in every event and action. The gods try to
+		speak to us, we just need to listen.
+	4	Nothing can shake their optimistic attitude.
+	5 	They quote (or misquote) sacred texts and proverbs in
+		almost every situation.
+	6 	They are tolerant (or intolerant) of other faiths and respect
+		(or condemn) the worship of other gods.
+	7 	They've enjoyed fine food, drink, and high society among
+		their  temple’s elite. Rough living grates on me.
+	8 	They’ve spent so long in the temple that they have little	
+		practical experience dealing with people in the outside
+		world.
+		
+	Ideals
+	1 	Tradition. The ancient traditions of worship and
+		sacrifice must be preserved and upheld. 
+	2 	Charity. They always try to help those in need, no matter
+		what the personal cost. 
+	3 	Change. We must help bring about the changes the
+		gods are constantly working in the world. 
+	4 	Power. They hope to one day rise to the top of their faith’s
+		religious hierarchy. 
+	5 	Faith. They trust that their deity will guide their actions, they have
+		faith that if they work hard, things will go well. 
+	6 	Aspiration. They seek to prove themself worthy of their god’s
+		favor by matching their actions against his or her
+		teachings. 
+		
+	Bonds
+	1 	They would die to recover an ancient relic of their faith that
+		was lost long ago.
+	2	They will someday get revenge on the corrupt temple
+		hierarchy who branded them a heretic.
+	3 	They owe their life to the priest who took them in when their 
+		parents died.
+	4 	Everything they do is for the common people.
+	5	They will do anything to protect the temple where they served.
+	6 	They seek to preserve a sacred text that their enemies
+		consider heretical and seek to destroy.
+		
+	Flaws
+	1	They judge others harshly, and themselves even more severely.
+	2	They put too much trust in those who wield power within
+		their temple’s hierarchy.
+	3	Their piety sometimes leads them to blindly trust those
+		that profess faith in their god.
+	4	They are inflexible in their thinking.
+	5	They are suspicious of strangers and expect the worst of
+		them.
+	6	Once they pick a goal, they become obsessed with it to the
+		detriment of everything else in their life.
+
+Charlatan
+	Special: Scam
+	1 	They cheat at games of chance.
+	2 	They shave coins or forge documents.
+	3 	They insinuate themself into people’s lives to prey on their
+		weakness and secure their fortunes.
+	4 	They put on new identities like clothes.
+	5 	They run sleight-of-hand cons on street corners.
+	6 	They convince people that worthless junk is worth their
+		hard-earned money.
+		
+	Trait
+	1 	They fall in and out of love easily, and are always pursuing
+		someone.
+	2 	They have a joke for every occasion, especially occasions
+		where humor is inappropriate.
+	3 	Flattery is their preferred trick for getting what they want.
+	4 	They're a born gambler who can't resist taking a risk for a
+		potential payoff.
+	5 	They lie about almost everything, even when there’s no
+		good reason to.
+	6 	Sarcasm and insults are their weapons of choice.
+	7 	They keep multiple holy symbols on them and invoke
+		whatever deity might come in useful at any given
+		moment.
+	8 	They pocket anything they see that might have some value.
+	
+	Ideals
+	1 	Independence. They are a free spirit, no one tells them what
+		to do. 
+	2 	Fairness. They never target people who can’t afford to lose
+		a few coins. 
+	3 	Charity. They distribute the money they acquire to the people
+		who really need it.
+	4 	Creativity. They never run the same con twice.
+	5 	Friendship. Material goods come and go. Bonds of
+		friendship last forever.
+	6 	Aspiration. They're determined to make something
+		of themselves.
+		
+	Bonds
+	1 	They fleeced the wrong person and must work to ensure
+		that this individual never crosses paths with them or
+		those they care about.
+	2 	They owe everything to their  mentor, a horrible person
+		who’s probably rotting in jail somewhere.
+	3 	Somewhere out there, they have a child who doesn’t
+		know them. They're making the world better for him or her.
+	4 	They come from a noble family, and one day they’ll reclaim their 
+		lands and title from those who stole it from them.
+	5 	A powerful person killed someone they love. Someday
+		soon, they’ll have their  revenge.
+	6 	They swindled and ruined a person who didn’t deserve it. They
+		seek to atone for their misdeeds but might never be able
+		to forgive themselves.
+		
+	Flaws
+	1 	They can’t resist a pretty face.
+	2 	They're always in debt. They spend their ill-gotten gains on
+		decadent luxuries faster than they bring them in..
+	3 	They're convinced that no one could ever fool them the way
+		they fool others.
+	4 	They're too greedy for their own good. They can’t resist taking a
+		risk if there’s money involved.
+	5 	They can’t resist swindling people who are more powerful
+		than them.
+	6 	They hate to admit it and will hate themself for it, but they'll run
+		and preserve their own hide if the going gets tough.
+		
+Criminal
+	Special: Specialty
+	1 Blackmailer
+	2 Burglar
+	3 Enforcer
+	4 Fence
+	5 Highway Robber
+	6 Hired Killer
+	7 Pickpocket
+	8 Smuggler
+	
+	Traits
+	1	They always have a plan for what to do when things go
+		wrong.
+	2	They are always calm, no matter what the situation. They never
+		raise their voice or let their emotions control them.
+	3	The first thing they do in a new place is note the locations
+		of everything valuable, or where such things could be hidden.
+	4 	They would rather make a new friend than a new enemy.
+	5	They are incredibly slow to trust. Those who seem the fairest
+		often have the most to hide.
+	6	They don't pay attention to the risks in a situation.
+		Never tell them the odds.
+	7	The best way to get them to do something is to tell	
+		them they can't do it.
+	8 	They blow up at the slightest insult.
+
+	Ideals
+	1 	Honor. They don’t steal from others in the trade.
+	2 	Freedom. Chains are meant to be broken, as are those
+		who would forge them.
+	3 	Charity. They steal from the wealthy so that they can help
+		people in need.
+	4 	Greed. They will do whatever it takes to become
+		wealthy.
+	5 	People. They're loyal to their friends, not to any ideals, and
+		everyone else can take a trip down the Styx for all I
+		care.
+	6 	Redemption. There’s a spark of good in everyone.
+	
+	Bond
+	1 	They're trying to pay off an old debt they owe to a generous
+		benefactor.
+	2 	Their ill-gotten gains go to support their family.
+	3 	Something important was taken from them, and they aim to
+		steal it back.
+	4 	They will become the greatest thief that ever lived.
+	5 	They're guilty of a terrible crime. They hope they can redeem
+		themself for it.
+	6 	Someone they loved died because of a mistake they made.
+		That will never happen again.
+		
+	Flaw
+	1 	When they see something valuable, they can’t think about
+		anything but how to steal it.
+	2 	When faced with a choice between money and their
+		friends, they usually choose the money.
+	3 	If there’s a plan, they’ll forget it. If they don’t forget it, they’ll
+		ignore it.
+	4 	They have a “tell” that reveals when they're lying.
+	5 	They turn tail and run when things look bad.
+	6 	An innocent person is in prison for a crime that they
+		committed. They're okay with that.
+		
+Entertainer
+	Special: Entertainer Routine
+	1 	Actor 
+	2 	Dancer 
+	3 	Fire-eater 
+	4 	Jester 
+	5 	Juggler 
+	6 	Instrumentalist
+	7 	Poet
+	8 	Singer
+	9 	Storyteller
+	10 	Tumbler
+	
+	Trait
+	1 	They know a story relevant to almost every situation.
+	2 	Whenever they come to a new place, they collect local rumors
+		and spread gossip.
+	3 	They're a hopeless romantic, always searching for that
+		“special someone.”
+	4 	Nobody stays angry at them or around them for long, since
+		they can defuse any amount of tension.
+	5 	They love a good insult, even one directed at them.
+	6 	They get bitter if they're not the center of attention.
+	7 	They’ll settle for nothing less than perfection.
+	8 	They change their mood or their mind as quickly as they change
+		key in a song.
+		
+	Ideals
+	1 	Beauty. When they perform, they make the world better than
+		it was. 
+	2 	Tradition. The stories, legends, and songs of the past
+		must never be forgotten, for they teach us who we
+		are.
+	3 	Creativity. The world is in need of new ideas and bold
+		action.
+	4 	Greed. They're only in it for the money and fame.
+	5 	People. They like seeing the smiles on people’s faces when
+		they perform. That’s all that matters.
+	6 	Honesty. Art should reflect the soul; it should come
+		from within and reveal who we really are.
+	
+	Bond
+	1 	Their instrument is their most treasured possession, and it
+		reminds them of someone they love.
+	2 	Someone stole their precious instrument, and someday
+		they’ll get it back.
+	3 	They want to be famous, whatever it takes.
+	4 	They idolize a hero of the old tales and measure their deeds
+		against that person’s.
+	5	They will do anything to prove themselves superior to their hated
+		rival.
+	6 	They would do anything for the other members of their
+		old troupe.
+
+	Flaw
+	1 	They’ll do anything to win fame and renown.
+	2 	They're a sucker for a pretty face.
+	3 	A scandal prevents them from ever going home again.
+		That kind of trouble seems to follow them around.
+	4 	They once satirized a noble who still wants their head. It was
+		a mistake that they will likely repeat.
+	5 	They have trouble keeping their true feelings hidden. Their
+		sharp tongue lands them in trouble.
+	6 	Despite their best efforts, they are unreliable to their friends.
+	
+Folk Hero
+	Special: Defining Event
+	1 	They stood up to a tyrant’s agents.
+	2 	They saved people during a natural disaster.
+	3 	They stood alone against a terrible monster.
+	4 	They stole from a corrupt merchant to help the poor.
+	5 	They led a militia to fight off an invading army.
+	6 	They broke into a tyrant’s castle and stole weapons to arm
+		the people.
+	7 	Tjhey trained the peasantry to use farm implements as
+		weapons against a tyrant’s soldiers.
+	8 	A lord rescinded an unpopular decree after they led a
+		symbolic act of protest against it.
+	9 	A celestial, fey, or similar creature gave them a blessing
+		or revealed their secret origin.
+	10 Recruited into a lord’s army, they rose to leadership and
+		was commended for their heroism.
+		
+	Trait
+	1 	They judge people by their actions, not their words.
+	2 	If someone is in trouble, they're always ready to lend help.
+	3 	When they set their mind to something, they follow through no
+		matter what gets in my way.
+	4 	They have a strong sense of fair play and always try to find
+		the most equitable solution to arguments.
+	5 	They're confident in their own abilities and	do what they can to
+		instill confidence in others.
+	6 	Thinking is for other people. They prefer action.
+	7 	They misuse long words in an attempt to sound smarter.
+	8 	They get bored easily. When are they going to get on with their
+		destiny?
+	
+	Ideal
+	1 	Respect. People deserve to be treated with dignity and
+		respect.
+	2 	Fairness. No one should get preferential treatment
+		before the law, and no one is above the law.
+	3 	Freedom. Tyrants must not be allowed to oppress the
+		people.
+	4 	Might. If they become strong, they can take what they want,
+		what they deserve.
+	5 	Sincerity. There’s no good in pretending to be
+		something they're not.
+	6 	Destiny. Nothing and no one can steer them away from
+		their higher calling.
+	
+	Bond
+	1 	They have a family, but have no idea where they are. One
+		day, they hope to see them again.
+	2 	They worked the land, they love the land, and they will protect the
+		land.
+	3 	A proud noble once gave them a horrible beating, and they
+		will take my revenge on any bully they encounter.
+	4 	Their tools are symbols of their past life, and they carry them
+		so that they will never forget their roots.
+	5 	They protect those who cannot protect themselves.
+	6 	They wish their childhood sweetheart had come with them to
+		pursue their destiny.
+		
+Guild Artisan
+	Special: Guild Business
+	1 Alchemists and apothecaries
+	2 Armorers, locksmiths, and finesmiths
+	3 Brewers, distillers, and vintners
+	4 Calligraphers, scribes, and scriveners
+	5 Carpenters, roofers, and plasterers
+	6 Cartographers, surveyors, and chart-makers
+	7 Cobblers and shoemakers
+	8 Cooks and bakers
+	9 Glassblowers and glaziers
+	10 Jewelers and gemcutters
+	11 Leatherworkers, skinners, and tanners
+	12 Masons and stonecutters
+	13 Painters, limners, and sign-makers
+	14 Potters and tile-makers
+	15 Shipwrights and sailmakers
+	16 Smiths and metal-forgers
+	17 Tinkers, pewterers, and casters
+	18 Wagon-makers and wheelwrights
+	19 Weavers and dyers
+	20 Woodcarvers, coopers, and bowyers
+	
+	Trait
+	1 	They believe that anything worth doing is worth doing
+		right. They can’t help it, They're a perfectionist.
+	2 	They're a snob who looks down on those who can’t
+		appreciate fine art.
+	3 	They always want to know how things work and what
+		makes people tick.
+	4 	They're full of witty aphorisms and have a proverb for
+		every occasion.
+	5 	They're rude to people who lack their commitment to hard
+		work and fair play.
+	6 	They like to talk at length about their profession.
+	7 	They don’t part with their money easily and will haggle
+		tirelessly to get the best deal possible.
+	8 	They're well known for their work, and they want to make sure
+		everyone appreciates it. They're always taken aback when
+		people haven’t heard of them.
+	
+	Ideal
+	1 	Community. It is the duty of all civilized people to
+		strengthen the bonds of community and the security
+		of civilization.
+	2 	Generosity. Their talents were given to them so that they could
+		use them to benefit the world.
+	3 	Freedom. Everyone should be free to pursue his or her
+		own livelihood.
+	4 	Greed. They're only in it for the money.
+	5 	People. They're committed to the people they care about, not
+		to ideals.
+	6	Aspiration. They work hard to be the best there is at
+		their craft.
+	
+	Bond
+	1 	The workshop where they learned their trade is the most
+		important place in the world to them.
+	2 	They created a great work for someone, and then found
+		them unworthy to receive it. They're still looking for
+		someone worthy.
+	3 	They owe their guild a great debt for forging me into the
+		person they are today.
+	4 	They pursue wealth to secure someone’s love.
+	5 	One day they will return to their guild and prove that they are
+		the greatest artisan of them all.
+	6 	They will get revenge on the evil forces that destroyed their
+		place of business and ruined their livelihood.
+	
+	Flaw
+	1 	They’ll do anything to get their hands on something rare or
+		priceless.
+	2 	They're quick to assume that someone is trying to cheat
+		them.
+	3 	No one must ever learn that they once stole money from
+		guild coffers.
+	4	They're never satisfied with what they have, they always want
+		more.
+	5 	They would kill to acquire a noble title.
+	6 	They're horribly jealous of anyone who can outshine their
+		handiwork. Everywhere they go, they're surrounded by rivals.
+		
+Hermit
+	Special: Life of Seclusion
+	1 	They were searching for spiritual enlightenment.
+	2 	They were partaking of communal living in accordance with
+		the dictates of a religious order.
+	3 	They were exiled for a crime they didn’t commit.
+	4 	They retreated from society after a life-altering event.
+	5 	They needed a quiet place to work on their art, literature,
+		music, or manifesto.
+	6 	They needed to commune with nature, far from civilization.
+	7 	They were the caretaker of an ancient ruin or relic.
+	8 	They were a pilgrim in search of a person, place, or relic of
+		spiritual significance.
+		
+	Trait
+	1 	They’ve been isolated for so long that they rarely speak,
+		preferring gestures and the occasional grunt.
+	2 	They are utterly serene, even in the face of disaster.
+	3 	The leader of their community had something wise
+		to say on every topic, and they are eager to share
+		that wisdom.
+	4 	They feel tremendous empathy for all who suffer.
+	5 	They're oblivious to etiquette and social expectations.
+	6 	They connect everything that happens to them to a grand,
+		cosmic plan.
+	7 	They often get lost in their own thoughts and contemplation,
+		becoming oblivious to their surroundings.
+	8 	They are working on a grand philosophical theory and love
+		sharing their ideas.
+	
+	Ideal
+	1 	Greater Good. Their gifts are meant to be shared with all,
+		not used for their own benefit.
+	2 	Logic. Emotions must not cloud our sense of what is
+		right and true, or our logical thinking.
+	3 	Free Thinking. Inquiry and curiosity are the pillars of
+		progress.
+	4 	Power. Solitude and contemplation are paths toward
+		mystical or magical power.
+	5 	Live and Let Live. Meddling in the affairs of others only
+		causes trouble.
+	6 	Self-Knowledge. If you know yourself, there’s nothing
+		left to know.
+		
+	Bond
+	1 	Nothing is more important than the other members of
+		their hermitage, order, or association.
+	2 	They entered seclusion to hide from the ones who might
+		still be hunting them. They must someday confront them.
+	3 	They're still seeking the enlightenment they pursued in their
+		seclusion, and it still eludes them.
+	4 	They entered seclusion because they loved someone they	 could
+		not have.
+	5 	Should their discovery come to light, it could bring ruin to
+		the world.
+	6 	Their isolation gave them great insight into a great evil that
+		only they can destroy.
+	
+	Flaw
+	1 	Now that they've returned to the world, they enjoy its delights
+		a little too much.
+	2 	They harbor dark, bloodthirsty thoughts that their isolation
+		and meditation failed to quell.
+	3 	They are dogmatic in their thoughts and philosophy.
+	4 	They let their need to win arguments overshadow
+		friendships and harmony.
+	5 	They’d risk too much to uncover a lost bit of knowledge.
+	6 	They like keeping secrets and won’t share them with
+		anyone.
+
+Noble
+	Specialty: None
+	
+	Trait
+	1 	Their eloquent flattery makes everyone they talk to feel
+		like the most wonderful and important person in the
+		world.
+	2 	The common folk love them for their kindness and
+		generosity.
+	3 	No one could doubt by looking at their regal bearing that
+		they are a cut above the unwashed masses.
+	4 	They take great pains to always look their best and follow the
+		latest fashions.
+	5 	They don’t like to get their hands dirty, and they won’t be caught
+		dead in unsuitable accommodations.
+	6 	Despite their noble birth, they do not place themselves above
+		other folk. We all have the same blood.
+	7 	Their favor, once lost, is lost forever.
+	8 	If you injure them, they will crush you, ruin your name,
+		and salt your fields.
+		
+	Ideal
+	1 	Respect. Respect is due to them because of their position,
+		but all people regardless of station deserve to be
+		treated with dignity.
+	2 	Responsibility. It is their duty to respect the authority of
+		those above them, just as those below them must respect
+		theirs.
+	3 	Independence. They must prove that they can handle themselves
+		without the coddling of their family.
+	4 	Power. If they can attain more power, no one will tell them
+		what to do.
+	5 	Family. Blood runs thicker than water.
+	6 	Noble Obligation. It is their duty to protect and care for
+		the people beneath them.
+	
+	Bond
+	1 	They will face any challenge to win the approval of their
+		family.
+	2 	Their house’s alliance with another noble family
+		must be sustained at all costs.
+	3 	Nothing is more important than the other members
+		of their family.
+	4 	They are in love with the heir of a family that their family
+		despises.
+	5 	Their loyalty to their sovereign is unwavering.
+	6 	The common folk must see them as a hero of the people.
+	
+	Flaw
+	1 	They secretly believe that everyone is beneath them.
+	2 	They hide a truly scandalous secret that could ruin their
+		family forever.
+	3 	They too often hear veiled insults and threats in every word
+		addressed to them, and they're quick to anger.
+	4 	They have an insatiable desire for carnal pleasures.
+	5 	In fact, the world does revolve around them.
+	6 	By their words and actions, they often bring shame to
+		their family.
+	
+Outlander
+	Special: Origin
+	1 Forester 
+	2 Trapper 
+	3 Homesteader 
+	4 Guide 
+	5 Exile or outcast 
+	6 Bounty hunter
+	7 Pilgrim
+	8 Tribal nomad
+	9 Hunter-gatherer
+	10 Tribal marauder
+	
+	Personality Trait
+	1 	They're driven by a wanderlust that led them away
+		from home.
+	2 	I watch over their friends as if they were a litter of
+		newborn pups.
+	3 	They once ran twenty-five miles without stopping to warn
+		to their clan of an approaching orc horde. They’d do it again
+		if they had to.
+	4 	They have a lesson for every situation, drawn from
+		observing nature.
+	5 	They place no stock in wealthy or well-mannered folk.
+		Money and manners won’t save you from a hungry
+		owlbear.
+	6 	They're always picking things up, absently fiddling with
+		them, and sometimes accidentally breaking them.
+	7 	They feel far more comfortable around animals than
+		people.
+	8 	They were, in fact, raised by wolves.
+	
+	Ideal
+	1 	Change. Life is like the seasons, in constant change,
+		and we must change with it.
+	2 	Greater Good. It is each person’s responsibility to
+		make the most happiness for the whole tribe.
+	3 	Honor. If they dishonor themself, they dishonor their whole
+		clan.
+	4 	Might. The strongest are meant to rule.
+	5 	Nature. The natural world is more important than all
+		the constructs of civilization.
+	6 	Glory. They must earn glory in battle, for themselves and
+		their clan.
+
+	Bond
+	1 	Their family, clan, or tribe is the most important thing in
+		their life, even when they are far from them.
+	2 	An injury to the unspoiled wilderness of their home is an
+		injury to them.
+	3 	They will bring terrible wrath down on the evildoers who
+		destroyed their homeland.
+	4 	They are the last of their tribe, and it is up to them to ensure
+		their names enter legend.
+	5 	They suffer awful visions of a coming disaster and will do
+		anything to prevent it.
+	6 	It is their duty to provide children to sustain their tribe.
+	
+	Flaw
+	1 	They are too enamored of ale, wine, and other intoxicants.
+	2 	There’s no room for caution in a life lived to the fullest.
+	3 	They remember every insult they’ve received and nurse a silent
+		resentment toward anyone who’s ever wronged them.
+	4 	They are slow to trust members of other races, tribes, and
+		societies.
+	5 	Violence is their answer to almost any challenge.
+	6 	Don’t expect them to save those who can’t save
+		themselves. It is nature’s way that the strong thrive
+		and the weak perish.
+		
+Sage
+	Special: Specialty
+	1 Alchemist 
+	2 Astronomer 
+	3 Discredited academic
+	4 Librarian
+	5 Professor
+	6 Researcher
+	7 Wizard’s apprentice
+	8 Scribe
+	
+	Trait
+	1	They use polysyllabic words that convey the impression of
+		great erudition.
+	2 	They've read every book in the world’s greatest libraries,
+		or they like to boast that they have.
+	3 	They're used to helping out those who aren’t as smart as they
+		are, and they patiently explain anything and everything to
+		others.
+	4 	There’s nothing they like more than a good mystery.
+	5 	They're willing to listen to every side of an argument before
+		they make my own judgment.
+	6 	They . . . speak . . . slowly . . . when talking . . . to idiots, . . .
+		which . . . almost . . . everyone . . . is . . . compared . . .
+		to them.
+	7 	They are horribly, horribly awkward in social situations.
+	8 	They're convinced that people are always trying to steal their
+		secrets.
+	
+	Ideal
+	1 	Knowledge. The path to power and self-improvement
+		is through knowledge.
+	2 	Beauty. What is beautiful points us beyond itself
+		toward what is true.
+	3 	Logic. Emotions must not cloud our logical thinking.
+	4 	No Limits. Nothing should fetter the infinite possibility
+		inherent in all existence.
+	5 	Power. Knowledge is the path to power and
+		domination.
+	6 	Self-Improvement. The goal of a life of study is the
+		betterment of oneself.
+	
+	Bond
+	1 	It is their duty to protect their students.
+	2 	They have an ancient text that holds terrible secrets that
+		must not fall into the wrong hands.
+	3 	They work to preserve a library, university, scriptorium,
+		or monastery.
+	4 	Their life’s work is a series of tomes related to a specific
+		field of lore.
+	5 	They've been searching their whole life for the answer to a
+		certain question.
+	6 	They sold their soul for knowledge. They hope to do great deeds
+		and win it back.
+	
+	Flaw
+	1 	They are easily distracted by the promise of information.
+	2 	Most people scream and run when they see a demon. They
+		stop and take notes on its anatomy.
+	3 	Unlocking an ancient mystery is worth the price of a
+		civilization.
+	4 	They overlook obvious solutions in favor of complicated
+		ones.
+	5 	They speak without really thinking through their words,
+		invariably insulting others.
+	6 	They can’t keep a secret to save their life, or anyone else’s.
+
+Sailor
+	Speical: None
+	
+	Trait
+	1 	Their friends know they can rely on them, no matter what.
+	2 	They work hard so that they can play hard when the work
+		is done.
+	3 	They enjoy sailing into new ports and making new friends
+		over a flagon of ale.
+	4 	They stretch the truth for the sake of a good story.
+	5 	To them, a tavern brawl is a nice way to get to know a
+		new city.
+	6 	They never pass up a friendly wager.
+	7 	Their language is as foul as an otyugh nest.
+	8 	They like a job well done, especially if they can convince
+		someone else to do it.
+		
+	Ideal
+	1 	Respect. The thing that keeps a ship together is mutual
+		respect between captain and crew.
+	2 	Fairness. We all do the work, so we all share in the
+		rewards. 
+	3 	Freedom. The sea is freedom; the freedom to go
+		anywhere and do anything. (Chaotic)
+	4 	Mastery. They're a predator, and the other ships on the sea
+		are their prey. (Evil)
+	5 	People. They're committed to their crewmates, not to ideals.
+	6 	Aspiration. Someday they’ll own their own ship and chart
+		their own destiny. (Any)
+	
+	Bond
+	1 	They're loyal to their captain first, everything else second.
+	2 	The ship is most important; crewmates and captains
+		come and go.
+	3 	They’ll always remember my first ship.
+	4 	In a harbor town, they have a paramour whose eyes nearly
+		stole them from the sea.
+	5 	They were cheated out of their fair share of the profits, and they
+		want to get their due.
+	6 	Ruthless pirates murdered their captain and crewmates,
+		plundered their ship, and left them to die. Vengeance will
+		be theirs.
+	Flaw
+	1 	They follow orders, even if they think they’re wrong.
+	2 	They’ll say anything to avoid having to do extra work.
+	3 	Once someone questions their courage, they never back
+		down no matter how dangerous the situation.
+	4 	Once they start drinking, it’s hard for them to stop.
+	5 	They can’t help but pocket loose coins and other trinkets they
+		come across.
+	6 	Their pride will probably lead to their destruction.
+	
+Soldier
+	Special: Specialty
+	1 Officer 
+	2 Scout 
+	3 Infantry 
+	4 Cavalry
+	5 Healer
+	6 Quartermaster
+	7 Standard bearer
+	8 Support staff 
+	  (cook, blacksmith, or the like)
+	  
+	Trait
+	1 	They're always polite and respectful.
+	2 	They're haunted by memories of war. They can’t get the images
+		of violence out of their mind.
+	3 	They've lost too many friends, and they're slow to make new
+		ones.
+	4 	They're full of inspiring and cautionary tales from their
+		military experience relevant to almost every combat
+		situation.
+	5 	They can stare down a hellhound without flinching.
+	6 	They enjoy being strong and like breaking things.
+	7 	They have a crude sense of humor.
+	8 	They face problems head-on. A simple, direct solution is
+		the best path to success.
+	
+	Ideal
+	1 	Greater Good. Our lot is to lay down our lives in
+		defense of others.
+	2 	Responsibility. They do what they must and obey just
+		authority.
+	3 	Independence. When people follow orders blindly, they
+		embrace a kind of tyranny.
+	4 	Might. In life as in war, the stronger force wins.
+	5 	Live and Let Live. Ideals aren’t worth killing over or
+		going to war for.
+	6 	Nation. My city, nation, or people are all that matter.
+	
+	Bond
+	1 	They would still lay down their life for the people they
+		served with.	
+	2 	Someone saved their life on the battlefield. To this day, they
+		will never leave a friend behind.
+	3 	Their honor is their life.
+	4 	They’ll never forget the crushing defeat their company
+		suffered or the enemies who dealt it.
+	5 	Those who fight beside them are those worth dying for.
+	6	They fight for those who cannot fight for themselves.
+	
+	Flaw
+	1 	The monstrous enemy they faced in battle still leaves
+		them quivering with fear.
+	2 	They have little respect for anyone who is not a
+		proven warrior.
+	3 	They made a terrible mistake in battle cost many lives,
+		and they would do anything to keep that mistake secret.
+	4 	Their hatred of their enemies is blind and unreasoning.
+	5 	They obey the law, even if the law causes misery.
+	6 	They’d rather eat their armor than admit when they're wrong.
+	
+Urchin
+	Specialty: None
+	
+	d8 Personality Trait
+	1 	They hide scraps of food and trinkets away in their pockets.
+	2 	They ask a lot of questions.
+	3 	They like to squeeze into small places where no one else
+		can get to them.
+	4 	They sleep with my back to a wall or tree, with everything they
+		own wrapped in a bundle in their arms.
+	5 	They eat like a pig and have bad manners.
+	6 	They think anyone who’s nice to them is hiding evil intent.
+	7 	They don’t like to bathe.
+	8 	They bluntly say what other people are hinting at or hiding.
+	
+	Ideal
+	1 	Respect. All people, rich or poor, deserve respect.
+	2 	Community. We have to take care of each other,
+		because no one else is going to do it.
+	3 	Change. The low are lifted up, and the high and mighty
+		are brought down. Change is the nature of things.
+	4 	Retribution. The rich need to be shown what life and
+		death are like in the gutters.
+	5 	People. They help the people who help them; that’s what
+		keeps us alive.
+	6 	Aspiration. They're going to prove that they're worthy of a
+		better life.
+	
+	Bond
+	1 	Their town or city is their home, and they’ll fight to defend it.
+	2 	They sponsor an orphanage to keep others from enduring
+		what they were forced to endure.
+	3 	They owe their survival to another urchin who taught them to
+		live on the streets.
+	4 	They owe a debt they can never repay to the person who took
+		pity on them.
+	5 	They escaped their life of poverty by robbing an important
+		person, and they're wanted for it.
+	6 	No one else should have to endure the hardships they’ve
+		been through.
+	
+	Flaw
+	1 	If they're outnumbered, they will run away from a fight.
+	2 	Gold seems like a lot of money to me, and they’ll do just
+		about anything for more of it.
+	3	They will never fully trust anyone other than themselves.
+	4 	They’d rather kill someone in their sleep then fight fair.
+	5 	It’s not stealing if they need it more than someone else.
+	6 	People who can't take care of themselves get what they
+		deserve.
