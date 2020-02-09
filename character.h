@@ -628,7 +628,7 @@ public:
 			sClass = (rand()) % 7;
 			switch (sClass) {
 			case 0:
-				SubClassName = "Knowledge"//prof is doubled
+				SubClassName = "Knowledge";//prof is doubled
 					ranSkill1 = (rand()) % 4;
 				while (true) {
 					if (ranSkill1 == 0 && arca == false) {
@@ -672,15 +672,15 @@ public:
 				}
 				break;
 			case 1:
-				SubClassName = "Life"
+				SubClassName = "Life";
 					//heavy armor
 					break;
 			case 2:
-				SubClassName = "Light"
+				SubClassName = "Light";
 					//light cantrip
 					break;
 			case 3:
-				SubClassName = "Nature"
+				SubClassName = "Nature";
 					ranSkill1 = (rand()) % 3;
 				while (true) {
 					if (ranSkill1 == 0 && anim == false) {
@@ -700,14 +700,14 @@ public:
 				//heavy armor
 				break;
 			case 4:
-				SubClassName = "Tempest"
+				SubClassName = "Tempest";
 					//Martial and heavy armor
 					break;
 			case 5:
-				SubClassName = "Trickery"
+				SubClassName = "Trickery";
 					break;
 			case 6:
-				SubClassName = "War"
+				SubClassName = "War";
 					//Martial and Heavy armor
 					break;
 			}
@@ -851,7 +851,7 @@ public:
 			}
 			break;
 		case 4: // Fighter
-			BiasArr[1] = 2
+			BiasArr[1] = 2;
 			switch (sub) {
 			case 0:
 				BiasArr[0] = 0;
