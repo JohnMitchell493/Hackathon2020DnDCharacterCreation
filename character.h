@@ -2061,7 +2061,7 @@ public:
 		this->BGName = s;
 	}
 	void printCharacter() {
-		std::cout << "Race: " << RaceName << "Sub-Race: " << SubRaceName << "\nClass: " << ClassName
+		std::cout << "Race: " << RaceName << "\nSub-Race: " << SubRaceName << "\nClass: " << ClassName
 			<< "\nSubclass: " << SubClassName << "\nBackground: " << BGName
 			<< "\nSTR:" <<stats[0] << "\nDEX:" <<stats[1] << "\nCON:" <<stats[2] << "\nINT:" <<stats[3] << "\nWIS:" <<stats[4] << "\nCHA:" <<stats[5]<< 
 			 "\nSTR2:" <<BiasArr[0] << "\nDEX2:" <<BiasArr[1] << "\nCON2:" <<BiasArr[2] << "\nINT2:" <<BiasArr[3] << "\nWIS2:" <<BiasArr[4] << "\nCHA2:" <<BiasArr[5]<< std::endl;
