@@ -4,8 +4,8 @@ CX = g++
 WAE = -Wall -Werror
 OBJF = -g
 EXEC = -c
-G = $(CX) $(OFI) $(WAE)
-GC = $(CX) $(OFI) $(EFI) $(WAE)
+G = $(CX) $(OBJF) $(WAE)
+GC = $(CX) $(OBJF) $(EXEC) $(WAE)
 
 all: $(MN)
 
