@@ -2,6 +2,6 @@
 #include <iostream>
 
 int main() {
-	Character jim = new Character();
+	Character jim = Character();
 	jim.print();
 }
