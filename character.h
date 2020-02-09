@@ -14,9 +14,9 @@ private:
 	std::string SubClassName;
 	std::string BGName;
 	int gold = 0;
-	int stats[6] = [0, 0, 0, 0, 0, 0];
-	int mods[6] = [0, 0, 0, 0, 0, 0];
-	int BiasArr[6] = [-1, -1, -1, -1, -1, -1];
+	int stats[6] = {0, 0, 0, 0, 0, 0};
+	int mods[6] = {0, 0, 0, 0, 0, 0};
+	int BiasArr[6] = {-1, -1, -1, -1, -1, -1};
 	bool acro = false;
 	bool anim = false;
 	bool arca = false;
@@ -317,7 +317,7 @@ public:
 			for (int i = 0; i < 5; i++) {
 				BiasArr[i + 2] = value[i];
 			}
-			int StdArray[6] = [15, 14, 13, 12, 10, 8];
+			int StdArray[6] = {15, 14, 13, 12, 10, 8};
 			for (int i = 0; i < 6; i++) {
 				if (stats[i] != -1) {
 					stats[i] = StdArray[BiasArr[i]];
@@ -565,7 +565,7 @@ public:
 			for (int i = 0; i < 5; i++) {
 				BiasArr[i + 2] = value[i];
 			}
-			int StdArray[6] = [15, 14, 13, 12, 10, 8];
+			int StdArray[6] = {15, 14, 13, 12, 10, 8};
 			for (int i = 0; i < 6; i++) {
 				if (stats[i] != -1) {
 					stats[i] = StdArray[BiasArr[i]];
@@ -587,7 +587,7 @@ public:
 					for (int i = 0; i < 5; i++) {
 						BiasArr[i + 2] = value[i];
 					}
-					int StdArray[6] = [15, 14, 13, 12, 10, 8];
+					int StdArray[6] = {15, 14, 13, 12, 10, 8};
 					for (int i = 0; i < 6; i++) {
 						if (stats[i] != -1) {
 							stats[i] = StdArray[BiasArr[i]];
@@ -606,7 +606,7 @@ public:
 					for (int i = 0; i < 5; i++) {
 						BiasArr[i + 2] = value[i];
 					}
-					int StdArray[6] = [15, 14, 13, 12, 10, 8];
+					int StdArray[6] = {15, 14, 13, 12, 10, 8};
 					for (int i = 0; i < 6; i++) {
 						if (stats[i] != -1) {
 							stats[i] = StdArray[BiasArr[i]];
@@ -836,7 +836,7 @@ public:
 			for (int i = 0; i < 5; i++) {
 				BiasArr[i + 2] = value[i];
 			}
-			int StdArray[6] = [15, 14, 13, 12, 10, 8];
+			int StdArray[6] = {15, 14, 13, 12, 10, 8};
 			for (int i = 0; i < 6; i++) {
 				if (stats[i] != -1) {
 					stats[i] = StdArray[BiasArr[i]];
@@ -858,7 +858,7 @@ public:
 				for (int i = 0; i < 5; i++) {
 					BiasArr[i + 2] = value[i];
 				}
-				int StdArray[6] = [15, 14, 13, 12, 10, 8];
+				int StdArray[6] = {15, 14, 13, 12, 10, 8};
 				for (int i = 0; i < 6; i++) {
 					if (stats[i] != -1) {
 						stats[i] = StdArray[BiasArr[i]];
@@ -877,7 +877,7 @@ public:
 				for (int i = 0; i < 5; i++) {
 					BiasArr[i + 2] = value[i];
 				}
-				int StdArray[6] = [15, 14, 13, 12, 10, 8];
+				int StdArray[6] = {15, 14, 13, 12, 10, 8};
 				for (int i = 0; i < 6; i++) {
 					if (stats[i] != -1) {
 						stats[i] = StdArray[BiasArr[i]];
@@ -973,7 +973,7 @@ public:
 			for (int i = 0; i < 5; i++) {
 				BiasArr[i + 2] = value[i];
 			}
-			int StdArray[6] = [15, 14, 13, 12, 10, 8];
+			int StdArray[6] = {15, 14, 13, 12, 10, 8};
 			for (int i = 0; i < 6; i++) {
 				if (stats[i] != -1) {
 					stats[i] = StdArray[BiasArr[i]];
@@ -1048,7 +1048,7 @@ public:
 			for (int i = 0; i < 5; i++) {
 				BiasArr[i + 2] = value[i];
 			}
-			int StdArray[6] = [15, 14, 13, 12, 10, 8];
+			int StdArray[6] = {15, 14, 13, 12, 10, 8};
 			for (int i = 0; i < 6; i++) {
 				if (stats[i] != -1) {
 					stats[i] = StdArray[BiasArr[i]];
@@ -1124,7 +1124,7 @@ public:
 			for (int i = 0; i < 5; i++) {
 				BiasArr[i + 2] = value[i];
 			}
-			int StdArray[6] = [15, 14, 13, 12, 10, 8];
+			int StdArray[6] = {15, 14, 13, 12, 10, 8};
 			for (int i = 0; i < 6; i++) {
 				if (stats[i] != -1) {
 					stats[i] = StdArray[BiasArr[i]];
@@ -1264,7 +1264,7 @@ public:
 					for (int i = 0; i < 5; i++) {
 						BiasArr[i + 2] = value[i];
 					}
-					int StdArray[6] = [15, 14, 13, 12, 10, 8];
+					int StdArray[6] = {15, 14, 13, 12, 10, 8};
 					for (int i = 0; i < 6; i++) {
 						if (stats[i] != -1) {
 							stats[i] = StdArray[BiasArr[i]];
@@ -1283,7 +1283,7 @@ public:
 					for (int i = 0; i < 5; i++) {
 						BiasArr[i + 2] = value[i];
 					}
-					int StdArray[6] = [15, 14, 13, 12, 10, 8];
+					int StdArray[6] = {15, 14, 13, 12, 10, 8};
 					for (int i = 0; i < 6; i++) {
 						if (stats[i] != -1) {
 							stats[i] = StdArray[BiasArr[i]];
@@ -1498,7 +1498,7 @@ public:
 			for (int i = 0; i < 5; i++) {
 				BiasArr[i + 2] = value[i];
 			}
-			int StdArray[6] = [15, 14, 13, 12, 10, 8];
+			int StdArray[6] = {15, 14, 13, 12, 10, 8};
 			for (int i = 0; i < 6; i++) {
 				if (stats[i] != -1) {
 					stats[i] = StdArray[BiasArr[i]];
@@ -1583,7 +1583,7 @@ public:
 			for (int i = 0; i < 5; i++) {
 				BiasArr[i + 2] = value[i];
 			}
-			int StdArray[6] = [15, 14, 13, 12, 10, 8];
+			int StdArray[6] = {15, 14, 13, 12, 10, 8};
 			for (int i = 0; i < 6; i++) {
 				if (stats[i] != -1) {
 					stats[i] = StdArray[BiasArr[i]];
@@ -1684,7 +1684,7 @@ public:
 					for (int i = 0; i < 5; i++) {
 						BiasArr[i + 2] = value[i];
 					}
-					int StdArray[6] = [15, 14, 13, 12, 10, 8];
+					int StdArray[6] = {15, 14, 13, 12, 10, 8};
 					for (int i = 0; i < 6; i++) {
 						if (stats[i] != -1) {
 							stats[i] = StdArray[BiasArr[i]];
@@ -1703,7 +1703,7 @@ public:
 					for (int i = 0; i < 5; i++) {
 						BiasArr[i + 2] = value[i];
 					}
-					int StdArray[6] = [15, 14, 13, 12, 10, 8];
+					int StdArray[6] = {15, 14, 13, 12, 10, 8};
 					for (int i = 0; i < 6; i++) {
 						if (stats[i] != -1) {
 							stats[i] = StdArray[BiasArr[i]];
