@@ -507,6 +507,7 @@ public:
 					ranSkill1 = (rand()) % 4;
 					break;
 				}
+				break;
 			case 1:
 				SubClassName = "Life"
 					//heavy armor
@@ -1213,7 +1214,16 @@ public:
 		case 9: // Sorcerer
 			BiasArr[0] = 5;
 			BiasArr[1] = 2;
-			
+			sClass = (rand()) % 2;
+			switch (sClass) {
+			case 0:
+				SubClassName = "Draconic"
+				break;
+			case 1:
+				SubClassName = "Wild Magic"
+					
+				break;
+			}
 			ranSkill1 = (rand()) % 6;//sorc 2
 			while (true) {
 				if (ranSkill1 == 0 && arca == false) {
@@ -1274,6 +1284,22 @@ public:
 		case 10: // Warlock
 			BiasArr[0] = 5;
 			BiasArr[1] = 2;
+			
+			sClass = (rand()) % 3;
+			switch (sClass) {
+			case 0:
+				SubClassName = "Pact of the Archfey"
+				break;
+			case 1:
+				SubClassName = "Pact of the Fiend"
+					
+				break;
+				
+			case 2:
+				SubClassName = "Pact of the Great Old One"
+					
+				break;
+			}
 			
 			ranSkill1 = (rand()) % 7;//Warl 2
 			while (true) {
@@ -1355,6 +1381,8 @@ public:
 					break;
 				}
 				
+				
+			
 			ranSkill1 = (rand()) % 6;//Wizlord 2
 			while (true) {
 				if (ranSkill1 == 0 && arca == false) {
