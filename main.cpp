@@ -2,6 +2,6 @@
 #include <iostream>
 
 int main() {
-	character jim = new character();
+	character::character jim = new character();
 	jim.print();
 }
