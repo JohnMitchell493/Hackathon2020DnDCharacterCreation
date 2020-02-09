@@ -7,7 +7,7 @@ EXEC = -c
 G = $(CX) $(OFI) $(WAE)
 GC = $(CX) $(OFI) $(EFI) $(WAE)
 
-all: $(CC)
+all: $(MN)
 
 $(MN): $(MN).o
 	$(G) $(MN).o -o $(MN)
