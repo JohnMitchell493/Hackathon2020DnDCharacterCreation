@@ -1511,10 +1511,10 @@ public:
 			sClass = (rand()) % 2;
 			switch (sClass) {
 			case 0:
-				SubClassName = "Draconic"
+				SubClassName = "Draconic";
 				break;
 			case 1:
-				SubClassName = "Wild Magic"
+				SubClassName = "Wild Magic";
 					
 				break;
 			}
@@ -1596,15 +1596,15 @@ public:
 			sClass = (rand()) % 3;
 			switch (sClass) {
 			case 0:
-				SubClassName = "Pact of the Archfey"
+				SubClassName = "Pact of the Archfey";
 				break;
 			case 1:
-				SubClassName = "Pact of the Fiend"
+				SubClassName = "Pact of the Fiend";
 					
 				break;
 				
 			case 2:
-				SubClassName = "Pact of the Great Old One"
+				SubClassName = "Pact of the Great Old One";
 					
 				break;
 			}
@@ -1674,7 +1674,7 @@ public:
 			}
 			break;
 		case 11: // Wizard
-			BiasArr[0] = 3
+			BiasArr[0] = 3;
 				switch (sub) {
 				case 0:
 					BiasArr[1] = 1;
