@@ -2079,7 +2079,7 @@ public:
 			std::cout<< "Subclass: " << SubClassName << std::endl;
 		}
 		std::cout<<"Background: " << BGName << "\nGold:" << gold <<
-			 "\nSTR:" <<stats[0] << " , Bonus: " << mods[0] << "\nDEX:" <<stats[1] " , Bonus: " << mods[1] << "\nCON:" <<stats[2] 
+			 "\nSTR:" <<stats[0] << " , Bonus: " << mods[0] << "\nDEX:" <<stats[1] << " , Bonus: " << mods[1] << "\nCON:" <<stats[2] 
 			<< " , Bonus: " << mods[2] << "\nINT:" <<stats[3] << " , Bonus: " << mods[3] << "\nWIS:" <<stats[4] << " , Bonus: " 
 			<< mods[4] << "\nCHA:" <<stats[5]<< " , Bonus: " << mods[5] << std::endl;
 		
