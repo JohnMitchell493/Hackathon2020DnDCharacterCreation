@@ -1928,29 +1928,29 @@ public:
 	}
 	void genGold() {
 		int gold = 0;
-		if (this.ClassName == "Barbarian")
+		if (this->ClassName == "Barbarian")
 			gold = (((rand()) % 4 + 1) + ((rand()) % 4 + 1)) * 10;
-		if (this.ClassName == "Bard")
+		if (this->ClassName == "Bard")
 			gold = (((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1)) * 10;
-		if (this.ClassName == "Cleric")
+		if (this->ClassName == "Cleric")
 			gold = (((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1)) * 10;
-		if (this.ClassName == "Druid")
+		if (this->ClassName == "Druid")
 			gold = (((rand()) % 4 + 1) + ((rand()) % 4 + 1)) * 10;
-		if (this.ClassName == "Fighter")
+		if (this->ClassName == "Fighter")
 			gold = (((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1)) * 10;
-		if (this.ClassName == "Monk")
+		if (this->ClassName == "Monk")
 			gold = ((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4) + 1;
-		if (this.ClassName == "Paladin")
+		if (this->ClassName == "Paladin")
 			gold = (((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1)) * 10;
-		if (this.ClassName == "Ranger")
+		if (this->ClassName == "Ranger")
 			gold = (((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1)) * 10;
-		if (this.ClassName == "Rogue")
+		if (this->ClassName == "Rogue")
 			gold = (((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1)) * 10;
-		if (this.ClassName == "Sorcerer")
+		if (this->ClassName == "Sorcerer")
 			gold = (((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1)) * 10;
-		if (this.ClassName == "Warlock")
+		if (this->ClassName == "Warlock")
 			gold = (((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1)) * 10;
-		if (this.ClassName == "Wizard")
+		if (this->ClassName == "Wizard")
 			gold = (((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1) + ((rand()) % 4 + 1)) * 10;
 		else
 			gold = 0;
