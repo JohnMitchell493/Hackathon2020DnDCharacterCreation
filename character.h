@@ -2076,49 +2076,49 @@ public:
 			std::cout << "Arcana"  << std::endl;
 		}
 		if (athl) {
-					
+			std::cout << "Athletics"  << std::endl;
 		}
 		if (dece) {
-					
+			std::cout << "Deception"  << std::endl;
 		}
 		if (hist) {
-					
+			std::cout << "History"  << std::endl;
 		}
 		if (insi) {
-					
+			std::cout << "Insight"  << std::endl;
 		}
 		if (inti) {
-					
+			std::cout << "Intimidation"  << std::endl;
 		}
 		if (inve) {
-					
+			std::cout << "Investigation"  << std::endl;
 		}
 		if (medi) {
-					
+			std::cout << "Medicine"  << std::endl;
 		}
 		if (natu) {
-					
+			std::cout << "Nature"  << std::endl;
 		}
 		if (perc) {
-					
+			std::cout << "Perception"  << std::endl;
 		}
 		if (perf) {
-					
+			std::cout << "Performance"  << std::endl;
 		}
 		if (pers) {
-					
+			std::cout << "Persuasion"  << std::endl;
 		}
 		if (reli) {
-					
+			std::cout << "Religion"  << std::endl;
 		}
 		if (slei) {
-					
+			std::cout << "Sleight of Hand"  << std::endl;
 		}
 		if (stea) {
-					
+			std::cout << "Stealth"  << std::endl;
 		}
 		if (surv) {
-					
+			std::cout << "Survival"  << std::endl;
 		}
 	}
 };
