@@ -24,6 +24,7 @@ private:
 	int stats[6] = {0, 0, 0, 0, 0, 0};
 	int mods[6] = {0, 0, 0, 0, 0, 0};
 	int BiasArr[6] = {-1, -1, -1, -1, -1, -1};
+	int HitPoints = 0;
 	bool acro = false;
 	bool anim = false;
 	bool arca = false;
@@ -2094,6 +2095,49 @@ public:
 			}
 		}
 	}
+	void genHP() {
+		if (ClassName == "Barbarian") {
+			HitPoints += 12;
+		}
+		if (ClassName == "Bard") {
+			HitPoints += 8;
+		}
+		if (ClassName == "Cleric") {
+			HitPoints += 8;
+		}
+		if (ClassName == "Druid") {
+			HitPoints += 8;
+		}
+		if (ClassName == "Fighter") {
+			HitPoints += 10;
+		}
+		if (ClassName == "Monk") {
+			HitPoints += 8;
+		}
+		if (ClassName == "Paladin") {
+			HitPoints += 10;
+		}
+		if (ClassName == "Ranger") {
+			HitPoints += 10;
+		}
+		if (ClassName == "Rogue") {
+			HitPoints += 8;
+		}
+		if (ClassName == "Sorcerer") {
+			HitPoints += 6;
+		}
+		if (ClassName == "Wizard") {
+			HitPoints += 8;
+		}
+		if (ClassName == "Warlock") {
+			HitPoints += 6;
+		}
+		HitPoints += mods[2];
+		if (SubRaceName == "Hill Dwarf") {
+			HitPoints += 1;
+		}
+
+	}
 	std::string getRaceName() {
 		return this->RaceName;
 	}
@@ -2136,10 +2180,10 @@ public:
 		if(SubClassName!="NONE"){
 			std::cout<< "Subclass: " << SubClassName << std::endl;
 		}
-		std::cout<<"Background: " << BGName << "\nGold:" << gold <<
-			 "\nSTR:" <<stats[0] << " , Bonus: " << mods[0] << "\nDEX:" <<stats[1] << " , Bonus: " << mods[1] << "\nCON:" <<stats[2] 
-			<< " , Bonus: " << mods[2] << "\nINT:" <<stats[3] << " , Bonus: " << mods[3] << "\nWIS:" <<stats[4] << " , Bonus: " 
-			<< mods[4] << "\nCHA:" <<stats[5]<< " , Bonus: " << mods[5] << std::endl;
+		std::cout << "Background: " << BGName << "\nGold:" << gold <<
+			"\nSTR:" << stats[0] << " , Bonus: " << mods[0] << "\nDEX:" << stats[1] << " , Bonus: " << mods[1] << "\nCON:" << stats[2]
+			<< " , Bonus: " << mods[2] << "\nINT:" << stats[3] << " , Bonus: " << mods[3] << "\nWIS:" << stats[4] << " , Bonus: "
+			<< mods[4] << "\nCHA:" << stats[5] << " , Bonus: " << mods[5] << "\nHit Points: " << HitPoints << std::endl;
 		
 		
 		std::cout << "Saving Throws:" << std::endl;;

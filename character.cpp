@@ -26,5 +26,53 @@ for (int i = 0; i < 6; i++) {
 	}
 }
 
-"Major personality trait: " << Trait << "\nIdeal by which the character lives: " << Ideal << "\nBonds to which they hold themselves: " 
-<< Bond << "\nGreatest flaw: " << Flaw 
+"Major personality trait: " << Trait << "\nIdeal by which the character lives: " << Ideal << "\nBonds to which they hold themselves: "
+<< Bond << "\nGreatest flaw: " << Flaw
+
+int HitPoints;
+
+void genHP() {
+	if (ClassName == "Barbarian") {
+		HitPoints += 12;
+	}
+	if (ClassName == "Bard") {
+		HitPoints += 8;
+	}
+	if (ClassName == "Cleric") {
+		HitPoints += 8;
+	}
+	if (ClassName == "Druid") {
+		HitPoints += 8;
+	}
+	if (ClassName == "Fighter") {
+		HitPoints += 10;
+	}
+	if (ClassName == "Monk") {
+		HitPoints += 8;
+	}
+	if (ClassName == "Paladin") {
+		HitPoints += 10;
+	}
+	if (ClassName == "Ranger") {
+		HitPoints += 10;
+	}
+	if (ClassName == "Rogue") {
+		HitPoints += 8;
+	}
+	if (ClassName == "Sorcerer") {
+		HitPoints += 6;
+	}
+	if (ClassName == "Wizard") {
+		HitPoints += 8;
+	}
+	if (ClassName == "Warlock") {
+		HitPoints += 6;
+	}
+	HitPoints += mods[2];
+	if (SubRaceName == "Hill Dwarf") {
+		HitPoints += 1;
+	}
+
+}
+
+<< "\nHit Points: " << HitPoints <<
