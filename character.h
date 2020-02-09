@@ -158,6 +158,7 @@ public:
 
 	void genBG() {
 		int first = (rand()) % 13;
+		int second;
 		switch (first) {
 		case 0:
 			setBGName("Acolyte");
