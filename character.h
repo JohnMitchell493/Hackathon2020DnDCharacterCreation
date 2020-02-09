@@ -264,6 +264,7 @@ public:
 		std::vector<int> values;
 		switch (choice) {
 		case 0: // Barbarian
+			ClassName="Barbarian"
 			BiasArr[0] = 0;
 			BiasArr[1] = 2;
 			srand(time(0));
@@ -344,6 +345,7 @@ public:
 			}
 			break;
 		case 1: // Bard
+			ClassName="Bard"
 			BiasArr[0] = 5;
 			BiasArr[1] = 1;
 			srand(time(0));
@@ -598,6 +600,7 @@ public:
 			}
 			break;
 		case 2: // Cleric
+			ClassName="Cleric"
 			BiasArr[0] = 4;
 				switch (sub) {
 				case 0:
@@ -783,6 +786,7 @@ public:
 			}
 			break;
 		case 3: // Druid
+			ClassName="Druid"
 			BiasArr[0] = 4;
 			BiasArr[1] = 2;
 			srand(time(0));
@@ -876,6 +880,7 @@ public:
 			}
 			break;
 		case 4: // Fighter
+			ClassName="Fighter"
 			BiasArr[1] = 2;
 			switch (sub) {
 			case 0:
@@ -993,6 +998,7 @@ public:
 			}
 			break;
 		case 5: // Monk
+			ClassName="Monk"
 			BiasArr[0] = 1;
 			BiasArr[1] = 4;
 			values.push_back(0);
@@ -1070,6 +1076,7 @@ public:
 			}
 			break;
 		case 6: // Paladin
+			ClassName="Paladin"
 			BiasArr[0] = 0;
 			BiasArr[1] = 5;
 			
@@ -1148,6 +1155,7 @@ public:
 			}
 			break;
 		case 7: // Ranger
+			ClassName="Ranger"
 			BiasArr[0] = 1;
 			BiasArr[1] = 4;
 			
@@ -1290,6 +1298,7 @@ public:
 			}
 			break;
 		case 8: // Rogue
+			ClassName="Rogue"
 			BiasArr[0] = 1;
 				switch (sub) {
 				case 0:
@@ -1530,6 +1539,7 @@ public:
 			}
 			break;
 		case 9: // Sorcerer
+			ClassName="Sorcerer"
 			BiasArr[0] = 5;
 			BiasArr[1] = 2;
 			
@@ -1618,6 +1628,7 @@ public:
 			}
 			break;
 		case 10: // Warlock
+			ClassName="Warlock"
 			BiasArr[0] = 5;
 			BiasArr[1] = 2;
 			
@@ -1720,6 +1731,7 @@ public:
 			}
 			break;
 		case 11: // Wizard
+			ClassName="Wizard"
 			BiasArr[0] = 3;
 				switch (sub) {
 				case 0:
