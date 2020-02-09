@@ -45,6 +45,7 @@ public:
 
 	void genRace() {
 		int first = (rand()) % 9;
+		int second;
 		switch (first) {
 		case 0:
 			setRaceName("Dragonborn");
@@ -53,7 +54,7 @@ public:
 			break;
 		case 1:
 			setRaceName("Dwarf");
-			int second = (rand()) % 2;
+			second = (rand()) % 2;
 			switch (second) {
 			case 0:
 				setSubRaceName("Mountain Dwarf");
@@ -71,7 +72,7 @@ public:
 			setRaceName("Elf");
 			//stats[1] += 2;
 			//perc = true;
-			int second = (rand()) % 3;
+			second = (rand()) % 3;
 			switch (second) {
 			case 0:
 				setSubRaceName("High Elf");
@@ -90,7 +91,7 @@ public:
 		case 3:
 			setRaceName("Gnome");
 			//stats[3] += 2;
-			int second = (rand()) % 2;
+			second = (rand()) % 2;
 			switch (second) {
 			case 0:
 				setSubRaceName("Forest Gnome");
@@ -117,7 +118,7 @@ public:
 		case 5:
 			setRaceName("Halfling");
 			//stats[1] += 1;
-			int second = (rand()) % 2;
+			second = (rand()) % 2;
 			switch (second) {
 			case 0:
 				setSubRaceName("Lightfoot Halfling");
@@ -169,7 +170,7 @@ public:
 			slei = true;
 			break;
 		case 2:
-			int second = (rand()) % 2;
+			second = (rand()) % 2;
 			switch (second) {
 			case 0:
 				setBGName("Spy");
@@ -192,7 +193,7 @@ public:
 			surv = true;
 			break;
 		case 5:
-			int second = (rand()) % 2;
+			second = (rand()) % 2;
 			switch (second) {
 			case 0:
 				setBGName("Guild Artisan");
