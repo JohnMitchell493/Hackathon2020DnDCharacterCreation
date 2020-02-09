@@ -247,6 +247,7 @@ public:
 
 	void genClass() {
 		int ranSkill1;
+		int StdArray[6] = {15, 14, 13, 12, 10, 8};
 		int choice = (rand()) % 12;
 		int sub = (rand()) % 2;
 		int sClass;
@@ -321,7 +322,7 @@ public:
 			for (int i = 0; i < 5; i++) {
 				BiasArr[i + 2] = values[i];
 			}
-			int StdArray[6] = {15, 14, 13, 12, 10, 8};
+			
 			for (int i = 0; i < 6; i++) {
 				if (stats[i] != -1) {
 					stats[i] = StdArray[BiasArr[i]];
@@ -569,7 +570,7 @@ public:
 			for (int i = 0; i < 5; i++) {
 				BiasArr[i + 2] = values[i];
 			}
-			int StdArray[6] = {15, 14, 13, 12, 10, 8};
+			
 			for (int i = 0; i < 6; i++) {
 				if (stats[i] != -1) {
 					stats[i] = StdArray[BiasArr[i]];
@@ -590,7 +591,7 @@ public:
 					for (int i = 0; i < 5; i++) {
 						BiasArr[i + 2] = values[i];
 					}
-					int StdArray[6] = {15, 14, 13, 12, 10, 8};
+					
 					for (int i = 0; i < 6; i++) {
 						if (stats[i] != -1) {
 							stats[i] = StdArray[BiasArr[i]];
@@ -608,7 +609,7 @@ public:
 					for (int i = 0; i < 5; i++) {
 						BiasArr[i + 2] = values[i];
 					}
-					int StdArray[6] = {15, 14, 13, 12, 10, 8};
+					
 					for (int i = 0; i < 6; i++) {
 						if (stats[i] != -1) {
 							stats[i] = StdArray[BiasArr[i]];
@@ -837,7 +838,7 @@ public:
 			for (int i = 0; i < 5; i++) {
 				BiasArr[i + 2] = values[i];
 			}
-			int StdArray[6] = {15, 14, 13, 12, 10, 8};
+			
 			for (int i = 0; i < 6; i++) {
 				if (stats[i] != -1) {
 					stats[i] = StdArray[BiasArr[i]];
@@ -858,7 +859,7 @@ public:
 				for (int i = 0; i < 5; i++) {
 					BiasArr[i + 2] = values[i];
 				}
-				int StdArray[6] = {15, 14, 13, 12, 10, 8};
+				
 				for (int i = 0; i < 6; i++) {
 					if (stats[i] != -1) {
 						stats[i] = StdArray[BiasArr[i]];
@@ -876,7 +877,7 @@ public:
 				for (int i = 0; i < 5; i++) {
 					BiasArr[i + 2] = values[i];
 				}
-				int StdArray[6] = {15, 14, 13, 12, 10, 8};
+				
 				for (int i = 0; i < 6; i++) {
 					if (stats[i] != -1) {
 						stats[i] = StdArray[BiasArr[i]];
@@ -971,7 +972,7 @@ public:
 			for (int i = 0; i < 5; i++) {
 				BiasArr[i + 2] = values[i];
 			}
-			int StdArray[6] = {15, 14, 13, 12, 10, 8};
+			
 			for (int i = 0; i < 6; i++) {
 				if (stats[i] != -1) {
 					stats[i] = StdArray[BiasArr[i]];
@@ -1046,7 +1047,7 @@ public:
 			for (int i = 0; i < 5; i++) {
 				BiasArr[i + 2] = values[i];
 			}
-			int StdArray[6] = {15, 14, 13, 12, 10, 8};
+			
 			for (int i = 0; i < 6; i++) {
 				if (stats[i] != -1) {
 					stats[i] = StdArray[BiasArr[i]];
@@ -1122,7 +1123,7 @@ public:
 			for (int i = 0; i < 5; i++) {
 				BiasArr[i + 2] = values[i];
 			}
-			int StdArray[6] = {15, 14, 13, 12, 10, 8};
+			
 			for (int i = 0; i < 6; i++) {
 				if (stats[i] != -1) {
 					stats[i] = StdArray[BiasArr[i]];
@@ -1262,7 +1263,7 @@ public:
 					for (int i = 0; i < 5; i++) {
 						BiasArr[i + 2] = values[i];
 					}
-					int StdArray[6] = {15, 14, 13, 12, 10, 8};
+					
 					for (int i = 0; i < 6; i++) {
 						if (stats[i] != -1) {
 							stats[i] = StdArray[BiasArr[i]];
@@ -1281,7 +1282,7 @@ public:
 					for (int i = 0; i < 5; i++) {
 						BiasArr[i + 2] = values[i];
 					}
-					int StdArray[6] = {15, 14, 13, 12, 10, 8};
+					
 					for (int i = 0; i < 6; i++) {
 						if (stats[i] != -1) {
 							stats[i] = StdArray[BiasArr[i]];
@@ -1496,7 +1497,7 @@ public:
 			for (int i = 0; i < 5; i++) {
 				BiasArr[i + 2] = values[i];
 			}
-			int StdArray[6] = {15, 14, 13, 12, 10, 8};
+			
 			for (int i = 0; i < 6; i++) {
 				if (stats[i] != -1) {
 					stats[i] = StdArray[BiasArr[i]];
@@ -1581,7 +1582,7 @@ public:
 			for (int i = 0; i < 5; i++) {
 				BiasArr[i + 2] = values[i];
 			}
-			int StdArray[6] = {15, 14, 13, 12, 10, 8};
+			
 			for (int i = 0; i < 6; i++) {
 				if (stats[i] != -1) {
 					stats[i] = StdArray[BiasArr[i]];
@@ -1681,7 +1682,7 @@ public:
 					for (int i = 0; i < 5; i++) {
 						BiasArr[i + 2] = values[i];
 					}
-					int StdArray[6] = {15, 14, 13, 12, 10, 8};
+					
 					for (int i = 0; i < 6; i++) {
 						if (stats[i] != -1) {
 							stats[i] = StdArray[BiasArr[i]];
@@ -1700,7 +1701,7 @@ public:
 					for (int i = 0; i < 5; i++) {
 						BiasArr[i + 2] = values[i];
 					}
-					int StdArray[6] = {15, 14, 13, 12, 10, 8};
+					
 					for (int i = 0; i < 6; i++) {
 						if (stats[i] != -1) {
 							stats[i] = StdArray[BiasArr[i]];
