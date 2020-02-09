@@ -9,14 +9,11 @@ GC = $(CX) $(OFI) $(EFI) $(WAE)
 
 all: $(CC)
 
-$(MN): $(CC).o $(MN).o
-	$(G) $(MN).o $(CC).o -o $(MN)
+$(MN): $(MN).o
+	$(G) $(MN).o -o $(MN)
 
-$(MN).o: $(MN).cpp
+$(MN).o: $(MN).cpp $(CC).h
 	$(GC) $(MN).cpp -o $(MN).o
-
-$(CC).o: $(CC).cpp $(CC).h
-	$(GC) $(CC).cpp -o $(CC).o
 
 PHONY: clean all memcheck
 
