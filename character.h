@@ -2061,7 +2061,7 @@ public:
 	void printCharacter() {
 		std::cout << "Race: " << RaceName << "\nClass: " << ClassName
 			<< "\nSubclass: " << SubClassName << "\nBackground: " << BGName
-			<< "\n" << std::endl;
+			<< "\nSTR:" <<stats[0] << "\nDEX:" <<stats[1] << "\nCON:" <<stats[2] << "\nINT:" <<stats[3] << "\nWIS:" <<stats[4] << "\nCHA:" <<stats[5]<< std::endl;
 	}
 };
 
