@@ -50,7 +50,7 @@ public:
 	}
 
 	void genRace() {
-		int first = (rand()) % 9;
+		int first = rand() % 9;
 		int second;
 		switch (first) {
 		case 0:
