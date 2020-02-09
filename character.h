@@ -2064,7 +2064,7 @@ public:
 		std::cout << "Race: " << RaceName << "\nSub-Race: " << SubRaceName << "\nClass: " << ClassName
 			<< "\nSubclass: " << SubClassName << "\nBackground: " << BGName
 			<< "\nSTR:" <<stats[0] << "\nDEX:" <<stats[1] << "\nCON:" <<stats[2] << "\nINT:" <<stats[3] << "\nWIS:" <<stats[4] << "\nCHA:" <<stats[5]<< 
-			 "\nSTR2:" <<BiasArr[0] << "\nDEX2:" <<BiasArr[1] << "\nCON2:" <<BiasArr[2] << "\nINT2:" <<BiasArr[3] << "\nWIS2:" <<BiasArr[4] << "\nCHA2:" <<BiasArr[5]<< std::endl;
+			 "\n15:" <<BiasArr[0] << "\n14:" <<BiasArr[1] << "\n13:" <<BiasArr[2] << "\n12:" <<BiasArr[3] << "\n10:" <<BiasArr[4] << "\n8:" <<BiasArr[5]<< std::endl;
 	}
 };
 
