@@ -750,7 +750,6 @@ public:
 					}
 					srand(time(0));
 					ranSkill1 = (rand()) % 4;
-					break;
 				}
 				break;
 			case 1:
