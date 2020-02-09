@@ -665,705 +665,347 @@ public:
 					break;
 				}
 				else if (ranSkill1 == 7 && surv == false) {
-   surv = true;
-   break;
-}
-ranSkill1 = (rand()) % 8;
-}
+					surv = true;
+					break;
+				}
+				ranSkill1 = (rand()) % 8;
+			}
 
-fillBias(&BiasArr);
-break;
-case 4: // Fighter
-	switch (sub) {
-		case 0:
-			BiasArr[0] = 0;
+			fillBias(&BiasArr);
 			break;
-		case 1:
+		case 4: // Fighter
+			switch (sub) {
+			case 0:
+				BiasArr[0] = 0;
+				break;
+			case 1:
+				BiasArr[0] = 1;
+				break;
+			default:
+				exit(-1);
+			}
+			BiasArr[1] = 2
+
+			ranSkill1 = (rand()) % 8;
+			while (true) {
+				if (ranSkill1 == 0 && acro == false) {
+					acro = true;
+					break;
+				}
+				else if (ranSkill1 == 1 && anim == false) {
+					anim = true;
+					break;
+				}
+				else if (ranSkill1 == 2 && athl == false) {
+					athl = true;
+					break;
+				}
+				else if (ranSkill1 == 3 && hist == false) {
+					hist = true;
+					break;
+				}
+				else if (ranSkill1 == 4 && insi == false) {
+					insi = true;
+					break;
+				}
+				else if (ranSkill1 == 5 && inti == false) {
+					inti = true;
+					break;
+				}	
+				else if (ranSkill1 == 6 && perc == false) {
+					perc = true;
+					break;
+				}
+				else if (ranSkill1 == 7 && surv == false) {
+					surv = true;
+					break;
+				}
+				ranSkill1 = (rand()) % 8;
+			}	
+			while (true) {
+				if (ranSkill1 == 0 && acro == false) {
+					acro = true;
+					break;
+				}
+				else if (ranSkill1 == 1 && anim == false) {
+					anim = true;
+					break;
+				}
+				else if (ranSkill1 == 2 && athl == false) {
+					athl = true;
+					break;
+				}	
+				else if (ranSkill1 == 3 && hist == false) {
+					hist = true;
+					break;
+				}
+				else if (ranSkill1 == 4 && insi == false) {
+					insi = true;
+					break;
+				}
+				else if (ranSkill1 == 5 && inti == false) {
+					inti = true;
+					break;
+				}	
+				else if (ranSkill1 == 6 && perc == false) {
+					perc = true;
+					break;
+				}
+				else if (ranSkill1 == 7 && surv == false) {
+					surv = true;
+					break;
+				}
+				ranSkill1 = (rand()) % 8;
+			}
+			fillBias(&BiasArr);
+			break;
+		case 5: // Monk
 			BiasArr[0] = 1;
+			BiasArr[1] = 4;
+			ranSkill1 = (rand()) % 6;
+			while (true) {
+				if (ranSkill1 == 0 && acro == false) {
+					acro = true;
+					break;
+			}
+				else if (ranSkill1 == 1 && athl == false) {
+					athl = true;
+					break;
+				}
+				else if (ranSkill1 == 2 && hist == false) {
+					hist = true;
+					break;
+				}
+				else if (ranSkill1 == 3 && insi == false) {
+					insi = true;
+					break;
+				}
+				else if (ranSkill1 == 4 && reli == false) {
+					reli = true;
+					break;
+				}
+				else if (ranSkill1 == 5 && stea == false) {
+					stea = true;
+					break;
+				}
+				ranSkill1 = (rand()) % 5;
+			}
+			while (true) {
+				if (ranSkill1 == 0 && acro == false) {
+					acro = true;
+					break;
+				}
+				else if (ranSkill1 == 1 && athl == false) {
+					athl = true;
+					break;
+				}
+				else if (ranSkill1 == 2 && hist == false) {
+					hist = true;
+					break;
+				}
+				else if (ranSkill1 == 3 && insi == false) {
+					insi = true;
+					break;
+				}
+				else if (ranSkill1 == 4 && reli == false) {
+					reli = true;
+					break;
+				}
+				else if (ranSkill1 == 5 && stea == false) {
+					stea = true;
+					break;
+				}
+				ranSkill1 = (rand()) % 5;
+			}
+			fillBias(&BiasArr);
 			break;
-		default:
-			exit(-1);
-	}
-	BiasArr[1] = 2
-
-	ranSkill1 = (rand()) % 8;
-	while (true) {
-		if (ranSkill1 == 0 && acro == false) {
-			acro = true;
-			break;
-		}
-		else if (ranSkill1 == 1 && anim == false) {
-			anim = true;
-			break;
-		}
-else if (ranSkill1 == 2 && athl == false) {
-   athl = true;
-   break;
-}
-else if (ranSkill1 == 3 && hist == false) {
-   hist = true;
-   break;
-}
-else if (ranSkill1 == 4 && insi == false) {
-   insi = true;
-   break;
-}
-else if (ranSkill1 == 5 && inti == false) {
-   inti = true;
-   break;
-}
-else if (ranSkill1 == 6 && perc == false) {
-   perc = true;
-   break;
-}
-else if (ranSkill1 == 7 && surv == false) {
-   surv = true;
-   break;
-}
-ranSkill1 = (rand()) % 8;
-}
-while (true) {
-	if (ranSkill1 == 0 && acro == false) {
-		acro = true;
-		break;
-	}
-	else if (ranSkill1 == 1 && anim == false) {
-		anim = true;
-		break;
-	}
-else if (ranSkill1 == 2 && athl == false) {
-   athl = true;
-   break;
-}
-else if (ranSkill1 == 3 && hist == false) {
-   hist = true;
-   break;
-}
-else if (ranSkill1 == 4 && insi == false) {
-   insi = true;
-   break;
-}
-else if (ranSkill1 == 5 && inti == false) {
-   inti = true;
-   break;
-}
-else if (ranSkill1 == 6 && perc == false) {
-   perc = true;
-   break;
-}
-else if (ranSkill1 == 7 && surv == false) {
-   surv = true;
-   break;
-}
-ranSkill1 = (rand()) % 8;
-}
-
-
-fillBias(&BiasArr);
-break;
-case 5: // Monk
-	BiasArr[0] = 1;
-	BiasArr[1] = 4;
-
-	ranSkill1 = (rand()) % 6;
-	while (true) {
-		if (ranSkill1 == 0 && acro == false) {
-			acro = true;
-			break;
-		}
-else if (ranSkill1 == 1 && athl == false) {
-   athl = true;
-   break;
-}
-else if (ranSkill1 == 2 && hist == false) {
-   hist = true;
-   break;
-}
-else if (ranSkill1 == 3 && insi == false) {
-   insi = true;
-   break;
-}
-else if (ranSkill1 == 4 && reli == false) {
-   reli = true;
-   break;
-}
-else if (ranSkill1 == 5 && stea == false) {
-   stea = true;
-   break;
-}
-ranSkill1 = (rand()) % 5;
-}
-while (true) {
-	if (ranSkill1 == 0 && acro == false) {
-		acro = true;
-		break;
-	}
-else if (ranSkill1 == 1 && athl == false) {
-   athl = true;
-   break;
-}
-else if (ranSkill1 == 2 && hist == false) {
-   hist = true;
-   break;
-}
-else if (ranSkill1 == 3 && insi == false) {
-   insi = true;
-   break;
-}
-else if (ranSkill1 == 4 && reli == false) {
-   reli = true;
-   break;
-}
-else if (ranSkill1 == 5 && stea == false) {
-   stea = true;
-   break;
-}
-ranSkill1 = (rand()) % 5;
-}
-fillBias(&BiasArr);
-break;
-case 6: // Paladin
-	BiasArr[0] = 0;
-	BiasArr[1] = 5;
-	fillBias(&BiasArr);
-
-	ranSkill1 = (rand()) % 6;
-	while (true) {
-		if (ranSkill1 == 0 && athl == false) {
-			athl = true;
-			break;
-		}
-else if (ranSkill1 == 1 && insi == false) {
-   insi = true;
-   break;
-}
-else if (ranSkill1 == 2 && inti == false) {
-   inti = true;
-   break;
-}
-else if (ranSkill1 == 3 && medi == false) {
-   medi = true;
-   break;
-}
-else if (ranSkill1 == 4 && pers == false) {
-   pers = true;
-   break;
-}
-else if (ranSkill1 == 5 && reli == false) {
-   reli = true;
-   break;
-}
-ranSkill1 = (rand()) % 6;
-}
-while (true) {
-	if (ranSkill1 == 0 && athl == false) {
-		athl = true;
-		break;
-	}
-else if (ranSkill1 == 1 && insi == false) {
-   insi = true;
-   break;
-}
-else if (ranSkill1 == 2 && inti == false) {
-   inti = true;
-   break;
-}
-else if (ranSkill1 == 3 && medi == false) {
-   medi = true;
-   break;
-}
-else if (ranSkill1 == 4 && pers == false) {
-   pers = true;
-   break;
-}
-else if (ranSkill1 == 5 && reli == false) {
-   reli = true;
-   break;
-}
-ranSkill1 = (rand()) % 6;
-}
-break;
-case 7: // Ranger
-	BiasArr[0] = 1;
-	BiasArr[1] = 4;
-
-	ranSkill1 = (rand()) % 9;
-	while (true) {
-		if (ranSkill1 == 0 && anim == false) {
-			anim = true;
-			break;
-		}
-		else if (ranSkill1 == 1 && athl == false) {
-			athl = true;
-			break;
-		}
-else if (ranSkill1 == 2 && dece == false) {
-   dece = true;
-   break;
-}
-else if (ranSkill1 == 3 && insi == false) {
-   insi = true;
-   break;
-}
-else if (ranSkill1 == 4 && inve == false) {
-   inve = true;
-   break;
-}
-else if (ranSkill1 == 5 && natu == false) {
-   natu = true;
-   break;
-}
-else if (ranSkill1 == 6 && perc == false) {
-   perc = true;
-   break;
-}
-else if (ranSkill1 == 7 && stea == false) {
-   stea = true;
-   break;
-}
-else if (ranSkill1 == 8 && surv == false) {
-   surv = true;
-   break;
-}
-ranSkill1 = (rand()) % 9;
-}
-while (true) {
-	if (ranSkill1 == 0 && anim == false) {
-		anim = true;
-		break;
-	}
-	else if (ranSkill1 == 1 && athl == false) {
-		athl = true;
-		break;
-	}
-else if (ranSkill1 == 2 && dece == false) {
-   dece = true;
-   break;
-}
-else if (ranSkill1 == 3 && insi == false) {
-   insi = true;
-   break;
-}
-else if (ranSkill1 == 4 && inve == false) {
-   inve = true;
-   break;
-}
-else if (ranSkill1 == 5 && natu == false) {
-   natu = true;
-   break;
-}
-else if (ranSkill1 == 6 && perc == false) {
-   perc = true;
-   break;
-}
-else if (ranSkill1 == 7 && stea == false) {
-   stea = true;
-   break;
-}
-else if (ranSkill1 == 8 && surv == false) {
-   surv = true;
-   break;
-}
-ranSkill1 = (rand()) % 9;
-}
-while (true) {
-	if (ranSkill1 == 0 && anim == false) {
-		anim = true;
-		break;
-	}
-	else if (ranSkill1 == 1 && athl == false) {
-		athl = true;
-		break;
-	}
-else if (ranSkill1 == 2 && dece == false) {
-   dece = true;
-   break;
-}
-else if (ranSkill1 == 3 && insi == false) {
-   insi = true;
-   break;
-}
-else if (ranSkill1 == 4 && inve == false) {
-   inve = true;
-   break;
-}
-else if (ranSkill1 == 5 && natu == false) {
-   natu = true;
-   break;
-}
-else if (ranSkill1 == 6 && perc == false) {
-   perc = true;
-   break;
-}
-else if (ranSkill1 == 7 && stea == false) {
-   stea = true;
-   break;
-}
-else if (ranSkill1 == 8 && surv == false) {
-   surv = true;
-   break;
-}
-ranSkill1 = (rand()) % 9;
-}
-
-fillBias(&BiasArr);
-break;
-case 8: // Rogue
-	BiasArr[0] = 1
-	switch (sub) {
-		case 0:
-			BiasArr[1] = 3;
-			break;
-		case 1:
+		case 6: // Paladin
+			BiasArr[0] = 0;
 			BiasArr[1] = 5;
+			fillBias(&BiasArr);
+
+			ranSkill1 = (rand()) % 6;
+			while (true) {
+				if (ranSkill1 == 0 && athl == false) {
+					athl = true;
+					break;
+				}
+				else if (ranSkill1 == 1 && insi == false) {
+					insi = true;
+					break;
+				}
+				else if (ranSkill1 == 2 && inti == false) {
+					inti = true;
+					break;
+				}
+				else if (ranSkill1 == 3 && medi == false) {
+					medi = true;
+					break;
+				}
+				else if (ranSkill1 == 4 && pers == false) {
+					pers = true;
+					break;
+				}
+				else if (ranSkill1 == 5 && reli == false) {
+					reli = true;
+					break;
+				}
+				ranSkill1 = (rand()) % 6;
+			}
+			while (true) {
+				if (ranSkill1 == 0 && athl == false) {
+					athl = true;
+					break;
+				}
+				else if (ranSkill1 == 1 && insi == false) {
+					insi = true;
+					break;
+				}
+				else if (ranSkill1 == 2 && inti == false) {
+					inti = true;
+					break;
+				}
+				else if (ranSkill1 == 3 && medi == false) {
+					medi = true;
+					break;
+				}
+				else if (ranSkill1 == 4 && pers == false) {
+					pers = true;
+					break;
+				}
+				else if (ranSkill1 == 5 && reli == false) {
+					reli = true;
+					break;
+				}
+				ranSkill1 = (rand()) % 6;
+			}
 			break;
-		default:
-			exit(-1);
+		case 7: // Ranger
+			BiasArr[0] = 1;
+			BiasArr[1] = 4;
+
+			ranSkill1 = (rand()) % 9;
+			while (true) {
+				if (ranSkill1 == 0 && anim == false) {
+					anim = true;
+					break;
+				}
+				else if (ranSkill1 == 1 && athl == false) {
+					athl = true;
+					break;
+				}
+				else if (ranSkill1 == 2 && dece == false) {
+					dece = true;
+					break;
+				}
+				else if (ranSkill1 == 3 && insi == false) {
+					insi = true;
+					break;
+				}
+				else if (ranSkill1 == 4 && inve == false) {
+					inve = true;
+					break;
+				}
+				else if (ranSkill1 == 5 && natu == false) {
+					natu = true;
+					break;
+				}
+				else if (ranSkill1 == 6 && perc == false) {
+					perc = true;
+					break;
+				}
+				else if (ranSkill1 == 7 && stea == false) {
+					stea = true;
+					break;
+				}
+				else if (ranSkill1 == 8 && surv == false) {
+					surv = true;
+					break;
+				}
+				ranSkill1 = (rand()) % 9;
+			}
+			while (true) {
+				if (ranSkill1 == 0 && anim == false) {
+					anim = true;
+					break;
+				}
+				else if (ranSkill1 == 1 && athl == false) {
+					athl = true;
+					break;
+				}
+				else if (ranSkill1 == 2 && dece == false) {
+					dece = true;
+					break;
+				}
+				else if (ranSkill1 == 3 && insi == false) {
+					insi = true;
+					break;
+				}
+				else if (ranSkill1 == 4 && inve == false) {
+					inve = true;
+					break;
+				}
+				else if (ranSkill1 == 5 && natu == false) {
+					natu = true;
+					break;
+				}
+				else if (ranSkill1 == 6 && perc == false) {
+					perc = true;
+					break;
+				}
+				else if (ranSkill1 == 7 && stea == false) {
+					stea = true;
+					break;
+				}
+				else if (ranSkill1 == 8 && surv == false) {
+					surv = true;
+					break;
+				}
+				ranSkill1 = (rand()) % 9;
+			}
+			while (true) {
+				if (ranSkill1 == 0 && anim == false) {
+					anim = true;
+					break;
+				}
+				else if (ranSkill1 == 1 && athl == false) {
+					athl = true;
+					break;
+				}
+				else if (ranSkill1 == 2 && dece == false) {
+					dece = true;
+					break;
+				}
+				else if (ranSkill1 == 3 && insi == false) {
+					insi = true;
+					break;
+				}
+				else if (ranSkill1 == 4 && inve == false) {
+					inve = true;
+					break;
+				}
+				else if (ranSkill1 == 5 && natu == false) {
+					natu = true;
+					break;
+				}
+				else if (ranSkill1 == 6 && perc == false) {
+					perc = true;
+					break;
+				}
+				else if (ranSkill1 == 7 && stea == false) {
+					stea = true;
+					break;
+				}
+				else if (ranSkill1 == 8 && surv == false) {
+					surv = true;
+					break;
+				}
+				ranSkill1 = (rand()) % 9;
+			}
+
+			fillBias(&BiasArr);
 			break;
 
-	}
-
-	ranSkill1 = (rand()) % 18;
-	while (true) {
-		if (ranSkill1 == 0 && acro == false) {
-			acro = true;
-			break;
-		}
-		else if (ranSkill1 == 1 && anim == false) {
-			anim = true;
-			break;
-		}
-		else if (ranSkill1 == 2 && arca == false) {
-			arca = true;
-			break;
-		}
-		else if (ranSkill1 == 3 && athl == false) {
-			athl = true;
-			break;
-		}
-else if (ranSkill1 == 4 && dece == false) {
-   dece = true;
-   break;
-}
-else if (ranSkill1 == 5 && hist == false) {
-   hist = true;
-   break;
-}
-else if (ranSkill1 == 6 && insi == false) {
-   insi = true;
-   break;
-}
-else if (ranSkill1 == 7 && inti == false) {
-   inti = true;
-   break;
-}
-else if (ranSkill1 == 8 && inve == false) {
-   inve = true;
-   break;
-}
-else if (ranSkill1 == 9 && medi == false) {
-   medi = true;
-   break;
-}
-else if (ranSkill1 == 10 && natu == false) {
-   natu = true;
-   break;
-}
-else if (ranSkill1 == 11 && perc == false) {
-   perc = true;
-   break;
-}
-else if (ranSkill1 == 12 && perf == false) {
-   perf = true;
-   break;
-}
-else if (ranSkill1 == 13 && pers == false) {
-   pers = true;
-   break;
-}
-else if (ranSkill1 == 14 && reli == false) {
-   reli = true;
-   break;
-}
-else if (ranSkill1 == 15 && slei == false) {
-   slei = true;
-   break;
-}
-else if (ranSkill1 == 16 && stea == false) {
-   stea = true;
-   break;
-}
-else if (ranSkill1 == 17 && surv == false) {
-   surv = true;
-   break;
-}
-ranSkill1 = (rand()) % 18;
-}
-
-fillBias(&BiasArr);
-break;
-case 9: // Sorcerer
-	BiasArr[0] = 5;
-	BiasArr[1] = 2;
-
-	ranSkill1 = (rand()) % 18;
-	while (true) {
-		if (ranSkill1 == 0 && acro == false) {
-			acro = true;
-			break;
-		}
-		else if (ranSkill1 == 1 && anim == false) {
-			anim = true;
-			break;
-		}
-		else if (ranSkill1 == 2 && arca == false) {
-			arca = true;
-			break;
-		}
-		else if (ranSkill1 == 3 && athl == false) {
-			athl = true;
-			break;
-		}
-else if (ranSkill1 == 4 && dece == false) {
-   dece = true;
-   break;
-}
-else if (ranSkill1 == 5 && hist == false) {
-   hist = true;
-   break;
-}
-else if (ranSkill1 == 6 && insi == false) {
-   insi = true;
-   break;
-}
-else if (ranSkill1 == 7 && inti == false) {
-   inti = true;
-   break;
-}
-else if (ranSkill1 == 8 && inve == false) {
-   inve = true;
-   break;
-}
-else if (ranSkill1 == 9 && medi == false) {
-   medi = true;
-   break;
-}
-else if (ranSkill1 == 10 && natu == false) {
-   natu = true;
-   break;
-}
-else if (ranSkill1 == 11 && perc == false) {
-   perc = true;
-   break;
-}
-else if (ranSkill1 == 12 && perf == false) {
-   perf = true;
-   break;
-}
-else if (ranSkill1 == 13 && pers == false) {
-   pers = true;
-   break;
-}
-else if (ranSkill1 == 14 && reli == false) {
-   reli = true;
-   break;
-}
-else if (ranSkill1 == 15 && slei == false) {
-   slei = true;
-   break;
-}
-else if (ranSkill1 == 16 && stea == false) {
-   stea = true;
-   break;
-}
-else if (ranSkill1 == 17 && surv == false) {
-   surv = true;
-   break;
-}
-ranSkill1 = (rand()) % 18;
-}
-
-fillBias(&BiasArr);
-break;
-case 10: // Warlock
-	BiasArr[0] = 5;
-	BiasArr[1] = 2;
-
-	ranSkill1 = (rand()) % 18;
-	while (true) {
-		if (ranSkill1 == 0 && acro == false) {
-			acro = true;
-			break;
-		}
-		else if (ranSkill1 == 1 && anim == false) {
-			anim = true;
-			break;
-		}
-		else if (ranSkill1 == 2 && arca == false) {
-			arca = true;
-			break;
-		}
-		else if (ranSkill1 == 3 && athl == false) {
-			athl = true;
-			break;
-		}
-else if (ranSkill1 == 4 && dece == false) {
-   dece = true;
-   break;
-}
-else if (ranSkill1 == 5 && hist == false) {
-   hist = true;
-   break;
-}
-else if (ranSkill1 == 6 && insi == false) {
-   insi = true;
-   break;
-}
-else if (ranSkill1 == 7 && inti == false) {
-   inti = true;
-   break;
-}
-else if (ranSkill1 == 8 && inve == false) {
-   inve = true;
-   break;
-}
-else if (ranSkill1 == 9 && medi == false) {
-   medi = true;
-   break;
-}
-else if (ranSkill1 == 10 && natu == false) {
-   natu = true;
-   break;
-}
-else if (ranSkill1 == 11 && perc == false) {
-   perc = true;
-   break;
-}
-else if (ranSkill1 == 12 && perf == false) {
-   perf = true;
-   break;
-}
-else if (ranSkill1 == 13 && pers == false) {
-   pers = true;
-   break;
-}
-else if (ranSkill1 == 14 && reli == false) {
-   reli = true;
-   break;
-}
-else if (ranSkill1 == 15 && slei == false) {
-   slei = true;
-   break;
-}
-else if (ranSkill1 == 16 && stea == false) {
-   stea = true;
-   break;
-}
-else if (ranSkill1 == 17 && surv == false) {
-   surv = true;
-   break;
-}
-ranSkill1 = (rand()) % 18;
-}
-
-fillBias(&BiasArr);
-break;
-case 11: // Wizard
-	BiasArr[0] = 3
-	switch (sub) {
-		case 0:
-			BiasArr[1] = 1;
-			break;
-		case 1:
-			BiasArr[1] = 2;
-			break;
-		default:
-			exit(-1);
-			break;
-	}
-
-	ranSkill1 = (rand()) % 18;
-	while (true) {
-		if (ranSkill1 == 0 && acro == false) {
-			acro = true;
-			break;
-		}
-		else if (ranSkill1 == 1 && anim == false) {
-			anim = true;
-			break;
-		}
-		else if (ranSkill1 == 2 && arca == false) {
-			arca = true;
-			break;
-		}
-		else if (ranSkill1 == 3 && athl == false) {
-			athl = true;
-			break;
-		}
-else if (ranSkill1 == 4 && dece == false) {
-   dece = true;
-   break;
-}
-else if (ranSkill1 == 5 && hist == false) {
-   hist = true;
-   break;
-}
-else if (ranSkill1 == 6 && insi == false) {
-   insi = true;
-   break;
-}
-else if (ranSkill1 == 7 && inti == false) {
-   inti = true;
-   break;
-}
-else if (ranSkill1 == 8 && inve == false) {
-   inve = true;
-   break;
-}
-else if (ranSkill1 == 9 && medi == false) {
-   medi = true;
-   break;
-}
-else if (ranSkill1 == 10 && natu == false) {
-   natu = true;
-   break;
-}
-else if (ranSkill1 == 11 && perc == false) {
-   perc = true;
-   break;
-}
-else if (ranSkill1 == 12 && perf == false) {
-   perf = true;
-   break;
-}
-else if (ranSkill1 == 13 && pers == false) {
-   pers = true;
-   break;
-}
-else if (ranSkill1 == 14 && reli == false) {
-   reli = true;
-   break;
-}
-else if (ranSkill1 == 15 && slei == false) {
-   slei = true;
-   break;
-}
-else if (ranSkill1 == 16 && stea == false) {
-   stea = true;
-   break;
-}
-else if (ranSkill1 == 17 && surv == false) {
-   surv = true;
-   break;
-}
-ranSkill1 = (rand()) % 18;
-}
-
-fillBias(&BiasArr);
-break;
-default:
-	exit(-1);
-	break;
 }
 std::string getRaceName() {
 	return this.RaceName;
