@@ -1,8 +1,10 @@
+
+#ifndef CHARACTER_H
+#define CHARACTER_H
 #include <string>
 #include <iostream>
 #include <cstdlib>
-#ifndef CHARACTER_H
-#define CHARACTER_H
+#include <vector>
 
 class Character {
 private:
