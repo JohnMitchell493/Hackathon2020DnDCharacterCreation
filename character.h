@@ -341,9 +341,9 @@ public:
 			}
 			
 			for (int i = 0; i < 6; i++) {
-				//if (stats[i] != -1) {
+				if (stats[i] != -1) {
 					stats[BiasArr[i]] += StdArray[i];
-				//}
+				}
 			}
 			break;
 		case 1: // Bard
